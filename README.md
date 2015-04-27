@@ -1,4 +1,4 @@
-site-ec
+site-shapermit
 =========
 
-site specific theme files for Epic Collaboration
+site specific theme files for Shape RMIT
