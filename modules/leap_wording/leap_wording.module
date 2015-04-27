@@ -1,0 +1,29 @@
+<?php
+
+/**
+ * Implements hook_boot()
+ */
+function fial_wording_boot() {
+  global $conf;
+  $conf['locale_custom_strings_en'][''] = _fial_wording_strings();
+}
+
+function _fial_wording_strings() {
+  return array(
+    //'--Original' => '--Translated',
+    'My Topics' => 'My Forums',
+    'Topics' => 'Forums',
+    'Belongs to hub:' => 'Belongs to group:',
+    'Closed Hub' => 'Closed Group',
+    'Open Hub' => 'Open Group',
+    'Edit this topic' => 'Edit this forum',
+    'My Hubs' => 'My Groups',
+    'Hubs' => 'Groups',
+    'Host a Topic' => 'Host a Forum',
+    'Your Hubs' => 'Your Groups',
+    'Unsubscribe from this Hub' => 'Unsubscribe from this Group',
+    'Create a hub from this topic' => 'Create a group from this forum',
+    'Edit the Hub' => 'Edit the group',
+    '<h2>Hubs You Hosted</h2> !groups_hosted <h2>Hubs You Joined</h2> !groups_joined' => '<h2>Groups You Hosted</h2> !groups_hosted <h2>Groups You Joined</h2> !groups_joined'
+  );
+}

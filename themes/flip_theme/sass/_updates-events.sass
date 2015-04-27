@@ -1,0 +1,203 @@
+@import _colors.sass
+@import _mixins.sass
+@import _fonts.sass
+
+// Updates & Events page
+.page-node-588
+	#quicktabs-updates_events
+		margin-top: 2rem
+		.topic-feature
+			margin-bottom: 0
+	#main
+		margin-bottom: 0
+		padding-bottom: 2rem
+		padding-top: 1rem
+
+	#block-system-main .content .row
+		margin-left: 0
+		margin-right: 0
+		.view-news-update 
+			.span6
+				margin-left: 10px
+				@media all and (max-width: 767px)
+					margin-left: 0
+			&:first-child
+				.span6
+					margin-left: 0
+
+@media all and (max-width: 767px)
+	// overwrites default
+	.topic_featured .content, .main-upper .content
+		background: transparent
+
+// Featured box
+.update-featured
+	border: 1px solid #ddd
+	margin-right: 10px
+	margin-bottom: 30px
+	header
+		position: relative
+		.article_icon
+			background: #dddddd
+			display: block
+			position: absolute
+			top: 0
+			left: 0
+			width: 80px
+			height: 100%
+			text-align: center
+			i
+				color: white
+				font-size: 2.25rem
+				display: block
+				margin-top: 2rem
+
+	.article_body
+		padding: 0.7777em 1.25em 1em 1.25em
+		background: none
+
+	.user-picture-small 
+		background-color: none
+		img
+			width: 22px
+			height: 22px			
+
+// Both 
+.update-featured, .update-node
+	.article_host
+		border-top: 1px solid #ddd
+		padding-top: 0.5em
+		p
+			font-size: 0.875rem
+		.article_host_name
+			margin-left: 1em
+
+
+// Timeline stream
+.update-node
+	background: #ddd
+	border: 1px solid #ddd
+	position: relative
+	margin-bottom: 1rem
+
+	// arrow
+	&:after, &:before
+		right: 100%
+		top: 1.875rem
+		border: solid transparent
+		content: " "
+		height: 0
+		width: 0
+		position: absolute
+		pointer-events: none
+	&:after
+		border-color: rgba(41, 143, 139, 0)
+		border-right-color: #dddddd
+		border-width: 10px
+		margin-top: -10px
+	&:before
+		border-color: rgba(153, 153, 153, 0)
+		border-right-color: #dddddd
+		border-width: 11px
+		margin-top: -11px
+
+	@media all and (max-width: 767px)
+		arrow small screen
+		&:after, &:before
+			top: 0%
+			left: 1.875rem
+		&:after
+			border-color: rgba(41, 143, 139, 0)
+			border-right-color: transparent
+			border-bottom-color: #dddddd
+			border-width: 6px
+			margin-left: -6px
+		&:before
+			border-color: rgba(153, 153, 153, 0)
+			border-right-color: transparent
+			border-bottom-color: transparent
+			border-width: 7px
+			margin-left: -7px
+
+	aside
+		float: right
+		margin-left: 1rem
+
+	header
+		background-color: #f2f2f2
+		// clearfix
+		&:after
+			content: ""
+			clear: left
+			display: table
+
+		h3
+			float: left
+			margin: 0
+			padding-top: 0.875rem
+
+		.article_icon
+			background: #ddd
+			display: block
+			float: left
+			margin-right: 1rem
+			padding: 1rem
+
+			i
+				color: white
+				font-size: 1.5rem
+				display: block
+					
+
+	.article_body
+		padding: 0.7777em 1.25em 1em 1.25em
+		background: white
+		clear: left
+
+.user-picture-small.updates
+	margin-top: 0.35rem
+	margin-left: 1rem
+	@media all and (max-width: 767px)
+		margin-bottom: 0.35rem
+		margin-top: 1rem
+		margin-left: 0.35rem
+	img
+		background-color: white
+		padding: 0.5rem
+
+.updates-timeline
+	background: url('../img/timeline-tile.png') repeat-y 2rem center
+	@media all and (max-width: 767px)
+		background-position: 1.35rem center
+    
+.updates-timeline
+	@media all and (max-width: 767px)
+		background: none
+
+.page-node-588
+	#page-title
+		display: none
+	h1
+		padding-bottom: 0.25em
+		max-width: inherit
+    
+ul.quicktabs-tabs li a
+	color: #0088cc
+	&:hover
+		color: #005580
+    
+// Events page //
+
+.user-picture-small.updates 
+	@media all and (max-width: 767px)
+		display: none
+
+.page-node-588 .update-node aside
+	@media all and (max-width: 767px)
+		display: none   
+	.update-node header h3
+		@media all and (max-width: 767px)
+			float: none
+			padding-top: 6px
+			padding-right: 10px
+    

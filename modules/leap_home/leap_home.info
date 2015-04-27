@@ -1,0 +1,6 @@
+name = Custom: Fial Home page
+description = Custom module for handling Fial Home
+version = 1.0
+core = 7.x
+
+

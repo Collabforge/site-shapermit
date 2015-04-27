@@ -1,0 +1,42 @@
+<?php
+/**
+ * @file
+ * Code for the Fial Core feature.
+ */
+
+/**
+ * Include additional files.
+ */
+$dirname = dirname(__FILE__) . '/includes';
+$includes = file_scan_directory($dirname, '/.inc$/');
+foreach (module_list() as $module) {
+  $file = "{$dirname}/{$module}.inc";
+  if (isset($includes[$file])) {
+    require_once $file;
+  }
+}
+
+/**
+ * Features include.
+ */
+include_once 'leap_core.features.inc';
+
+/**
+ * Implements hook_preprocess_page().
+ */
+function leap_core_preprocess_page(&$vars) {
+  global $theme;
+
+  if (variable_get('admin_theme', 'seven') == $theme) {
+    drupal_add_css(drupal_get_path('theme', 'leap_theme') . '/css/leap.css');
+  }
+}
+
+function leap_core_init() {
+//  $user = entity_create('user', array());
+//  $wrapper = entity_metadata_wrapper('user', $user);
+//  $wrapper->mail = 'test@test.com';
+//  $wrapper->field_first_name = 'Bob';
+//  dpm($wrapper->getPropertyInfo());
+//  dpm($user);
+}

@@ -1,6 +1,0 @@
-name = No Book Outline
-description = "No book outline for any content type except book."
-package = "PCMS"
-core = 7.x
-
-dependencies[] = book

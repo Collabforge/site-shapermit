@@ -1,0 +1,6 @@
+name = FIAL Wording
+description = Corrects wording for a FIAL website
+version = 1.0
+core = 7.x
+
+

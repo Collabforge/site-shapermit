@@ -1,0 +1,60 @@
+<?php
+/**
+ * @file
+ * Install functions for Fial core module.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function leap_core_install() {
+}
+
+/**
+ * Implements hook_enable().
+ */
+function leap_core_enable() {
+  theme_enable(array('leap_theme'));
+  variable_set('theme_default', 'leap_theme');
+}
+
+/**
+ * Implements hook_disable().
+ */
+function leap_core_disable() {
+
+}
+
+/**
+ * Helper function; Flush caches and revert features.
+ */
+function _leap_core_flush_revert() {
+  $info = system_get_info('module', 'leap_core');
+  module_enable($info['dependencies']);
+
+  drupal_flush_all_caches();
+  features_revert(array('leap_core' => array()));
+}
+
+/**
+ * Build OAuthConnector fields and flush caches and revert features.
+ */
+function leap_core_update_7110() {
+  // Build OAuthConnector fields.
+  module_enable(array('oauthconnector'));
+  $fields = array(
+    'email'     => 'Email',
+    'last_name' => 'Last name',
+  );
+  foreach ($fields as $name => $title) {
+    oauthconnector_fields_save($name, array(
+      'name'        => $name,
+      'title'       => $title,
+      'description' => '',
+      'required'    => 0,
+    ));
+  }
+
+  // Flush caches and revert features.
+  _leap_core_flush_revert();
+}

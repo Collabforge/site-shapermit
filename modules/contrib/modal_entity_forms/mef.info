@@ -1,3 +1,0 @@
-name = Modal Entity Forms
-core = 7.x
-dependencies[] = 'modal_forms'

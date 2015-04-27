@@ -1,0 +1,73 @@
+<?php
+
+/**
+ * @file
+ * Code for the OFF Idea Feature feature.
+ */
+
+include_once 'off_idea_feature.features.inc';
+
+/**
+ * Implements hook_flag_flag().
+ */
+function off_idea_feature_flag_validate($action, $flag, $entity_id, $account, $skip_permission_check, $flagging) {
+  if ($flag->name === "idea_vote") {
+    // We only look at flaggings, and ignore unflaggings.
+    if ($action === 'flag') {
+      // Get current group context gid.
+      if (!empty($_SESSION['og_context']['gid'])) {
+        $gid = $_SESSION['og_context']['gid'];
+        // Query users current votes in the group.
+        $query = db_select('flagging', 'i')
+          ->condition('i.uid', $account->uid, "=")
+          ->fields("i");
+        $query->leftJoin('flag', 'f', 'f.fid = i.fid');
+        $query->condition('f.name', 'idea_vote', "=");
+        $query->leftJoin('og_membership', 'm', 'm.etid = i.entity_id');
+        $query->condition('m.entity_type', 'node', "=")
+          ->condition('m.gid', $gid, "=");
+        // Check number of votes dosn't exceed 3.
+        $result = $query->execute();
+        if ($result->rowCount() >= 3) {
+          return t("You have allready placed three votes! You will have to remove one before you can vote again.");
+        }
+      }
+    }
+  }
+}
+
+/**
+ * Implements hook_collabco_integration().
+ */
+function off_idea_feature_collabco_integration() {
+  // Add links to views if a module wants to do that.
+  return array(
+    'off_idea_feature' => array(
+      'entity' => array(
+        'node'=> array(
+          'idea' => array(
+            'add_content_link' => TRUE,
+            'tab' => array(
+              'Ideas' => array(
+                'subpath' => 'idea',
+              ),
+            ),
+          ),
+        ),
+      ),
+      'views' => array(
+        'ideas' => array(
+          'group_page' => array(
+            'subscribe_flag' => array(
+              'group_type' => 'node',
+              'entity_type' => 'none',
+            ),
+            'add_content_link' => array(
+              'areas' => array('header'),
+            ),
+          ),
+        ),
+      ),
+    ),
+  );
+}

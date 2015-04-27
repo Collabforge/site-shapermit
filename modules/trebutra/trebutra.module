@@ -1,0 +1,243 @@
+<?php
+/**
+ * @file
+ * Trello Bug Tracker
+ * @link http://mattwithoos.com
+ * @TODO: permissions for administering module
+ * @TODO: implement a hook_requirements()
+ * @TODO: add settings into individual block, for purpose of multi-block
+ * support for multi-sites.
+ * @TODO: put admin form into admin.inc file
+ */
+
+
+/**
+ * Implements hook_block_info().
+ */
+function trebutra_block_info() {
+  $blocks['trebutra'] = array(
+    // The name that will appear in the block list.
+    'info' => t('Trello Bug Tracker'),
+    // Default setting.
+    'cache' => DRUPAL_CACHE_PER_ROLE,
+  );
+  return $blocks;
+}
+
+/**
+ * Implements hook_block_view().
+ */
+function trebutra_block_view($delta = '') {
+  $block = array();
+  switch ($delta) {
+    case 'trebutra':
+      $block['content'] = array(
+        drupal_get_form('trebutra_bug_form'),
+      );
+      break;
+  }
+  return $block;
+}
+
+/**
+ * Implements trebutra_api_call_to_trello().
+ * 
+ * This connects to Trello using variables you entered on the admin config page.
+ */
+function trebutra_api_call_to_trello() {
+  global $user;
+  $trello_key          = variable_get('trebutra_key');
+  $trello_api_endpoint = variable_get('trebutra_apiend');
+  $trello_list_id      = variable_get('trebutra_listid');
+  $trello_member_token = variable_get('trebutra_token');
+  $enableemail         = variable_get('trebutra_emailsend');
+  $reportemail         = variable_get('trebutra_email');
+  $username            = $user->name;
+  $ip                  = ip_address();
+  if (isset($trello_key) && isset($trello_api_endpoint) && isset($trello_list_id) && isset($trello_member_token)):
+    // Checks if form was submitted.
+    if (isset($_POST['title'])):
+      check_plain($_POST['severity']);
+      check_plain($_POST['title']);
+      check_plain($_POST['description']);
+      check_plain($_POST['email']);
+      $name = $_POST['severity'] . " - " . $_POST['title'];
+      $description = "**Severity**: " . $_POST['severity'] . "\n\n**Description**: " . $_POST['description'] . "\n\n**Submitted by**: " . $_POST['email'] . "\n\n**User**: " . $username . "\n\n**IP**: " . $ip;
+
+      $ch = curl_init("$trello_api_endpoint/cards");
+      curl_setopt_array($ch, array(
+        // Probably won't work otherwise.
+        CURLOPT_SSL_VERIFYPEER => FALSE,
+        // So we can get the URL of the newly-created card.
+        CURLOPT_RETURNTRANSFER => TRUE,
+        // If you use an array without being wrapped in http_build_query, the
+        // Trello API server won't recognize your POST variables.
+        CURLOPT_POST           => TRUE,
+        CURLOPT_POSTFIELDS => http_build_query(array(
+          'key'    => $trello_key,
+          'token'  => $trello_member_token,
+          'idList' => $trello_list_id,
+          'name'   => $name,
+          'desc'   => $description,
+        )),
+      ));
+      $result = curl_exec($ch);
+      $trello_card = json_decode($result);
+      $trello_card_url = $trello_card->url;
+
+      if ($enableemail === 1):
+        $to = $reportemail;
+        $from = $reportemail;
+        $params = array(
+          'subject' => "New bug report for Epic Collaboration",
+          'body' => t("The following bug report has been added to Trello - Collabco Development\n\n@trellocardurl\n\n@name\n\n@description\n\nUser is @user and IP is @ip", array('@trellocardurl' => $trello_card_url, '@name' => $name, '@description' => $description, '@user' => $username, '@ip' => $ip)),
+        );
+        drupal_mail('trebutra', 'information', $to, language_default(), $params, $from);
+      endif;
+    endif;
+  else:
+    drupal_set_message(t("One or more Trebutra configuration settings are missing. Please set them before using the module."));
+  endif;
+}
+
+/**
+ * Implements hook_mail().
+ */
+function trebutra_mail($key, &$message, $params) {
+  switch ($key) {
+    case 'information':
+      $message['subject'] = $params['subject'];
+      $message['body'][] = $params['body'];
+      break;
+  }
+}
+
+/**
+ * Implements hook_form().
+ */
+function trebutra_bug_form($form, &$form_state) {
+  $form['desc'] = array(
+    '#title' => t('Having an technical issue with our site? Let us know here!'),
+    '#type' => 'fieldset',
+  );
+  $form['title'] = array(
+    '#title' => t('Summarise your issue in a few words'),
+    '#type' => 'textfield',
+    '#required' => TRUE,
+  );
+  $form['description'] = array(
+    '#title' => t('Tell us about your problem in more detail'),
+    '#type' => 'textarea',
+    '#required' => TRUE,
+    '#cols' => 60,
+    '#rows' => 5,
+  );
+  $form['email'] = array(
+    '#title' => t('Your email (optional)'),
+    '#type' => 'textfield',
+  );
+  $form['severity'] = array(
+    '#type' => 'select',
+    '#title' => t('Severity'),
+    '#options' => array(
+      'Minor' => t('Would be nice to have'),
+      'Major' => t('Minor bug, site usable'),
+      'Critical' => t('Major issues, site hard to use'),
+      'Emergency' => t('Show stopper, site unusable'),
+    ),
+  );
+  $form['#action'] = url('submit-bug');
+  $form['submit'] = array(
+    '#type' => 'submit',
+    '#value' => 'Save',
+  );
+  return $form;
+}
+
+/**
+ * Implements hook_form_submit().
+ */
+function trebutra_bug_form_submit($form, &$form_state) {
+  drupal_set_message(t("Thank you for making a submission. If necessary, we will contact you via email for more information."));
+  trebutra_api_call_to_trello();
+}
+
+/**
+ * Implements hook_form_alter().
+ */
+function trebutra_bug_form_form_alter($form, &$form_state) {
+  honeypot_add_form_protection($form, $form_state, array('honeypot', 'time_restriction'));
+}
+
+/**
+ * Implements hook_menu().
+ */
+function trebutra_menu() {
+  $items = array();
+  $items['admin/config/content/trebutra'] = array(
+    'title' => 'Trebutra',
+    'description' => 'Configuration for Trebutra (Trello Bug Tracker) module.',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('trebutra_form'),
+    'access arguments' => array('administer site configuration'),
+    'type' => MENU_NORMAL_ITEM,
+  );
+  return $items;
+}
+
+/**
+ * Implements hook_help().
+ */
+function trebutra_help($path, $arg) {
+  switch ($path) {
+    case "admin/help#trebutra":
+      return '<p>' . t("Integrates Trello as a Bug Tracker") . '</p>';
+
+  }
+}
+
+/**
+ * Implements hook_form().
+ */
+function trebutra_form($form, &$form_state) {
+  $form['trebutra_key'] = array(
+    '#type' => 'textfield',
+    '#title' => t('Trello API Key'),
+    '#default_value' => variable_get('trebutra_key', ''),
+    '#description' => t('Obtained via the Trello API page'),
+    '#required' => TRUE,
+  );
+  $form['trebutra_apiend'] = array(
+    '#type' => 'textfield',
+    '#title' => t('Trello API endpoint'),
+    '#default_value' => variable_get('trebutra_apiend', 'https://api.trello.com/1'),
+    '#description' => t('Usually https://api.trello.com/1'),
+    '#required' => TRUE,
+  );
+  $form['trebutra_listid'] = array(
+    '#type' => 'textfield',
+    '#title' => t('Trello List ID'),
+    '#default_value' => variable_get('trebutra_listid', ''),
+    '#description' => t('The list ID you want cards to go to on Trello. Go to Export on Trello and click JSON and look for idList and enter that value here.'),
+    '#required' => TRUE,
+  );
+  $form['trebutra_token'] = array(
+    '#type' => 'textfield',
+    '#title' => t('Trello API token'),
+    '#default_value' => variable_get('trebutra_token', ''),
+    '#description' => t('Get a token by substituting your API key and a made-up app name into this URL (https://trello.com/1/connect?key=apikeygoeshere&name=appnamegoeshere&response_type=token&scope=read,write&expiration=never) and visiting it in your browser.'),
+    '#required' => TRUE,
+  );
+  $form['trebutra_email'] = array(
+    '#type' => 'textfield',
+    '#title' => t('Report recipient email'),
+    '#default_value' => variable_get('trebutra_email', ''),
+    '#description' => t('If you would like reports, enter an email here and tick the box below'),
+  );
+  $form['trebutra_emailsend'] = array(
+    '#type' => 'checkbox',
+    '#title' => t('Enable report emails'),
+    '#default_value' => variable_get('trebutra_emailsend', 1),
+  );
+  return system_settings_form($form);
+}
