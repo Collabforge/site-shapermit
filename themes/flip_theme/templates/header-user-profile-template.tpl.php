@@ -28,8 +28,7 @@
   </div>
   <div class="btn-group" id="navigation-profile-details">
     <button class="btn dropdown-toggle" data-toggle="dropdown">
-      <?php print $user->name; 
-      ?>
+      <?php print $user->field_full_name['und'][0]['value']; ?>
     </button>
     <button class="btn dropdown-toggle" data-toggle="dropdown">
       <span class="caret"></span>
