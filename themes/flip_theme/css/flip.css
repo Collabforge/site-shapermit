@@ -240,6 +240,14 @@ ul.menu a:hover {
   width: 30px;
   padding-top: 0px; }
 
+#page-title {
+  line-height: 1;
+  text-align: left;
+  display: none; }
+
+#content-head .tabs {
+  display: none; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
