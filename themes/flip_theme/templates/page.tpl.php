@@ -93,28 +93,81 @@ jQuery(document).ready(function($) {
 <?php if (($page['header_top_middle']) || ($page['search_box']) || ($page['header_bottom_left']) || ($page['header_bottom_right'])): ?>
   <div id="header"  class="clearfix header visible-desktop hidden-phone" role="banner">
     <div class="container" id="header_container">
-      <div class="row-fluid" id="header_top" >       
-        <div id="logo" class="span4 site-logo visible-desktop hidden-phone"> <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"> &nbsp; </a>
-        </div>      
-        <?php if ($page['header_top_middle']): ?>
-        <div id="header_top_middle" class="span6"> <?php print render($page['header_top_middle']); ?>
-        </div>
-        <?php endif; ?>
+        
+        
+        
+        
+        
+      <div class="row-fluid" id="header_top" > 
+          
+          
+          
+        <div id="logo" class="span6 site-logo visible-desktop hidden-phone"> <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"> 
+            <img src="/sites/default/themes/flip_theme/img/shape-rmit-logo.png"> </a>
+        </div>    
+          
         <?php if ($page['search_box']): ?>
-        <div id="search-box" class="span2 last"> <?php print render($page['search_box']); ?>
+        <div id="search-box" class="span4 last"> <?php print render($page['search_box']); ?>
         </div>
         <?php endif; ?>
+          
+          
+          
+          
+        <?php if ($page['header_top_middle']): ?> 
+        <div id="header_top_middle" class="span2"> 
+            <img src="/sites/default/themes/flip_theme/img/rmit-logo.png">
+    <?php print render($page['header_top_middle']); ?>
+        </div>
+        <?php endif; ?>
+          
+          
+          
+
+          
       </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
       <div class="row-fluid" id="header_bottom">
-        <?php if ($page['header_bottom_left']): ?>
-        <div class="span7"> <?php print render($page['header_bottom_left']); ?>
-        </div>
-        <?php endif; ?>
-        <?php if ($page['header_bottom_right']): ?>
+          
+          
+        <?php if ($page['header_bottom_right']): ?> 
         <div id="header_bottom_right" class="span5 last"> <?php print render($page['header_bottom_right']); ?>
         </div>
         <?php endif; ?>
+          
+          
+        <?php if ($page['header_bottom_left']): ?>  
+        <div class="span7 nav-span"> <?php print render($page['header_bottom_left']); ?>
+        </div>
+        <?php endif; ?>
+
       </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
     </div>
   </div>
 
