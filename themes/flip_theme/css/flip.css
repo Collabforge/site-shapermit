@@ -234,6 +234,12 @@ ul.menu a:hover {
   max-height: 55px;
   margin-top: 20px; }
 
+#header_bottom_right #user_details .navigation-profile-picture {
+  display: inline-block;
+  zoom: 1;
+  width: 30px;
+  padding-top: 0px; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
