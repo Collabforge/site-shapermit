@@ -34,4 +34,8 @@ function fial_home_block_view($delta='') {
   return $block;
 }
 
-
+function leap_form_user_profile_form_submit($form, &$form_state) {
+if ($form['#user_category'] == 'account') {
+    $form_state['values']['name'] = $form_state['values']['mail'];   
+  }
+}
