@@ -196,8 +196,8 @@ ul.menu a:hover {
   padding-bottom: 50px; }
 
 .quote-front {
-  padding-right: 20%;
-  padding-left: 20%; }
+  background: white;
+  padding: 1px 20px 1px 20px; }
 
 .main .block {
   margin-bottom: 0px; }
