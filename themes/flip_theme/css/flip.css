@@ -289,7 +289,11 @@ ul.menu a:hover {
 
 .front-call {
   background: #333333 !important;
-  height: 200px !important; }
+  height: 240px !important;
+  overflow: hidden; }
+  .front-call img {
+    height: 100%;
+    width: 100%; }
 
 .front-call-content {
   background: white !important;
