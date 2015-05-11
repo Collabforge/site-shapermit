@@ -298,7 +298,6 @@ ul.menu a:hover {
     opacity: 0.8; }
 
 .front-call-content {
-  background: white !important;
   display: inline-flex;
   padding: 15px; }
   .front-call-content a {
@@ -314,7 +313,7 @@ ul.menu a:hover {
 
 .front-call-bottom {
   display: none;
-  background: #333333 !important;
+  background: whitesmoke !important;
   height: 240px !important;
   overflow: hidden; }
   .front-call-bottom p {
@@ -323,7 +322,7 @@ ul.menu a:hover {
 
 .front-call-bottom2 {
   display: none;
-  background: #333333 !important;
+  background: whitesmoke !important;
   height: 240px !important;
   overflow: hidden; }
   .front-call-bottom2 p {
@@ -332,7 +331,7 @@ ul.menu a:hover {
 
 .front-call-bottom3 {
   display: none;
-  background: #333333 !important;
+  background: whitesmoke !important;
   height: 240px !important;
   overflow: hidden; }
   .front-call-bottom3 p {
@@ -368,6 +367,12 @@ ul.menu a:hover {
     width: 100%;
     transition: 0.3s;
     opacity: 0.8; }
+
+.span4 {
+  transition: 0.1s; }
+  .span4:hover {
+    background: #dddddd;
+    transition: 0.1s; }
 
 .node-knowledge-object .field-name-body {
   border-bottom: none;
