@@ -203,6 +203,9 @@ ul.menu a:hover {
   .big-padding .row {
     margin-right: -10px;
     margin-left: 0px; }
+  .big-padding h2 {
+    padding-top: 25px;
+    padding-bottom: 10px; }
 
 .quote-front {
   background: #f2f2f2;
