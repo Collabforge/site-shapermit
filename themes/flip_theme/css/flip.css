@@ -292,8 +292,11 @@ ul.menu a:hover {
   height: 200px !important; }
 
 .front-call-content {
-  background: white !important; }
-  .front-call-content p {
+  background: white !important;
+  display: inline-flex;
+  padding: 15px; }
+  .front-call-content a {
+    color: #333333;
     display: block;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
@@ -301,9 +304,7 @@ ul.menu a:hover {
     line-height: 1.167em;
     margin: 0;
     margin-left: 15px;
-    text-transform: uppercase;
-    padding-top: 15px;
-    padding-bottom: 15px; }
+    text-transform: uppercase; }
 
 .node-knowledge-object .field-name-body {
   border-bottom: none;
