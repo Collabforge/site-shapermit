@@ -192,15 +192,21 @@ ul.menu a:hover {
   border-radius: 0px; }
 
 .big-padding {
-  padding-top: 60px;
-  padding-bottom: 50px; }
+  padding-bottom: 10px; }
 
 .quote-front {
-  background: white;
-  padding: 1px 20px 1px 20px; }
+  background: #f2f2f2;
+  padding: 0px 0px 0px 40px; }
+  .quote-front img {
+    min-height: 490px; }
+  .quote-front .home-offset-height {
+    max-height: 510px;
+    overflow: hidden; }
 
-.main .block {
-  margin-bottom: 0px; }
+.main {
+  margin-bottom: 0px !important; }
+  .main .block {
+    margin-bottom: 0px; }
 
 .container {
   width: 960px; }
@@ -218,6 +224,10 @@ ul.menu a:hover {
 
 .nav-span {
   margin-bottom: -3px; }
+
+.site-footer {
+  margin-top: 10px;
+  margin-bottom: 10px; }
 
 #main {
   background-image: url("http://www.cultjer.com/img/article/2013_05/americans_txt/img/red_triangle.png");
