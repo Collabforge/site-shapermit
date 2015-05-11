@@ -1,0 +1,39 @@
+<script type="text/javascript">
+$('.michaelisdumb').mouseenter(function () {
+    $('.front-call-bottom').show();
+     $('.front-call').hide();
+}).mouseleave(function () {
+    $('.front-call-bottom').hide();
+    $('.front-call').show();
+});
+</script>
+
+
+
+<div class="big-padding">
+<h2 class="rtecenter">RMIT is inviting everyone to join the conversation on how the<br />
+University can plan for success over the next five years.</h2>
+
+<div class="row">
+<div class="span4">
+<div id="front-cta">
+<div class="front-call"><img class="michaelisdumb" src="sites/default/themes/flip_theme/img/front-call-1.jpg"></div>
+<div class="front-call-bottom">Hi hi hi</div></div>
+<div class="front-call-content"><i class="icon-chevron-right">&nbsp;</i><a href="">SIGN UP</a></div>
+</div>
+
+<div class="span4">
+<div class="front-cta2">
+<div class="front-call"><img src="sites/default/themes/flip_theme/img/front-call-2.jpg"></div>
+<div class="front-call-bottom">Hi hi hi</div></div>
+<div class="front-call-content"><i class="icon-chevron-right">&nbsp;</i><a href="">SIGN UP</a></div>
+</div>
+
+<div class="span4">
+<div class="front-cta3">
+<div class="front-call"><img src="sites/default/themes/flip_theme/img/front-call-3.jpg"></div>
+<div class="front-call-bottom">Hi hi hi</div></div>
+<div class="front-call-content"><i class="icon-chevron-right">&nbsp;</i><a href="">SIGN UP</a></div>
+</div>
+</div>
+</div>
