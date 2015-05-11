@@ -317,9 +317,57 @@ ul.menu a:hover {
   background: #333333 !important;
   height: 240px !important;
   overflow: hidden; }
+  .front-call-bottom p {
+    color: whitesmoke;
+    padding: 15px; }
 
-.front-cta {
-  z-index: 999999999999; }
+.front-call-bottom2 {
+  display: none;
+  background: #333333 !important;
+  height: 240px !important;
+  overflow: hidden; }
+  .front-call-bottom2 p {
+    color: whitesmoke;
+    padding: 15px; }
+
+.front-call-bottom3 {
+  display: none;
+  background: #333333 !important;
+  height: 240px !important;
+  overflow: hidden; }
+  .front-call-bottom3 p {
+    color: whitesmoke;
+    padding: 15px; }
+
+.front-call {
+  background: #333333 !important;
+  height: 240px !important;
+  overflow: hidden; }
+  .front-call img {
+    height: 100%;
+    width: 100%;
+    transition: 0.3s;
+    opacity: 0.8; }
+
+.front-call2 {
+  background: #333333 !important;
+  height: 240px !important;
+  overflow: hidden; }
+  .front-call2 img {
+    height: 100%;
+    width: 100%;
+    transition: 0.3s;
+    opacity: 0.8; }
+
+.front-call3 {
+  background: #333333 !important;
+  height: 240px !important;
+  overflow: hidden; }
+  .front-call3 img {
+    height: 100%;
+    width: 100%;
+    transition: 0.3s;
+    opacity: 0.8; }
 
 .node-knowledge-object .field-name-body {
   border-bottom: none;
