@@ -215,7 +215,7 @@ ul.menu a:hover {
   .quote-front img {
     min-height: 490px; }
   .quote-front .home-offset-height {
-    max-height: 510px;
+    max-height: 530px;
     overflow: hidden; }
 
 .main {
@@ -833,3 +833,6 @@ ul.quicktabs-tabs li a {
   .big-padding {
     width: 100%;
     overflow: hidden; } }
+@media (min-width: 1200px) {
+  .span12 {
+    width: 960px !important; } }
