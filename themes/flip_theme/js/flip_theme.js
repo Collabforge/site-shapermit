@@ -25,6 +25,7 @@ Drupal.behaviors.flip_theme = {
       .focus(function () {
         $(this).val('');
       });
+
 	  
     // Hide border for image links
     $('a:has(img)').css('border', 'none');
