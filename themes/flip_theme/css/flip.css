@@ -217,6 +217,8 @@ ul.menu a:hover {
     .big-padding .span4:hover {
       background: #dddddd;
       transition: 0.1s; }
+  .big-padding a {
+    color: #333333 !important; }
 
 .quote-front {
   background: #f2f2f2;
