@@ -374,6 +374,10 @@ ul.menu a:hover {
     background: #dddddd;
     transition: 0.1s; }
 
+.front .icon-chevron-right:before {
+  content: "\f054";
+  margin-right: 7px; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
@@ -719,3 +723,113 @@ ul.quicktabs-tabs li a {
 
 .dash_profile .content div {
   text-align: left; }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 667px) {
+  .container {
+    width: 100%; }
+
+  body {
+    padding-left: 0px;
+    padding-right: 0px; }
+
+  .big-padding {
+    width: 100%;
+    overflow: hidden; }
+    .big-padding h2 {
+      padding-top: 40px;
+      padding-bottom: 15px;
+      margin-top: 0px;
+      text-align: left;
+      font-size: 20px; }
+    .big-padding .span4 {
+      width: 100%; }
+
+  .quote-front {
+    background: #f2f2f2;
+    margin-top: 25px;
+    padding: 0px; }
+
+  .footer-content .block {
+    width: 100%; }
+
+  .front #main-content {
+    margin-top: 0px;
+    padding-top: 0px; }
+  .front h2 {
+    font-size: 20px; }
+
+  #admin-menu-wrapper {
+    padding: 0px;
+    margin-top: -30px; } }
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
+  .front-call {
+    height: 300px !important; }
+
+  .front-call2 {
+    height: 300px !important; }
+
+  .front-call3 {
+    height: 300px !important; } }
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
+  .container {
+    width: 100%; }
+
+  body {
+    padding-left: 0px;
+    padding-right: 0px; }
+
+  .big-padding {
+    width: 100%;
+    overflow: hidden; }
+    .big-padding h2 {
+      padding-top: 40px;
+      padding-bottom: 15px;
+      margin-top: 0px;
+      text-align: left;
+      font-size: 20px; }
+    .big-padding .span4 {
+      width: 33%;
+      display: inline-block;
+      margin-right: -4px; }
+
+  .quote-front {
+    background: #f2f2f2;
+    margin-top: 25px;
+    padding: 0px; }
+
+  .footer-content .block {
+    width: 100%; }
+
+  .front #main-content {
+    margin-top: 0px;
+    padding-top: 0px; }
+  .front h2 {
+    font-size: 20px; }
+
+  #admin-menu-wrapper {
+    padding: 0px;
+    margin-top: -30px; }
+
+  .front-call {
+    height: 280px !important; }
+
+  .front-call2 {
+    height: 280px !important; }
+
+  .front-call3 {
+    height: 280px !important; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .container {
+    width: 100%; }
+
+  body {
+    padding-left: 0px;
+    padding-right: 0px; }
+
+  .front #main-content {
+    margin-top: 0px;
+    padding-top: 0px; }
+
+  .big-padding {
+    width: 100%;
+    overflow: hidden; } }
