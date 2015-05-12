@@ -756,7 +756,8 @@ ul.quicktabs-tabs li a {
   .quote-front {
     background: #f2f2f2;
     margin-top: 25px;
-    padding: 0px; }
+    padding-left: 20px;
+    padding-right: 20px; }
 
   .footer-content .block {
     width: 100%; }
@@ -804,7 +805,8 @@ ul.quicktabs-tabs li a {
   .quote-front {
     background: #f2f2f2;
     margin-top: 25px;
-    padding: 0px; }
+    padding-left: 20px;
+    padding-right: 20px; }
 
   .footer-content .block {
     width: 100%; }
