@@ -146,12 +146,11 @@ div.modal-forms-modal-content {
   top: 12px;
   padding: 5px 35px 5px 5px;
   font-size: 1.286em;
-  font-family: Museo300;
   border: 1px solid #d1d1d1;
   background-color: #ededed !important;
   color: #666666;
   border-radius: 0px;
-  font-family: museo;
+  font-family: "Museo-500";
   box-shadow: none;
   font-size: 14px; }
 
@@ -742,6 +741,59 @@ ul.etabs li a:hover, ul.etabs li a:focus, ul.etabs li a:active {
 
 #tab-container {
   border-bottom: 0px; }
+
+#tabs1-menu ul li a:hover {
+  text-decoration: none;
+  background: #dc291e;
+  color: white !important; }
+
+ul.etabs li a.active {
+  background: #dc291e;
+  color: white;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+#tabs1-profile ul li a {
+  color: #999999; }
+  #tabs1-profile ul li a:hover {
+    text-decoration: none;
+    background: #dc291e;
+    color: white !important; }
+  #tabs1-profile ul li a:active {
+    text-decoration: none;
+    background: #dc291e;
+    color: white !important; }
+
+#tabs1-profile li.first.leaf.active-trail a {
+  background: #dc291e;
+  color: white !important;
+  text-decoration: none !important; }
+
+#tabs1-search input.search-query {
+  -webkit-border-radius: 15px 0 0 15px;
+  border-radius: 15px 0 0 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 15px;
+  width: 100%;
+  color: #6a6767;
+  top: 12px;
+  padding: 5px 35px 5px 5px;
+  font-size: 1.286em;
+  font-family: "Museo-500";
+  border: 1px solid #d1d1d1;
+  background-color: white !important;
+  color: #666666;
+  border-radius: 0px;
+  box-shadow: none;
+  font-size: 14px; }
+
+#tabs1-search input.btn-search {
+  margin-left: 12px !important;
+  margin-top: 14px !important;
+  height: 17px !important;
+  border-radius: 0px !important;
+  background: gainsboro !important; }
 
 .profile-page-title {
   color: #66b274; }
