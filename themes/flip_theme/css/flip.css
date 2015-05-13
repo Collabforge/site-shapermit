@@ -222,6 +222,9 @@ ul.menu a:hover {
 .para {
   padding-left: 30px;
   padding-right: 30px; }
+  .para h2 {
+    padding-left: 0px;
+    padding-right: 0px; }
 
 .quote-front {
   background: #f2f2f2;
