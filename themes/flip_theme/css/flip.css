@@ -749,7 +749,9 @@ ul.quicktabs-tabs li a {
       padding-bottom: 15px;
       margin-top: 0px;
       text-align: left;
-      font-size: 20px; }
+      font-size: 20px;
+      padding-left: 20px;
+      padding-right: 20px; }
     .big-padding .span4 {
       width: 100%; }
 
@@ -796,7 +798,9 @@ ul.quicktabs-tabs li a {
       padding-bottom: 15px;
       margin-top: 0px;
       text-align: left;
-      font-size: 20px; }
+      font-size: 20px;
+      padding-left: 20px;
+      padding-right: 20px; }
     .big-padding .span4 {
       width: 33%;
       display: inline-block;
