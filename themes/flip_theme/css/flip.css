@@ -736,7 +736,7 @@ ul.quicktabs-tabs li a {
   background: #dcddd7; }
 
 ul.etabs li {
-  border-left: 0px; }
+  border-left: 0px !important; }
 
 ul.etabs li a {
   color: #dc291e; }
