@@ -219,6 +219,10 @@ ul.menu a:hover {
   .big-padding a {
     color: #333333 !important; }
 
+.para {
+  padding-left: 30px;
+  padding-right: 30px; }
+
 .quote-front {
   background: #f2f2f2;
   margin-top: 25px;
