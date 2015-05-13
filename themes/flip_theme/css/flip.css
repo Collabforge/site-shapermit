@@ -725,10 +725,10 @@ ul.quicktabs-tabs li a {
   padding: 0.5em; }
 
 #tab-container .ui-tab-content {
-  background: #f2f2f2 !important; }
+  background: #333333 !important; }
 
 #tabs1-menu ul li a {
-  color: #999999 !important; }
+  color: #dcddd7 !important; }
   #tabs1-menu ul li a:hover {
     color: white !important; }
 
