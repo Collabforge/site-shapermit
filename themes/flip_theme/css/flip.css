@@ -725,6 +725,24 @@ ul.quicktabs-tabs li a {
   #tabs1-menu ul li a:hover {
     color: white !important; }
 
+.ui-mobile-menu ul.etabs {
+  background: whitesmoke; }
+
+ul.etabs li a:hover, ul.etabs li a:focus, ul.etabs li a:active {
+  text-decoration: none;
+  color: white;
+  background: #dc291e;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+#tabs1-menu ul li a.active {
+  text-decoration: none;
+  background: #dc291e;
+  color: white !important; }
+
+#tab-container {
+  border-bottom: 0px; }
+
 .profile-page-title {
   color: #66b274; }
   .profile-page-title p {
