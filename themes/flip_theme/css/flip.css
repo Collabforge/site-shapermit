@@ -735,6 +735,12 @@ ul.quicktabs-tabs li a {
 .ui-mobile-menu ul.etabs {
   background: #dcddd7; }
 
+ul.etabs li {
+  border-left: 0px; }
+
+ul.etabs li a {
+  color: #dc291e; }
+
 ul.etabs li a:hover, ul.etabs li a:focus, ul.etabs li a:active {
   text-decoration: none;
   color: white;
