@@ -88,10 +88,9 @@
         <?php endif; ?>
         <?php print render($title_suffix); ?>
       </div>
-
+<h1>TESTING!!!!!!!!!!!!!</h1>
       <div class="clearfix"></div>
       <div class="contentarticle clearfix"<?php print $content_attributes; ?>>
-      <div class="pattern-image"><?php print render($content['field_featured_image']); ?></div>
         <?php
           // We hide the comments and links now so that we can render them later.
           hide($content['comments']);
@@ -100,29 +99,6 @@
         ?>
 
       </div>
-<!--
-      <div class="row-fluid" style="clear:both;">
-        <div class="span1">
-          <div class="user-picture-small">
-            <?php //print $user_picture; ?>
-          </div>
-        </div>
-        <div class="activity-details span11">
-          <H2><?php //print ' Posted by ' . $name; ?></H2>
-          <p><?php //print ' on ' . $date; ?></p>          
-        </div>
--->
-
-<style>
-.field-type-text-with-summary { border-bottom: none; }
-</style>
-<br>
-
-<!--
-Stories that include this pattern and frameworks you can use to address this pattern:
-<?php //print render ($content['field_lp_association']); ?>
-  <br><br>
--->
       <?php print render($content['links']); ?>
 
       <?php print render($content['comments']); ?>
