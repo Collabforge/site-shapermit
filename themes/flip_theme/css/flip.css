@@ -28,10 +28,11 @@ h2 {
   font-family: "Museo-500"; }
 
 h3 {
-  font-size: 15px;
-  margin-top: 12px;
+  margin-top: 24px;
   margin-bottom: 12px;
-  font-family: "Museo-500"; }
+  font-family: "Museo-500";
+  font-size: 1.429em;
+  padding: 0; }
 
 h4 {
   font-size: 12px;
@@ -396,6 +397,21 @@ ul.menu a:hover {
 
 .node-promoted {
   display: none; }
+
+.sixsix-percent {
+  width: 65%;
+  float: left; }
+  .sixsix-percent .span12 {
+    width: 100% !important; }
+
+.threethree-percent {
+  width: 32%;
+  float: right; }
+  .threethree-percent .quote-front {
+    background: #333333;
+    color: white; }
+  .threethree-percent .span12 {
+    width: 100% !important; }
 
 .node-knowledge-object .field-name-body {
   border-bottom: none;
