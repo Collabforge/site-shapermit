@@ -146,13 +146,13 @@ jQuery(document).ready(function($) {
           
           
         <?php if ($page['header_bottom_right']): ?> 
-        <div id="header_bottom_right" class="span5 last"> <?php print render($page['header_bottom_right']); ?>
+        <div id="header_bottom_right" class="span3 last"> <?php print render($page['header_bottom_right']); ?>
         </div>
         <?php endif; ?>
           
           
         <?php if ($page['header_bottom_left']): ?>  
-        <div class="span7 nav-span"> <?php print render($page['header_bottom_left']); ?>
+        <div class="span9 nav-span"> <?php print render($page['header_bottom_left']); ?>
         </div>
         <?php endif; ?>
 
