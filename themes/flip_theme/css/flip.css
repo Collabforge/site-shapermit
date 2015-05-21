@@ -925,10 +925,11 @@ ul.etabs li a.active {
   .footer-content .block {
     width: 100%; }
 
-  .front #main-content {
+  #main-content {
     margin-top: 0px;
     padding-top: 0px; }
-  .front h2 {
+
+  h2 {
     font-size: 20px; }
 
   #admin-menu-wrapper {
