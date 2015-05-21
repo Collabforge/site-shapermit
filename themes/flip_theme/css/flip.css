@@ -926,7 +926,7 @@ ul.etabs li a.active {
     width: 100%; }
 
   #main-content {
-    margin-top: 0px;
+    margin-top: -5px;
     padding-top: 0px; }
 
   h2 {
@@ -978,7 +978,7 @@ ul.etabs li a.active {
     width: 100%; }
 
   #main-content {
-    margin-top: 0px;
+    margin-top: -5px;
     padding-top: 0px; }
 
   h2 {
@@ -1005,7 +1005,7 @@ ul.etabs li a.active {
     padding-right: 0px; }
 
   #main-content {
-    margin-top: 0px;
+    margin-top: -5px;
     padding-top: 0px; }
 
   .big-padding {
