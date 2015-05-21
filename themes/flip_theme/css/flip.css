@@ -254,10 +254,11 @@ ul.menu a:hover {
   padding-right: 0px; }
   .para.stack .row {
     margin-right: 0px; }
-  .para.stack .alt-row {
-    background: whitesmoke; }
   .para.stack .row.no-padding {
     padding: 0px !important; }
+
+.row.row-alt {
+  background: whitesmoke; }
 
 .quote-front {
   background: #f2f2f2;
