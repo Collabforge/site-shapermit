@@ -202,7 +202,7 @@ ul.menu a:hover {
   .big-padding .title {
     padding-top: 20px;
     padding-bottom: 10px; }
-  .big-padding .span4 {
+  .big-padding .span4 .reveal {
     margin-left: 0px;
     width: 33%; }
   .big-padding .row {
@@ -222,8 +222,6 @@ ul.menu a:hover {
 
 #block-block-46 {
   margin-top: 25px; }
-  #block-block-46 .big-padding .span4 {
-    width: 32.65306% !important; }
 
 .para {
   padding-left: 30px;
