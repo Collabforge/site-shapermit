@@ -254,8 +254,8 @@ ul.menu a:hover {
   padding-right: 0px; }
   .para.stack .row {
     margin-right: 0px; }
-    .para.stack .row:hover {
-      background: whitesmoke; }
+  .para.stack .row.alt-row {
+    background: whitesmoke; }
   .para.stack .row.no-padding {
     padding: 0px !important; }
 
