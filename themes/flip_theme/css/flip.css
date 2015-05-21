@@ -463,6 +463,9 @@ ul.menu a:hover {
   -moz-box-shadow: none;
   box-shadow: none; }
 
+.row-fluid .span12 {
+  width: auto !important; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
