@@ -258,6 +258,8 @@ ul.menu a:hover {
     padding-right: 30px;
     padding-top: 10px;
     padding-bottom: 30px; }
+    .para.stack .row:hover {
+      background: whitesmoke; }
   .para.stack .row.no-padding {
     padding: 0px !important; }
 
