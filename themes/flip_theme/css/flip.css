@@ -202,11 +202,11 @@ ul.menu a:hover {
   .big-padding .title {
     padding-top: 20px;
     padding-bottom: 10px; }
-  .big-padding .span4 .reveal {
+  .big-padding .span4.reveal {
     margin-left: 0px;
     width: 33%;
     transition: 0.1s; }
-    .big-padding .span4 .reveal:hover {
+    .big-padding .span4.reveal:hover {
       background: #dddddd;
       transition: 0.1s; }
   .big-padding .row {
