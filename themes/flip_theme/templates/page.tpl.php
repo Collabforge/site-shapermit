@@ -146,7 +146,7 @@ jQuery(document).ready(function($) {
           
           
         <?php if ($page['header_bottom_right']): ?> 
-        <div id="header_bottom_right" class="span3 last"><?php /* print render($page['header_bottom_right']); */ ?>
+        <div id="header_bottom_right" class="span2 last"><?php /* print render($page['header_bottom_right']); */ ?>
             
             
             
@@ -177,7 +177,7 @@ jQuery(document).ready(function($) {
           
           
         <?php if ($page['header_bottom_left']): ?>  
-        <div class="span9 nav-span"> <?php print render($page['header_bottom_left']); ?>
+        <div class="span10 nav-span"> <?php print render($page['header_bottom_left']); ?>
         </div>
         <?php endif; ?>
 
