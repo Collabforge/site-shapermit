@@ -206,9 +206,9 @@ ul.menu a:hover {
     margin-left: 0px;
     width: 33%;
     transition: 0.1s; }
-    .big-padding .span4.reveal:hover {
-      background: #dddddd;
-      transition: 0.1s; }
+  .big-padding .span4:hover {
+    background: #dddddd;
+    transition: 0.1s; }
   .big-padding .row {
     margin-right: -10px;
     margin-left: 0px; }
