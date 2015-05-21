@@ -504,7 +504,8 @@ ul.menu a:hover {
   box-shadow: none; }
 
 .row-fluid .span12 {
-  width: auto !important; }
+  width: auto !important;
+  margin-left: 0px; }
 
 .node-knowledge-object .field-name-body {
   border-bottom: none;
