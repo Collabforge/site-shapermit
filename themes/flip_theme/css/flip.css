@@ -223,7 +223,7 @@ ul.menu a:hover {
 #block-block-46 {
   margin-top: 25px; }
   #block-block-46 .big-padding .span4 {
-    width: 32.65306%; }
+    width: 32.65306% !important; }
 
 .para {
   padding-left: 30px;
