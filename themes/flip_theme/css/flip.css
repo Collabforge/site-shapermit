@@ -252,6 +252,12 @@ ul.menu a:hover {
 .para.stack {
   padding-left: 0px;
   padding-right: 0px; }
+  .para.stack .row {
+    margin-right: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px; }
 
 .quote-front {
   background: #f2f2f2;
