@@ -253,10 +253,7 @@ ul.menu a:hover {
   padding-left: 0px;
   padding-right: 0px; }
   .para.stack .row {
-    margin-right: 0px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 30px; }
+    margin-right: 0px; }
     .para.stack .row:hover {
       background: whitesmoke; }
   .para.stack .row.no-padding {
@@ -506,6 +503,11 @@ ul.menu a:hover {
 .row-fluid .span12 {
   width: auto !important;
   margin-left: 0px; }
+
+.row.padding-normal {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px; }
 
 .full-img {
   width: 100%; }
