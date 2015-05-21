@@ -894,6 +894,9 @@ ul.etabs li a.active {
   .container {
     width: 100%; }
 
+  #main {
+    margin-top: -5px; }
+
   body {
     padding-left: 0px;
     padding-right: 0px; }
@@ -948,6 +951,9 @@ ul.etabs li a.active {
   .container {
     width: 100%; }
 
+  #main {
+    margin-top: -5px; }
+
   body {
     padding-left: 0px;
     padding-right: 0px; }
@@ -999,6 +1005,9 @@ ul.etabs li a.active {
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   .container {
     width: 100%; }
+
+  #main {
+    margin-top: -5px; }
 
   body {
     padding-left: 0px;
