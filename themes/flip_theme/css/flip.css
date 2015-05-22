@@ -448,7 +448,7 @@ ul.menu a:hover {
     width: 100% !important; }
 
 .fivefive-percent {
-  width: 48%;
+  width: 49%;
   float: left; }
   .fivefive-percent .span12 {
     width: 100% !important; }
@@ -461,6 +461,9 @@ ul.menu a:hover {
     color: white; }
   .threethree-percent .span12 {
     width: 100% !important; }
+
+#block-block-53 {
+  float: right; }
 
 #header_bottom_right .navbar .nav > li > .dropdown-menu:after {
   display: none; }
