@@ -528,6 +528,10 @@ ul.menu a:hover {
 .full-img {
   width: 100%; }
 
+.icon-chevron-down:before {
+  content: "\f078";
+  color: #dc291e; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
