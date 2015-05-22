@@ -447,6 +447,12 @@ ul.menu a:hover {
   .sixsix-percent .span12 {
     width: 100% !important; }
 
+.fivefive-percent {
+  width: 48%;
+  float: left; }
+  .fivefive-percent .span12 {
+    width: 100% !important; }
+
 .threethree-percent {
   width: 32%;
   float: right; }
