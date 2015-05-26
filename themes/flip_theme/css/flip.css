@@ -482,8 +482,10 @@ ul.menu a:hover {
     width: 100% !important; }
 
 .hundred-percent {
-  float: left;
+  float: right;
   width: 100%; }
+  .hundred-percent .span12 {
+    width: 100% !important; }
 
 #block-block-53 {
   float: right; }
