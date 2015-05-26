@@ -481,6 +481,10 @@ ul.menu a:hover {
   .threesix-percent .span12 {
     width: 100% !important; }
 
+.hundred-percent {
+  float: left;
+  width: 100%; }
+
 #block-block-53 {
   float: right; }
 
