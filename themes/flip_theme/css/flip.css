@@ -557,6 +557,16 @@ ul.menu a:hover {
   content: "\f078";
   color: #dc291e; }
 
+.alt-button {
+  width: 100%;
+  background: #dc291e;
+  border: 0px;
+  font-size: 14px;
+  font-family: "museo-500";
+  color: white;
+  text-shadow: none;
+  font-weight: 600; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
