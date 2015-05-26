@@ -103,7 +103,7 @@ jQuery(document).ready(function($) {
           
           
         <div id="logo" class="span6 site-logo visible-desktop hidden-phone"> <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"> 
-            <img src="/sites/default/themes/flip_theme/img/shape-rmit-logo.png"> </a>
+            <img src="/sites/default/themes/flip_theme/img/rmit-logo.png"> </a>
         </div>    
           
         <?php if ($page['search_box']): ?>
@@ -116,31 +116,15 @@ jQuery(document).ready(function($) {
           
         <?php if ($page['header_top_middle']): ?> 
         <div id="header_top_middle" class="span2"> 
-            <img src="/sites/default/themes/flip_theme/img/rmit-logo.png">
+            <img src="/sites/default/themes/flip_theme/img/shape-rmit-logo.png">
     <?php print render($page['header_top_middle']); ?>
         </div>
         <?php endif; ?>
-          
-          
-          
-
-          
       </div>
         
         
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+
         
       <div class="row-fluid" id="header_bottom">
           
