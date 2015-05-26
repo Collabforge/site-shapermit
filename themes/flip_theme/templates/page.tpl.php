@@ -129,7 +129,7 @@ jQuery(document).ready(function($) {
           
           
         <?php if ($page['header_bottom_right']): ?> 
-        <div id="header_bottom_right" class="span2 last"><?php /* print render($page['header_bottom_right']); */ ?>
+        <div id="header_bottom_right" class="span2 last"><?php print render($page['header_bottom_right']); ?>
             
             
             
@@ -137,21 +137,7 @@ jQuery(document).ready(function($) {
             
             
             
-<div class="navbar navbar-static">
-    <div class="navbar-inner">
-        <ul class="nav pull-left">
-            <li class="dropdown">
-                <a href="#" data-toggle="dropdown" class="dropdown-toggle">Admin <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                    <li><a href="https://shapermitl.collabcoapp.com/profile"><i class="icon-cog">&nbsp;</i>Profile</a></li>
-                    <li><a href="https://shapermitl.collabcoapp.com/email_preferences"><i class="icon-envelope">&nbsp;</i>Email Settings</a></li>
-                    <li><a href="https://shapermitl.collabcoapp.com/help"><i class="icon-star">&nbsp;</i>Help</a></li>
-                    <li><a data-method="delete" href="https://shapermitl.collabcoapp.com/users/sign_out"><i class="icon-share">&nbsp;</i>Sign Out</a></li>
-                </ul>
-            </li>
-        </ul>
-    </div>
-</div>
+
             
             
             
