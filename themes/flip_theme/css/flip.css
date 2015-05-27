@@ -146,6 +146,11 @@ hr {
   margin-top: 10px;
   margin-bottom: 10px; }
 
+#header_top_middle {
+  padding-top: 15px !important; }
+  #header_top_middle img {
+    height: 70px; }
+
 .html5-video-player:not(.ad-interrupting):not(.hide-info-bar) .html5-info-bar, .ended-mode.endscreen-loaded:not(.el-detailpage):not(.house-brand):not(.ad-interrupting) .html5-info-bar, html[data-player-size="fullscreen"] .html5-video-player:not(.house-brand):not(.ad-interrupting) .html5-info-bar {
   display: none; }
 
