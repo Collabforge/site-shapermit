@@ -607,6 +607,24 @@ ul.menu a:hover {
     background: red;
     color: white; }
 
+#block-quicktabs-news-events-quicktab {
+  padding: 15px;
+  background: #333333;
+  color: white; }
+  #block-quicktabs-news-events-quicktab ul.quicktabs-tabs li {
+    display: inline-block;
+    background-color: #242424;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    min-width: 100px;
+    text-align: center;
+    border-radius: 0px; }
+  #block-quicktabs-news-events-quicktab ul.quicktabs-tabs li.active {
+    background-color: #333333; }
+  #block-quicktabs-news-events-quicktab .big-padding a {
+    color: white !important; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
