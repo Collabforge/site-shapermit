@@ -642,12 +642,18 @@ ul.menu a:hover {
   padding-bottom: 10px;
   padding-top: 10px; }
   .news-block .created {
-    font-size: 14px; }
+    font-size: 12px;
+    padding-left: 15px; }
+  .news-block .body {
+    padding-left: 15px; }
   .news-block .news-content {
     padding-left: 15px; }
-  .news-block .news-title a {
-    font-family: "Museo-500" !important;
-    color: white !important; }
+  .news-block .news-title {
+    font-family: "Museo-500";
+    font-size: 16px;
+    margin-bottom: -10px; }
+    .news-block .news-title a {
+      color: white !important; }
   .news-block .span12 {
     width: auto !important; }
   .news-block .img-wrapper {
