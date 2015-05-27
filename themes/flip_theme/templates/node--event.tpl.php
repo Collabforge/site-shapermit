@@ -122,7 +122,7 @@
   </div>
 </div>
 <div class="row">
-  <div class="span12 event-body">
+  <div class="span9 offset3 event-body">
     <?php print render($content['body']); ?>
   </div>
 </div> 
