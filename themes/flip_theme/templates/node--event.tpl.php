@@ -79,7 +79,7 @@
  */
 ?>
 <div class="news-item">
-<a href="/news-update">Events</a> > <?php print $title; ?>
+<a href="/news-update">Back to Events</a>
 
 <?php if (!$is_front): ?>
   <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
