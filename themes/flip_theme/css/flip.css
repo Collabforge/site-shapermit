@@ -737,6 +737,21 @@ li.print_pdf {
   margin-top: 0px;
   margin-bottom: 40px; }
 
+.event-image .row {
+  margin-left: 0px; }
+
+.event-where .row {
+  margin-left: 0px; }
+
+.event-when .row {
+  margin-left: 0px; }
+
+.event-body .row {
+  margin-left: 0px; }
+
+.news-item .row {
+  margin-left: 0px; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
