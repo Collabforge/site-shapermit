@@ -93,11 +93,11 @@
               //hide($content['comments']);
               //hide($content['links']);
             ?>
-<div class="row">
-  <div class="span3 event-image">
+<div class="row rmit-news-content">
+  <div class="span3 rmit-event-image">
     <?php print render($content['field_featured_image']); ?>
   </div> 
-  <div class="span9">
+  <div class="span9 rmit-title">
               <?php print render($title_prefix); ?>
           
               <h1<?php print $title_attributes; ?>><?php print $title; ?></h1>
