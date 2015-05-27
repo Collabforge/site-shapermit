@@ -632,16 +632,19 @@ ul.menu a:hover {
   #block-quicktabs-news-events-quicktab a#quicktabs-tab-news_events_quicktab-0 {
     color: white !important; }
 
-.news-block .news-title a {
-  color: white !important; }
-.news-block .span12 {
-  width: auto !important; }
-.news-block .img-wrapper {
-  width: 220px;
-  height: 120px;
-  overflow: hidden; }
-  .news-block .img-wrapper img {
-    min-width: 100%; }
+.news-block {
+  padding-right: 20px;
+  padding-left: 20px; }
+  .news-block .news-title a {
+    color: white !important; }
+  .news-block .span12 {
+    width: auto !important; }
+  .news-block .img-wrapper {
+    width: 220px;
+    height: 120px;
+    overflow: hidden; }
+    .news-block .img-wrapper img {
+      min-width: 100%; }
 
 .node-knowledge-object .field-name-body {
   border-bottom: none;
