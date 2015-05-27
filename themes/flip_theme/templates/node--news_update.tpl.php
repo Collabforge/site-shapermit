@@ -78,24 +78,19 @@
  * @see template_process()
  */
 ?>
+
+
+
+
+
+<div class="news-item">
+
+
 <?php if (!$is_front): ?>
   <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
   <div class="nodewrapper">
-  <div class="userpicture"><?php /* add "print $user_picture;" here to fix node user profiles displaying */ ?></div>
-
-  <div class="templatedtitlestyle">  <?php print render($title_prefix); ?>
-    <?php if (!$page): ?>
-      <h2<?php print $title_attributes; ?>><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h2>
-    <?php endif; ?>
-    <?php print render($title_suffix); ?></div>
-
-    <?php if ($display_submitted): ?>
-      <div class="submitted">
-        <div class="submitted-content-posted">
-    <?php print 'Posted ' . $date; ?><br />
-    <?php print ' by ' . $name; ?>
-      </div>
-    <?php endif; ?></div><div class="clearfix"></div>
+  <div class="userpicture"><?php /* add "print $user_picture;" here to fix node user profiles displaying */ ?></div>      
+      
 
     <div class="contentarticle"<?php print $content_attributes; ?>>
       <?php
@@ -108,8 +103,9 @@
 
     <?php print render($content['links']); ?>
 
-    <?php print render($content['comments']); ?>
+    <?php /* print render($content['comments']); */ ?>
 
   </article>
 <?php endif; ?>
 
+</div>
