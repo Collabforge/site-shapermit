@@ -75,6 +75,9 @@ a [class^="icon-"], a [class*=" icon-"] {
   margin-right: 7px;
   text-decoration: none !important; }
 
+a {
+  letter-spacing: 0.5px; }
+
 ul ul, ol ol, ul ol, ol ul {
   margin-top: 0;
   margin-bottom: 0; }
