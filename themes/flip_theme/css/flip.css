@@ -637,10 +637,11 @@ ul.menu a:hover {
 .news-block .span12 {
   width: auto !important; }
 .news-block .img-wrapper {
-  width: 200px;
-  height: 200px; }
+  width: 220px;
+  height: 180px;
+  overflow: hidden; }
   .news-block .img-wrapper img {
-    width: 100%; }
+    min-width: 100%; }
 
 .node-knowledge-object .field-name-body {
   border-bottom: none;
