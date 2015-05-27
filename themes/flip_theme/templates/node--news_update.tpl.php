@@ -80,9 +80,6 @@
 ?>
 
 
-
-
-
 <div class="news-item">
 
 
@@ -96,7 +93,7 @@
         
         <div class="event-image">
             <?php
-              print render($content['field_featured_image']);
+              print render ($node->field_featured_image);
             ?>
           </div>
         
