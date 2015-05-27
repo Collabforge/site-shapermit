@@ -79,7 +79,7 @@
  */
 ?>
 <div class="news-item">
-<a href="/news-update">Updates</a> > <?php print $title; ?>
+<a href="/news-update">Events</a> > <?php print $title; ?>
 
 <?php if (!$is_front): ?>
   <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
@@ -87,44 +87,39 @@
 
       <div class="clearfix"></div>
 
-      <div class="contentarticle clearfix"<?php print $content_attributes; ?>>
-        <div class="event-image-and-details">
-          <div class="event-details">
+<div class="contentarticle clearfix"<?php print $content_attributes; ?>>          
             <?php
               // We hide the comments and links now so that we can render them below.
               //hide($content['comments']);
               //hide($content['links']);
             ?>
-
-            
-        <div class="event-image">
-            <?php
-              print render($content['field_featured_image']);
-            ?>
-          </div>
-              <div class="templatedtitlestyle">
+<div class="row">
+  <div class="span3">
+    <?php print render($content['field_featured_image']); ?>
+  </div> 
+  <div class="span9">
               <?php print render($title_prefix); ?>
+          
               <h1<?php print $title_attributes; ?>><?php print $title; ?></h1>
-                 <div class="posted-by-move-up"><?php /* print '<br/>Posted by ' . $name . $user_picture; */ ?></div>
+                 <?php /* print '<br/>Posted by ' . $name . $user_picture; */ ?>
+          
               <?php print render($title_suffix); ?>
-            </div>
-        <div class="event-location">
-            <?php
+          
+          <?php
               echo "<h5>Where</h5>";
-              print render($content['field_location']);
-            ?></div>
-              
-        <div class="event-date">
-              <?php
+              print render($content['field_location']); ?>
+          
+          <?php
               echo "<h5>When</h5>";
-              print render($content['field_date']);
-            ?></div>
-          </div>
-        </div>
-        <div class="event-info" style="clear: both">
-          <?php print render($content['body']); ?>
-        </div>
-      </div>
+              print render($content['field_date']); ?>
+  </div>
+</div>
+<div class="row">
+  <div class="span12">
+    <?php print render($content['body']); ?>
+  </div>
+</div> 
+</div>
 
       <?php print render($content['links']); ?>
       <?php print render($content['comments']); ?>
