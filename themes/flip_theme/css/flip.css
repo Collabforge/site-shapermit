@@ -610,8 +610,9 @@ ul.menu a:hover {
 #block-quicktabs-news-events-quicktab {
   padding: 0px;
   background: #333333;
-  color: white;
-  margin-left: 0px; }
+  color: white; }
+  #block-quicktabs-news-events-quicktab ul.quicktabs-tabs {
+    margin-left: 0px; }
   #block-quicktabs-news-events-quicktab ul.quicktabs-tabs li {
     font-size: 22px;
     font-family: "Museo-500";
