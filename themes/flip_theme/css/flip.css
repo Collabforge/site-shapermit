@@ -631,13 +631,22 @@ ul.menu a:hover {
     color: white !important; }
   #block-quicktabs-news-events-quicktab a#quicktabs-tab-news_events_quicktab-0 {
     color: white !important; }
+  #block-quicktabs-news-events-quicktab #quicktabs-tab-news_events_quicktab-1 {
+    padding-bottom: 5px; }
+  #block-quicktabs-news-events-quicktab #quicktabs-tab-news_events_quicktab-0 {
+    padding-bottom: 5px; }
 
 .news-block {
   padding-right: 20px;
-  padding-left: 20px; }
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px; }
+  .news-block .created {
+    font-size: 14px; }
   .news-block .news-content {
     padding-left: 15px; }
   .news-block .news-title a {
+    font-family: "Museo-500" !important;
     color: white !important; }
   .news-block .span12 {
     width: auto !important; }
