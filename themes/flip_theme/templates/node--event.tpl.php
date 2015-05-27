@@ -94,7 +94,7 @@
               //hide($content['links']);
             ?>
 <div class="row">
-  <div class="span3">
+  <div class="span3 event-image">
     <?php print render($content['field_featured_image']); ?>
   </div> 
   <div class="span9">
@@ -105,12 +105,12 @@
           
               <?php print render($title_suffix); ?>
 <div class="row">
-<div class="span6">
+<div class="span6 event-where">
           <?php
               echo "<h5>Where</h5>";
               print render($content['field_location']); ?>
 </div>
-    <div class="span6">
+    <div class="span6 event-when">
     <?php
               echo "<h5>When</h5>";
               print render($content['field_date']); ?>
@@ -122,7 +122,7 @@
   </div>
 </div>
 <div class="row">
-  <div class="span12">
+  <div class="span12 event-body">
     <?php print render($content['body']); ?>
   </div>
 </div> 
