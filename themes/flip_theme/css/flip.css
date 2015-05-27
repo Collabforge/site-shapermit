@@ -799,7 +799,8 @@ li.print_pdf {
   margin-bottom: 20px; }
   .upcoming-main a:before {
     font-family: FontAwesome;
-    content: "\f0da";
+    font-size: 14px;
+    content: "\f054";
     margin-right: 5px;
     display: inline-block; }
     .upcoming-main a:before:hover {
