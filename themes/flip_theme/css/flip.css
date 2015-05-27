@@ -138,10 +138,13 @@ div.modal-forms-modal-content {
   div.modal-forms-modal-content .popups-close {
     margin-top: -5px !important; }
 
-#header_top_middle {
-  padding-top: 15px; }
-  #header_top_middle img {
-    height: 70px; }
+hr {
+  margin: 0px;
+  border: 0;
+  border-top: 0px;
+  border-bottom: 1px solid #333333;
+  margin-top: 10px;
+  margin-bottom: 10px; }
 
 #block-search-form .btn-search {
   top: 0px;
