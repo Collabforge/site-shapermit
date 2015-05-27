@@ -100,7 +100,7 @@
   <div class="span9 rmit-title">
               <?php print render($title_prefix); ?>
           
-              <i class="icon-chevron-right"></i> <h1<?php print $title_attributes; ?>><?php print $title; ?></h1>
+               <h1<?php print $title_attributes; ?>><i class="icon-chevron-right"></i> <?php print $title; ?></h1>
                  <?php /* print '<br/>Posted by ' . $name . $user_picture; */ ?>
           
               <?php print render($title_suffix); ?>
