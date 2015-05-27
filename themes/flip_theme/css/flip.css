@@ -790,6 +790,8 @@ li.print_pdf {
     font-family: FontAwesome;
     content: "\f0da";
     margin-right: 5px; }
+    .upcoming-main a:before:hover {
+      text-decoration: none !important; }
 
 .node-knowledge-object .field-name-body {
   border-bottom: none;
