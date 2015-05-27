@@ -78,7 +78,7 @@
  * @see template_process()
  */
 ?>
-
+<div class="news-item">
 <a href="/news-update">Updates</a> > <?php print $title; ?>
 
 <?php if (!$is_front): ?>
@@ -105,7 +105,7 @@
               <div class="templatedtitlestyle">
               <?php print render($title_prefix); ?>
               <h1<?php print $title_attributes; ?>><?php print $title; ?></h1>
-                 <div class="posted-by-move-up"><?php print '<br/>Posted by ' . $name . $user_picture;?></div>
+                 <div class="posted-by-move-up"><?php /* print '<br/>Posted by ' . $name . $user_picture; */ ?></div>
               <?php print render($title_suffix); ?>
             </div>
         <div class="event-location">
@@ -132,3 +132,4 @@
   </article>
 <?php endif; ?>
 
+</div>
