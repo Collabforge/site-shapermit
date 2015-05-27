@@ -643,7 +643,9 @@ ul.menu a:hover {
   padding-top: 10px; }
   .news-block .created {
     font-size: 12px;
-    padding-left: 15px; }
+    padding-left: 15px;
+    margin-bottom: -5px;
+    font-style: italic; }
   .news-block .body {
     padding-left: 15px; }
   .news-block .news-content {
