@@ -608,7 +608,7 @@ ul.menu a:hover {
     color: white; }
 
 #block-quicktabs-news-events-quicktab {
-  padding: 0px;
+  padding: 30px 3px 30px 3px;
   background: #333333;
   color: white;
   margin-left: 0px; }
