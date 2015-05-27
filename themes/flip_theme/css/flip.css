@@ -704,6 +704,13 @@ li.print_pdf {
   background: #f2f2f2;
   padding: 20px; }
 
+.breadcrum {
+  margin: 10px 0 0 0;
+  background: #f2f2f2;
+  margin-bottom: -40px;
+  padding: 20px;
+  margin-top: 20px; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
