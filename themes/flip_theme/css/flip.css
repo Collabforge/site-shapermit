@@ -634,6 +634,8 @@ ul.menu a:hover {
 
 .news-block .title a {
   color: white !important; }
+.news-block .span12 {
+  width: auto !important; }
 
 .node-knowledge-object .field-name-body {
   border-bottom: none;
