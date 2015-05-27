@@ -89,7 +89,7 @@
 <?php if (!$is_front): ?>
   <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
   <div class="nodewrapper">
-  <div class="userpicture"><?php /* add "print $user_picture;" here to fix node user profiles displaying */ ?></div>      
+  <div class="userpicture"><?php "print $user_picture;" ?></div>      
       
 
     <div class="contentarticle"<?php print $content_attributes; ?>>
