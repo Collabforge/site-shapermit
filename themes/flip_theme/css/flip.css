@@ -724,10 +724,10 @@ li.print_pdf {
 .event-info {
   background-color: transparent;
   padding: 0px;
-  border-top: 0px; }
+  border-top: 0px !important; }
 
 .event-image-and-details {
-  border-top: 0px;
+  border-top: 0px !important;
   width: auto;
   height: auto;
   overflow: hidden; }
