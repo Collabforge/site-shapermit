@@ -767,8 +767,10 @@ li.print_pdf {
 .event-when .row {
   margin-left: 0px; }
 
-.event-body .row {
-  margin-left: 0px; }
+.event-body {
+  padding-left: 15px; }
+  .event-body .row {
+    margin-left: 0px; }
 
 .rmit-title {
   padding-left: 15px; }
@@ -780,8 +782,7 @@ li.print_pdf {
     font-weight: 300; }
 
 .rmit-news-content {
-  margin-top: 15px;
-  border-bottom: 1px solid #cccccc; }
+  margin-top: 15px; }
 
 .node-knowledge-object .field-name-body {
   border-bottom: none;
