@@ -104,14 +104,21 @@
                  <?php /* print '<br/>Posted by ' . $name . $user_picture; */ ?>
           
               <?php print render($title_suffix); ?>
-          
+<div class="row">
+<div class="span6">
           <?php
               echo "<h5>Where</h5>";
               print render($content['field_location']); ?>
-          
-          <?php
+</div>
+    <div class="span6">
+    <?php
               echo "<h5>When</h5>";
               print render($content['field_date']); ?>
+    </div>
+</div>
+      
+          
+    
   </div>
 </div>
 <div class="row">

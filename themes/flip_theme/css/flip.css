@@ -732,6 +732,11 @@ li.print_pdf {
   height: auto;
   overflow: hidden; }
 
+.templatedtitlestyle h1 {
+  line-height: 0px;
+  margin-top: 0px;
+  margin-bottom: 40px; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
