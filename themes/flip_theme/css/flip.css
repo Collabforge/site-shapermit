@@ -641,15 +641,15 @@ ul.menu a:hover {
   padding-left: 20px;
   padding-bottom: 10px;
   padding-top: 10px; }
+  .news-block .icon-chevron-right {
+    padding-right: 5px; }
   .news-block .created {
     font-size: 12px;
-    padding-left: 15px;
+    padding-left: 20px;
     margin-bottom: -5px;
     font-style: italic; }
   .news-block .body {
-    padding-left: 15px; }
-  .news-block .news-content {
-    padding-left: 15px; }
+    padding-left: 20px; }
   .news-block .news-title {
     font-family: "Museo-500";
     font-size: 16px;
