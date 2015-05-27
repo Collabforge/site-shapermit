@@ -665,6 +665,35 @@ ul.menu a:hover {
     .news-block .img-wrapper img {
       min-width: 100%; }
 
+.events-block {
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px; }
+  .events-block .icon-chevron-right {
+    padding-right: 5px; }
+  .events-block .created {
+    font-size: 12px;
+    padding-left: 20px;
+    margin-bottom: -5px;
+    font-style: italic; }
+  .events-block .body {
+    padding-left: 20px; }
+  .events-block .news-title {
+    font-family: "Museo-500";
+    font-size: 16px;
+    margin-bottom: -10px; }
+    .events-block .news-title a {
+      color: white !important; }
+  .events-block .span12 {
+    width: auto !important; }
+  .events-block .img-wrapper {
+    width: 220px;
+    height: 120px;
+    overflow: hidden; }
+    .events-block .img-wrapper img {
+      min-width: 100%; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
