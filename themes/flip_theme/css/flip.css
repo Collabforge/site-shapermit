@@ -626,10 +626,8 @@ ul.menu a:hover {
     background-color: #333333; }
   #block-quicktabs-news-events-quicktab a#quicktabs-tab-news_events_quicktab-1 {
     color: white !important; }
-  #block-quicktabs-news-events-quicktab a#quicktabs-tab-news_events_quicktab-1 {
+  #block-quicktabs-news-events-quicktab a#quicktabs-tab-news_events_quicktab-0 {
     color: white !important; }
-  #block-quicktabs-news-events-quicktab .big-padding a {
-    color: #333333 !important; }
 
 .node-knowledge-object .field-name-body {
   border-bottom: none;
