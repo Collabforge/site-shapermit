@@ -800,7 +800,8 @@ li.print_pdf {
   .upcoming-main a:before {
     font-family: FontAwesome;
     content: "\f0da";
-    margin-right: 5px; }
+    margin-right: 5px;
+    display: inline-block; }
     .upcoming-main a:before:hover {
       text-decoration: none !important; }
 
