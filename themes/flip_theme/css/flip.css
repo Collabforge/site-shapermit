@@ -1470,7 +1470,11 @@ ul.etabs li a.active {
 
   .big-padding {
     width: 100%;
-    overflow: hidden; } }
+    overflow: hidden; }
+
+  .para {
+    padding-left: 0px;
+    padding-right: 0px; } }
 @media (min-width: 1200px) {
   .span12 {
     width: 960px !important; } }
