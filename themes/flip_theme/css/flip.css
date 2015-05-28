@@ -671,8 +671,7 @@ ul.menu a:hover {
     .news-block .img-wrapper img {
       min-width: 100%; }
 
-.img-wrap .generic-anchor {
-  margin-top: 5px;
+.img-wrap .img {
   margin-bottom: 5px; }
 
 .events-block {
