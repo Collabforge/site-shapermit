@@ -820,6 +820,9 @@ li.print_pdf {
 .accordion-content a {
   color: #333333; }
 
+.light-block a {
+  color: #333333 !important; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
