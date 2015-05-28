@@ -902,6 +902,15 @@ a.inline-link {
   margin-top: 0px !important;
   padding-left: 12px !important; }
 
+.front-main-padding {
+  padding: 0px;
+  background: #333333;
+  color: #eeeeee;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
+  padding-bottom: 50px; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
@@ -1378,7 +1387,7 @@ ul.etabs li a.active {
     padding: 0px;
     margin-top: -30px; }
 
-  .para {
+  .front-main-padding {
     padding-left: 0px;
     padding-right: 0px; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
@@ -1391,7 +1400,7 @@ ul.etabs li a.active {
   .front-call3 {
     height: 300px !important; }
 
-  .para {
+  .front-main-padding {
     padding-left: 0px;
     padding-right: 0px; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
@@ -1450,7 +1459,7 @@ ul.etabs li a.active {
   .front-call3 {
     height: 280px !important; }
 
-  .para {
+  .front-main-padding {
     padding-left: 0px;
     padding-right: 0px; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
@@ -1470,11 +1479,7 @@ ul.etabs li a.active {
 
   .big-padding {
     width: 100%;
-    overflow: hidden; }
-
-  .para {
-    padding-left: 0px;
-    padding-right: 0px; } }
+    overflow: hidden; } }
 @media (min-width: 1200px) {
   .span12 {
     width: 960px !important; } }
