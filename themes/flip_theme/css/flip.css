@@ -886,6 +886,15 @@ a.inline-link {
 .news-body {
   margin-top: 10px; }
 
+.contentarticle img {
+  margin: 0 0 20px 0;
+  -webkit-border-radius: none !important;
+  -moz-border-radius: 5px;
+  border-radius: none !important;
+  -webkit-box-shadow: 0px;
+  -moz-box-shadow: 0px;
+  box-shadow: 0px; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
