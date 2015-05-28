@@ -926,6 +926,9 @@ a.inline-link {
 .five-years-loomio {
   min-height: 692px; }
 
+.backstory-loomio {
+  min-height: 596px; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
