@@ -108,7 +108,7 @@
 
               <?php print render($title_suffix); ?>
 <div class="row">
-<div class="span12 news-published">
+<div class="span12 news-published" style="width: auto !important;">
           <?php
               print "Published: ". gmdate("d-m-Y", $content['body']['#object']->created);
 ?>
