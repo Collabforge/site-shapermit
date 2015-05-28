@@ -1422,18 +1422,17 @@ ul.etabs li a.active {
 
   .the-story-info-blocks-title {
     padding-bottom: 20px;
+    height: auto !important;
     width: 100% !important; }
 
   .the-story-info-blocks {
     width: 100% !important; }
-
-  .wrapper {
-    height: auto !important; }
-    .wrapper p {
-      min-height: auto !important; }
-
-  .img-wrapper {
-    padding-bottom: 10px; } }
+    .the-story-info-blocks .wrapper {
+      height: auto !important; }
+      .the-story-info-blocks .wrapper p {
+        min-height: 0px !important; }
+    .the-story-info-blocks .img-wrapper {
+      padding-bottom: 10px; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
   .front-call {
     height: 300px !important; }
@@ -1467,18 +1466,17 @@ ul.etabs li a.active {
 
   .the-story-info-blocks-title {
     padding-bottom: 20px;
+    height: auto !important;
     width: 100% !important; }
 
   .the-story-info-blocks {
     width: 100% !important; }
-
-  .wrapper {
-    height: auto !important; }
-    .wrapper p {
-      min-height: auto !important; }
-
-  .img-wrapper {
-    padding-bottom: 10px; } }
+    .the-story-info-blocks .wrapper {
+      height: auto !important; }
+      .the-story-info-blocks .wrapper p {
+        min-height: 0px !important; }
+    .the-story-info-blocks .img-wrapper {
+      padding-bottom: 10px; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
   .container {
     width: 100%; }
@@ -1558,18 +1556,17 @@ ul.etabs li a.active {
 
   .the-story-info-blocks-title {
     padding-bottom: 20px;
-    width: 100% !important; }
+    width: 100% !important;
+    height: auto !important; }
 
   .the-story-info-blocks {
     width: 100% !important; }
-
-  .wrapper {
-    height: auto !important; }
-    .wrapper p {
-      min-height: auto !important; }
-
-  .img-wrapper {
-    padding-bottom: 10px; } }
+    .the-story-info-blocks .wrapper {
+      height: auto !important; }
+      .the-story-info-blocks .wrapper p {
+        min-height: 0px !important; }
+    .the-story-info-blocks .img-wrapper {
+      padding-bottom: 10px; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   .container {
     width: 100%; }
