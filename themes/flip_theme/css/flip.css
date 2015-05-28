@@ -1398,7 +1398,15 @@ ul.etabs li a.active {
     padding: 10px 20px 10px 20px; }
 
   .general-responsive-padding-title {
-    padding: 0px 20px 0px 20px; } }
+    padding: 0px 20px 0px 20px; }
+
+  .sixsix-percent {
+    width: 100%;
+    float: none; }
+
+  .threethree-percent {
+    width: 100%;
+    float: none; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
   .front-call {
     height: 300px !important; }
@@ -1420,7 +1428,15 @@ ul.etabs li a.active {
     padding: 10px 20px 10px 20px; }
 
   .general-responsive-padding-title {
-    padding: 0px 20px 0px 20px; } }
+    padding: 0px 20px 0px 20px; }
+
+  .sixsix-percent {
+    width: 100%;
+    float: none; }
+
+  .threethree-percent {
+    width: 100%;
+    float: none; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
   .container {
     width: 100%; }
@@ -1488,7 +1504,15 @@ ul.etabs li a.active {
     padding: 10px 20px 10px 20px; }
 
   .general-responsive-padding-title {
-    padding: 0px 20px 0px 20px; } }
+    padding: 0px 20px 0px 20px; }
+
+  .sixsix-percent {
+    width: 100%;
+    float: none; }
+
+  .threethree-percent {
+    width: 100%;
+    float: none; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   .container {
     width: 100%; }
