@@ -1422,7 +1422,7 @@ ul.etabs li a.active {
 
   .the-story-info-blocks-title {
     padding-bottom: 20px;
-    width: auto; }
+    width: 100% !important; }
 
   .the-story-info-blocks {
     width: 100% !important; } }
@@ -1459,7 +1459,7 @@ ul.etabs li a.active {
 
   .the-story-info-blocks-title {
     padding-bottom: 20px;
-    width: auto; }
+    width: 100% !important; }
 
   .the-story-info-blocks {
     width: 100% !important; } }
@@ -1542,7 +1542,7 @@ ul.etabs li a.active {
 
   .the-story-info-blocks-title {
     padding-bottom: 20px;
-    width: auto; }
+    width: 100% !important; }
 
   .the-story-info-blocks {
     width: 100% !important; } }
