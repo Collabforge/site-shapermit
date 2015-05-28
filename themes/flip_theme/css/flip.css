@@ -859,7 +859,7 @@ hr.dark-hr {
   color: #eeeeee !important;
   padding: 5px 7px 6px 7px; }
   #block-block-20 .btn a.register-interest:hover {
-    background: #ee3224; }
+    background: red; }
 
 .node-knowledge-object .field-name-body {
   border-bottom: none;
