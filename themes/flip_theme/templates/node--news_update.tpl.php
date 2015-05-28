@@ -77,38 +77,64 @@
  * @see template_preprocess_node()
  * @see template_process()
  */
+
 ?>
 
 
 <div class="news-item">
-
+<a href="/news-and-events"><i style="margin-right: 3px; font-size: 12px;" class="icon-chevron-right"></i> back to news</a>
 
 <?php if (!$is_front): ?>
   <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
-  <div class="nodewrapper">
-          
-      
+    <div class="nodewrapper">
 
-    <div class="contentarticle"<?php print $content_attributes; ?>>
-        
-        <div class="event-image">
+      <div class="clearfix"></div>
+
+<div class="contentarticle clearfix"<?php print $content_attributes; ?>>
             <?php
-              print render ($node->field_featured_image);
+              // We hide the comments and links now so that we can render them below.
+              //hide($content['comments']);
+              //hide($content['links']);
             ?>
-          </div>
-        
-      <?php
-        // We hide the comments and links now so that we can render them later.
-        hide($content['comments']);
-        hide($content['links']);
-        print render($content);
-      ?>
+<div class="row rmit-news-content">
+  <div class="span3 rmit-event-image">
+    <?='<img src="'.image_style_url('large', $node->field_featured_image['und'][0]['uri']).'" />'?>); ?>
+  </div>
+  <div class="span9 rmit-title">
+              <?php print render($title_prefix); ?>
+
+               <h1<?php print $title_attributes; ?>> <?php print $title; ?></h1>
+                 <?php /* print '<br/>Posted by ' . $name . $user_picture; */ ?>
+
+              <?php print render($title_suffix); ?>
+<div class="row">
+<div class="span6 event-where">
+          <?php
+              echo "<h5>Date Published</h5>";
+              print "Published: ". gmdate("d-m-Y", $content['body']['#object']->created);
+?>
+</div>
+    <div class="span6 event-when">
+    <?php
+              echo "<h5>When</h5>";
+              print render($content['field_date']); ?>
     </div>
+</div>
 
-    <?php print render($content['links']); ?>
 
-    <?php /* print render($content['comments']); */ ?>
 
+  </div>
+</div>
+<div class="row">
+  <div class="span9 offset3 event-body">
+    <?php print render($content['body']); ?>
+  </div>
+</div>
+</div>
+
+      <?php //print render($content['links']); ?>
+      <?php //print render($content['comments']); ?>
+    </div>
   </article>
 <?php endif; ?>
 
