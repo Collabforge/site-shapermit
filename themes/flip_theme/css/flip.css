@@ -842,6 +842,9 @@ hr.dark-hr {
 .front .news-item {
   display: none; }
 
+#block-block-20 {
+  height: 24px; }
+
 #block-block-20 .btn a.register-interest {
   text-decoration: none;
   color: white;
@@ -854,7 +857,9 @@ hr.dark-hr {
   margin-right: 10px;
   background: red;
   color: #eeeeee !important;
-  padding: 5px 10px 6px 10px; }
+  padding: 5px 7px 6px 7px; }
+#block-block-20 .btn:hover {
+  background: red; }
 
 .node-knowledge-object .field-name-body {
   border-bottom: none;
