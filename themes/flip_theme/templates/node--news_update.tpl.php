@@ -108,24 +108,20 @@
 
               <?php print render($title_suffix); ?>
 <div class="row">
-<div class="span6 news-published">
+<div class="span12 news-published">
           <?php
               print "Published: ". gmdate("d-m-Y", $content['body']['#object']->created);
 ?>
-</div>
-    <div class="span6">
-    </div>
-</div>
-
-
-
-  </div>
-</div>
-<div class="row">
-  <div class="span9 offset3 event-body">
     <?php print render($content['body']); ?>
+</div>
+    
+</div>
+
+
+
   </div>
 </div>
+
 </div>
 
       <?php //print render($content['links']); ?>
