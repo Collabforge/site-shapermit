@@ -817,6 +817,9 @@ li.print_pdf {
   color: #eeeeee !important;
   text-decoration: underline; }
 
+.accordion-content a {
+  color: #333333; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
