@@ -110,8 +110,7 @@
 <div class="row">
 <div class="span6 news-published">
           <?php
-              echo "<h5>Published on:</h5>" print "Published: ". gmdate("d-m-Y", $content['body']['#object']->created);
-              
+              print "Published: ". gmdate("d-m-Y", $content['body']['#object']->created);
 ?>
 </div>
     <div class="span6">
