@@ -889,11 +889,11 @@ a.inline-link {
 .contentarticle img {
   margin: 0 0 20px 0;
   -webkit-border-radius: none !important;
-  -moz-border-radius: 5px;
+  -moz-border-radius: 0px !important;
   border-radius: none !important;
-  -webkit-box-shadow: 0px;
-  -moz-box-shadow: 0px;
-  box-shadow: 0px; }
+  -webkit-box-shadow: 0px !important;
+  -moz-box-shadow: 0px !important;
+  box-shadow: none; }
 
 .node-knowledge-object .field-name-body {
   border-bottom: none;
