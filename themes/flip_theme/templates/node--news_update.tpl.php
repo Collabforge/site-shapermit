@@ -98,7 +98,7 @@
             ?>
 <div class="row rmit-news-content">
   <div class="span3 rmit-event-image">
-    <?='<img src="'.image_style_url('large', $node->field_featured_image['und'][0]['uri']).'" />'?>); ?>
+    <?='<img src="'.image_style_url('large', $node->field_featured_image['und'][0]['uri']).'" />'?>
   </div>
   <div class="span9 rmit-title">
               <?php print render($title_prefix); ?>
