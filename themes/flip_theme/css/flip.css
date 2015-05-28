@@ -874,6 +874,9 @@ form#register-your-interest-entityform-edit-form {
 a.inline-link {
   color: #ee3224 !important; }
 
+#block-block-47 .btn a {
+  color: white; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
