@@ -1502,10 +1502,6 @@ ul.etabs li a.active {
   .block-top {
     margin-top: 0px; }
 
-  .region-footer .row-fluid {
-    padding-left: 20px;
-    padding-right: 20px; }
-
   .quote-front {
     margin-top: 0px !important; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
@@ -1614,10 +1610,6 @@ ul.etabs li a.active {
 
   .block-top {
     margin-top: 0px; }
-
-  .region-footer .row-fluid {
-    padding-left: 20px;
-    padding-right: 20px; }
 
   .quote-front {
     margin-top: 0px !important; } }
@@ -1773,10 +1765,6 @@ ul.etabs li a.active {
 
   .block-top {
     margin-top: 0px; }
-
-  .region-footer .row-fluid {
-    padding-left: 20px;
-    padding-right: 20px; }
 
   .quote-front {
     margin-top: 0px !important; } }
