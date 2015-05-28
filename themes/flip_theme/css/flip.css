@@ -1430,7 +1430,7 @@ ul.etabs li a.active {
   .wrapper {
     height: auto !important; }
     .wrapper p {
-      height: auto !important; }
+      min-height: auto !important; }
 
   .img-wrapper {
     padding-bottom: 10px; } }
@@ -1475,7 +1475,7 @@ ul.etabs li a.active {
   .wrapper {
     height: auto !important; }
     .wrapper p {
-      height: auto !important; }
+      min-height: auto !important; }
 
   .img-wrapper {
     padding-bottom: 10px; } }
@@ -1566,7 +1566,7 @@ ul.etabs li a.active {
   .wrapper {
     height: auto !important; }
     .wrapper p {
-      height: auto !important; }
+      min-height: auto !important; }
 
   .img-wrapper {
     padding-bottom: 10px; } }
