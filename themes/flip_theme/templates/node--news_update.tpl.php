@@ -112,7 +112,9 @@
           <?php
               print "Published: ". gmdate("d-m-Y", $content['body']['#object']->created);
 ?>
-    <?php print render($content['body']); ?>
+    <div class="news-body">
+        <?php print render($content['body']); ?>
+    </div>
 </div>
     
 </div>
