@@ -823,6 +823,11 @@ li.print_pdf {
 .light-block a {
   color: #333333 !important; }
 
+hr.dark-hr {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-bottom: 1px solid #444444 !important; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
