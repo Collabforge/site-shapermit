@@ -815,6 +815,10 @@ li.print_pdf {
   font-size: 13px;
   color: gray; }
 
+.dark-anchor {
+  color: #333333 !important;
+  text-decoration: underline; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
