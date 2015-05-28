@@ -911,6 +911,18 @@ a.inline-link {
   padding-top: 30px;
   padding-bottom: 50px; }
 
+.the-story-info-blocks-title {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 25%;
+  height: 404px;
+  background: #f2f2f2;
+  color: #333333; }
+
+.the-story-info-blocks {
+  width: 25%;
+  margin-left: 0px; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
