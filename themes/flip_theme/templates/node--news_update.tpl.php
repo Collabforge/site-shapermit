@@ -108,16 +108,13 @@
 
               <?php print render($title_suffix); ?>
 <div class="row">
-<div class="span6 event-where">
+<div class="span6 news-published">
           <?php
-              echo "<h5>Date Published</h5>";
-              print "Published: ". gmdate("d-m-Y", $content['body']['#object']->created);
+              echo "<h5>Published on:</h5>" print "Published: ". gmdate("d-m-Y", $content['body']['#object']->created);
+              
 ?>
 </div>
-    <div class="span6 event-when">
-    <?php
-              echo "<h5>When</h5>";
-              print render($content['field_date']); ?>
+    <div class="span6">
     </div>
 </div>
 
