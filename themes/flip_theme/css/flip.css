@@ -929,6 +929,18 @@ a.inline-link {
 .backstory-loomio {
   min-height: 596px; }
 
+.front-feed a {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.5px; }
+
+.upcoming-main {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.5px; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
