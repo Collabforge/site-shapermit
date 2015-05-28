@@ -861,6 +861,10 @@ hr.dark-hr {
   #block-block-20 .btn a.register-interest:hover {
     background: red; }
 
+form#register-your-interest-entityform-edit-form {
+  background: #f2f2f2;
+  padding: 20px; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
