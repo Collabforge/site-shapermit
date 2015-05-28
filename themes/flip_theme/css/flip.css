@@ -828,16 +828,19 @@ hr.dark-hr {
   margin-bottom: 0px;
   border-bottom: 1px solid #444444 !important; }
 
-.front-feed a {
+.front-feed {
   color: #eeeeee; }
-  .front-feed a:before {
+  .front-feed:before {
     font-family: FontAwesome;
     font-size: 11px;
     content: "\f054";
     margin-right: 5px;
     display: inline-block; }
-    .front-feed a:before:hover {
+    .front-feed:before:hover {
       text-decoration: none !important; }
+
+.front .news-item {
+  display: none; }
 
 .node-knowledge-object .field-name-body {
   border-bottom: none;
