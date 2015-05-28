@@ -1500,7 +1500,7 @@ ul.etabs li a.active {
     margin-right: auto !important; }
 
   .block-top {
-    margin-top: 0px; }
+    margin-top: 0px !important; }
 
   .quote-front {
     margin-top: 0px !important; } }
@@ -1609,7 +1609,7 @@ ul.etabs li a.active {
     margin-right: auto !important; }
 
   .block-top {
-    margin-top: 0px; }
+    margin-top: 0px !important; }
 
   .quote-front {
     margin-top: 0px !important; } }
@@ -1764,7 +1764,7 @@ ul.etabs li a.active {
     margin-right: auto !important; }
 
   .block-top {
-    margin-top: 0px; }
+    margin-top: 0px !important; }
 
   .quote-front {
     margin-top: 0px !important; } }
