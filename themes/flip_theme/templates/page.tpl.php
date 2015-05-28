@@ -103,22 +103,28 @@ jQuery(document).ready(function($) {
           
           
         <div id="logo" class="span6 site-logo visible-desktop hidden-phone"> 
+            <a href=""> <img class="logo-secondary" src="/sites/default/themes/flip_theme/img/rmit-logo.png"></a>
             <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><img src="/sites/default/themes/flip_theme/img/shape-rmit-logo.png"> </a>
-        </div>    
+             
+            
           
-        <?php if ($page['search_box']): ?>
-        <div id="search-box" class="span3 last"> <?php print render($page['search_box']); ?>
+        
+          
+          
+          
+          
+      
+             
+        </div>
+     
+          <div class="span3" style="float: right;">
+          
+          <?php if ($page['search_box']): ?>
+        <div id="search-box"> <?php print render($page['search_box']); ?>
         </div>
         <?php endif; ?>
-          
-          
-          
-          
-        <?php if ($page['header_top_middle']): ?> 
-        <div id="header_top_middle" class="span3"> <a href="https://www.rmit.edu.au/" target="_blank"> <img src="/sites/default/themes/flip_theme/img/rmit-logo.png"></a>
-    <?php print render($page['header_top_middle']); ?>
-        </div>
-        <?php endif; ?>
+              
+          </div>
       </div>
         
         
