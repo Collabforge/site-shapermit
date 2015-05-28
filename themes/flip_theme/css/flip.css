@@ -855,11 +855,11 @@ hr.dark-hr {
   font-size: 0.85714em;
   color: #adadad !important;
   margin-right: 10px;
-  background: red;
+  background: #ee3224;
   color: #eeeeee !important;
   padding: 5px 7px 6px 7px; }
-#block-block-20 .btn:hover {
-  background: red; }
+  #block-block-20 .btn a.register-interest:hover {
+    background: #ee3224; }
 
 .node-knowledge-object .field-name-body {
   border-bottom: none;
