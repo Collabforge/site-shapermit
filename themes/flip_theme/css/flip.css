@@ -944,6 +944,16 @@ a.inline-link {
   font-size: 14px;
   letter-spacing: 0.5px; }
 
+.node-event-form {
+  background: #f2f2f2;
+  padding: 20px;
+  margin-top: 20px; }
+
+.node-news_update-form {
+  background: #f2f2f2;
+  padding: 20px;
+  margin-top: 20px; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
