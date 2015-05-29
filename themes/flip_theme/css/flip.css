@@ -2041,5 +2041,9 @@ ul.etabs li a.active {
 
   .img-wrap img {
     margin-bottom: 5px;
-    width: 40% !important;
-    height: 40% !important; } }
+    width: 100% !important;
+    height: 100% !important; }
+
+  .the-story-info-blocks .wrapper {
+    height: auto !important;
+    width: 100% !important; } }
