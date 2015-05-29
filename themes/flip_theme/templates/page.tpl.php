@@ -34,18 +34,18 @@ if ((($user->uid) && ($page['admin_shortcuts'])) || (($user->uid) && ($secondary
 
 
 
-<script type='text/javascript' src='http://os.alfajango.com/js/jquery.scrollTo.js'></script>
-<script type='text/javascript' src='http://os.alfajango.com/js/jquery.toc.min.js'></script>
-<script type='text/javascript' src='http://os.alfajango.com/js/jquery.sharrre-1.2.0.min.js'></script>
-<script type='text/javascript' src='http://os.alfajango.com/js/jquery.ba-hashchange.js'></script>
-<script type='text/javascript' src='http://os.alfajango.com/js/jquery.easytabs.min.js'></script>
-<script type='text/javascript' src='http://os.alfajango.com/js/raptorize/jquery.raptorize.1.0.js'></script>
-<script type='text/javascript' src='http://os.alfajango.com/js/jquery.easing.1.3.js'></script>
+<script type='text/javascript' src='/profiles/collabco/themes/collabco_theme/js/jquery.scrollTo.js'></script>
+<script type='text/javascript' src='/profiles/collabco/themes/collabco_theme/js/jquery.toc.min.js'></script>
+<script type='text/javascript' src='/profiles/collabco/themes/collabco_theme/js/jquery.sharrre-1.2.0.min.js'></script>
+<script type='text/javascript' src='/profiles/collabco/themes/collabco_theme/js/jquery.ba-hashchange.js'></script>
+<script type='text/javascript' src='/profiles/collabco/themes/collabco_theme/js/jquery.easytabs.min.js'></script>
+<script type='text/javascript' src='/profiles/collabco/themes/collabco_theme/js/jquery.raptorize.1.0.js'></script>
+<script type='text/javascript' src='/profiles/collabco/themes/collabco_theme/js/jquery.easing.1.3.js'></script>
 
 <div class="ui-mobile-menu visible-phone hidden-desktop">
 
   <div id="tab-container" class="tab-container">
-    
+
       <div class="tab_logo tab"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"> &nbsp; </a></div>
     <ul class="etabs">
       <li class="tab"><a href="#tabs1-menu" class="icon-reorder icon-2x">&nbsp;</a></li>
@@ -54,19 +54,19 @@ if ((($user->uid) && ($page['admin_shortcuts'])) || (($user->uid) && ($secondary
     </ul>
 
     <div class="ui-tab-content" id="tabs1-menu">
-      <?php echo $mobile['block_menu']; ?>
+      <?php print $mobile['block_menu']; ?>
     </div>
-   
-    
+
+
     <div class="ui-tab-content" id="tabs1-search">
       <?php echo $mobile['block_search']; ?>
     </div>
 
      <div class="ui-tab-content" id="tabs1-profile">
-      <?php echo $mobile['block_profile']; ?>
+      <ul><li>Michael is dumb</li></ul>
     </div>
-    
-  
+
+
   </div>
 
 </div>
@@ -80,7 +80,7 @@ jQuery(document).ready(function($) {
     }).bind('easytabs:after', function() {
       $('html, body').animate({
         scrollTop: $(this).offset().top
-      }, 0);      
+      }, 0);
     });
     $('.ui-tab-content').height($(window).height());
     $('.ui-mobile-menu .etabs').height('50');
@@ -93,78 +93,78 @@ jQuery(document).ready(function($) {
 <?php if (($page['header_top_middle']) || ($page['search_box']) || ($page['header_bottom_left']) || ($page['header_bottom_right'])): ?>
   <div id="header"  class="clearfix header visible-desktop hidden-phone" role="banner">
     <div class="container" id="header_container">
-        
-        
-        
-        
-        
-      <div class="row-fluid" id="header_top" > 
-          
-          
-          
-        <div id="logo" class="span6 site-logo visible-desktop hidden-phone"> 
+
+
+
+
+
+      <div class="row-fluid" id="header_top" >
+
+
+
+        <div id="logo" class="span6 site-logo visible-desktop hidden-phone">
             <a href="https://shapermit.collabcoapp.com/"> <img src="/sites/default/themes/flip_theme/img/rmit-logo.png"></a>
             <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><img class="logo-secondary" src="/sites/default/themes/flip_theme/img/shape-rmit-logo.png"> </a>
-             
-            
-          
-        
-          
-          
-          
-          
-      
-             
+
+
+
+
+
+
+
+
+
+
         </div>
-     
+
           <div class="span3" style="float: right;">
-          
+
           <?php if ($page['search_box']): ?>
         <div id="search-box"> <?php print render($page['search_box']); ?>
         </div>
         <?php endif; ?>
-              
+
           </div>
       </div>
-        
-        
-        
 
-        
+
+
+
+
       <div class="row-fluid" id="header_bottom">
-          
-          
-        <?php if ($page['header_bottom_right']): ?> 
-        <div id="header_bottom_right" class="span2 last"><?php print render($page['header_bottom_right']); ?>
-            
-            
-            
 
-            
-            
-            
+
+        <?php if ($page['header_bottom_right']): ?>
+        <div id="header_bottom_right" class="span2 last"><?php print render($page['header_bottom_right']); ?>
+
+
+
+
+
+
+
         </div>
         <?php endif; ?>
-          
-          
-        <?php if ($page['header_bottom_left']): ?>  
+
+
+        <?php if ($page['header_bottom_left']): ?>
         <div class="span10 nav-span"> <?php print render($page['header_bottom_left']); ?>
         </div>
         <?php endif; ?>
 
-          
+
       </div>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+
+
+
+
+
+
+
+
+
+
+
     </div>
   </div>
 
@@ -174,7 +174,7 @@ jQuery(document).ready(function($) {
    </div>
 
    <?php endif; ?>
-        <!-- /#header-content -->   
+        <!-- /#header-content -->
 <?php endif; ?>
 <!-- End of new Header Top block -->
 
@@ -183,8 +183,8 @@ jQuery(document).ready(function($) {
     <?php if ($breadcrumb): ?>
     <div id="breadcrumb"><?php print $breadcrumb; ?></div>
     <?php endif; ?>
-    
-    
+
+
     <?php if ($page['main_top']): ?>
     <div id="main-top" class="row-fluid main-top"> <?php print render($page['main_top']); ?> </div>
     <?php endif; ?>
