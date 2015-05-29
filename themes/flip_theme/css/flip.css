@@ -979,6 +979,8 @@ a.inline-link {
   display: inline-block; }
 .page-search .search-results {
   padding-bottom: 10px; }
+  .page-search .search-results li {
+    border-bottom: 0px; }
   .page-search .search-results .search-info {
     display: none; }
 .page-search fieldset#edit-advanced {
