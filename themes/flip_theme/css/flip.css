@@ -2037,4 +2037,9 @@ ul.etabs li a.active {
 
   body {
     padding-left: 0px !important;
-    padding-right: 0px !important; } }
+    padding-right: 0px !important; }
+
+  .img-wrap img {
+    margin-bottom: 5px;
+    width: 40% !important;
+    height: 40% !important; } }
