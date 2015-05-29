@@ -976,6 +976,8 @@ a.inline-link {
   padding-bottom: 10px; }
   .page-search .search-results .search-info {
     display: none; }
+.page-search fieldset#edit-advanced {
+  display: none; }
 
 .node-knowledge-object .field-name-body {
   border-bottom: none;
