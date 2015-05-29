@@ -975,7 +975,8 @@ a.inline-link {
   font-family: FontAwesome;
   font-size: 14px;
   margin-right: 7px;
-  color: #ee3224; }
+  color: #ee3224;
+  display: inline-block; }
 .page-search .search-results {
   padding-bottom: 10px; }
   .page-search .search-results .search-info {
