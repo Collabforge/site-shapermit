@@ -968,6 +968,8 @@ a.inline-link {
   padding: 20px; }
 .page-search li.search-result h3.title a {
   color: #333333; }
+.page-search li.search-result h3.title:hover {
+  text-decoration: underline; }
 .page-search li.search-result h3.title:before {
   content: "\f054";
   font-family: FontAwesome;
