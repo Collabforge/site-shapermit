@@ -63,7 +63,7 @@ if ((($user->uid) && ($page['admin_shortcuts'])) || (($user->uid) && ($secondary
     </div>
 
      <div class="ui-tab-content" id="tabs1-profile">
-      <ul><li>Michael is dumb</li></ul>
+      <?php echo $mobile['block_profile']; ?>
     </div>
 
 
