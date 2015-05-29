@@ -1842,7 +1842,7 @@ ul.etabs li a.active {
   iframe {
     width: 100% !important;
     height: 400px !important; } }
-@media only and (min-width: 1px) and (max-width: 1024px) {
+@media (max-width: 767px) {
   .container {
     width: 100%; }
 
@@ -1873,7 +1873,7 @@ ul.etabs li a.active {
   iframe {
     width: 100% !important;
     height: 400px !important; } }
-@media only and (min-width: 1px) and (max-width: 1024px) {
+@media (max-width: 767px) {
   .container {
     width: 100%; }
 
