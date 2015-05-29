@@ -2064,4 +2064,7 @@ ul.etabs li a.active {
 
   .the-story-info-blocks .wrapper {
     height: auto !important;
-    width: 100% !important; } }
+    width: 100% !important; }
+
+  .description {
+    display: none !important; } }
