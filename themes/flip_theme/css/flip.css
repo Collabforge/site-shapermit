@@ -958,6 +958,25 @@ a.inline-link {
   border-top: 2px solid red;
   margin-top: 13px; }
 
+.page-search #main-content {
+  background: #f2f2f2;
+  margin-top: 30px;
+  margin-bottom: 20px; }
+.page-search #content {
+  width: 960px; }
+.page-search #content-upper .content {
+  padding: 20px; }
+.page-search li.search-result h3.title:before {
+  content: "\f054";
+  font-family: FontAwesome;
+  font-size: 14px;
+  margin-right: 7px;
+  color: #ee3224; }
+.page-search .search-results {
+  padding-bottom: 10px; }
+  .page-search .search-results .search-info {
+    display: none; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
