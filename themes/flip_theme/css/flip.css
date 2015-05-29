@@ -1550,7 +1550,10 @@ ul.etabs li a.active {
 
   .the-story-info-blocks .wrapper {
     height: auto !important;
-    width: 100% !important; } }
+    width: 100% !important; }
+
+  .mobile-padding-front-span {
+    padding-left: 10px; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
   .front-call {
     height: 300px !important; }
@@ -1665,7 +1668,10 @@ ul.etabs li a.active {
     margin-bottom: 20px; }
 
   #block-block-49 {
-    background: #f2f2f2; } }
+    background: #f2f2f2; }
+
+  .mobile-padding-front-span {
+    padding-left: 10px; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
   .container {
     width: 100%; }
@@ -1838,7 +1844,10 @@ ul.etabs li a.active {
 
   .the-story-info-blocks .wrapper {
     height: auto !important;
-    width: 100% !important; } }
+    width: 100% !important; }
+
+  .mobile-padding-front-span {
+    padding-left: 10px; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   .container {
     width: 100%; }
