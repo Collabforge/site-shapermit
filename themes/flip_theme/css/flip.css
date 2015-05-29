@@ -954,6 +954,10 @@ a.inline-link {
   padding: 20px;
   margin-top: 20px; }
 
+.quote-front:hover {
+  border-top: 2px solid red;
+  margin-top: 13px; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
