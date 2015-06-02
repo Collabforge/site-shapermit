@@ -835,14 +835,14 @@ hr.dark-hr {
 
 .front-feed a {
   color: #eeeeee; }
-.front-feed:before {
-  font-family: FontAwesome;
-  font-size: 11px;
-  content: "\f054";
-  margin-right: 5px;
-  display: inline-block; }
-  .front-feed:before:hover {
-    text-decoration: none !important; }
+  .front-feed a:before {
+    font-family: FontAwesome;
+    font-size: 11px;
+    content: "\f054";
+    margin-right: 5px;
+    display: inline-block; }
+    .front-feed a:before:hover {
+      text-decoration: none !important; }
 
 .front .news-item {
   display: none; }
