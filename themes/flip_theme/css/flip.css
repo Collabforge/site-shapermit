@@ -483,8 +483,7 @@ ul.menu a:hover {
     opacity: 0.8; }
 
 .front .icon-chevron-right:before {
-  content: "\f054";
-  margin-right: 7px; }
+  content: "\f054"; }
 
 .next-five-bottom {
   margin-top: 25px; }
