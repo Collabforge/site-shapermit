@@ -360,7 +360,8 @@ ul.menu a:hover {
   background-position: -10px 50px; }
 
 #block-block-15 .row-fluid {
-  border-top: 1px solid #c7c7c7; }
+  border-top: 0px;
+  margin-left: 10px; }
 
 #search-box {
   padding-top: 15px;
