@@ -350,7 +350,7 @@ ul.menu a:hover {
   margin-bottom: -3px; }
 
 .site-footer {
-  margin-top: 10px;
+  margin-top: 0px;
   margin-bottom: 10px; }
 
 #main {
@@ -992,6 +992,9 @@ a.inline-link {
   height: 50px;
   background-size: contain;
   background-repeat: no-repeat; }
+
+#footer .container {
+  width: 980px; }
 
 .node-knowledge-object .field-name-body {
   border-bottom: none;
