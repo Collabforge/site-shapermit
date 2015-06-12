@@ -1015,6 +1015,82 @@ a.inline-link {
   margin-left: 0px;
   margin-bottom: 20px; }
 
+.node-type-book .mc-content.span9 {
+  width: 66%;
+  float: right;
+  position: relative; }
+
+.node-type-book ul.menu a:hover {
+  background-color: transparent;
+  color: inherit;
+  text-decoration: underline; }
+
+.node-type-book ul.links.inline {
+  display: none; }
+
+input.form-submit.form-btn-success {
+  color: white;
+  text-shadow: none;
+  background-color: #5bb75b;
+  background-image: none;
+  background-repeat: no-repeat;
+  border-color: transparent;
+  filter: none;
+  border-radius: 0px;
+  float: right; }
+
+.node-type-book input#edit-preview {
+  display: none; }
+
+.node-type-book .form-item.form-type-checkbox.form-item-notify {
+  display: none; }
+
+.node-type-book #comment-form {
+  position: relative;
+  padding: 15px 15px 15px 0px;
+  background-color: transparent;
+  margin-left: 0px; }
+
+.node-type-book #comment-form:after {
+  display: none; }
+
+.node-type-book h2.title.comment-form {
+  margin-top: -40px;
+  margin-bottom: -20px; }
+
+.node-type-book .comment-wrapper {
+  background-color: white;
+  padding: 0px; }
+
+.node-type-book #comments h2 {
+  padding: 0px; }
+
+.node-type-book .nav-tabs {
+  padding-bottom: 5px;
+  margin-top: 50px;
+  border: 0px; }
+
+.node-type-book .node-book {
+  margin-top: -30px; }
+
+.node-type-book .nav-tabs > .active > a, .nav-tabs > .active > a:hover, .nav-tabs > .active > a:focus {
+  color: #555555;
+  background-color: transparent;
+  border: 0px;
+  border-bottom-color: transparent;
+  cursor: default; }
+
+.node-type-book .form-textarea-wrapper textarea {
+  display: block;
+  margin: 0;
+  border-radius: 0px;
+  box-shadow: none;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  min-height: 200px; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
