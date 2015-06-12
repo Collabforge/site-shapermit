@@ -1007,6 +1007,14 @@ a.inline-link {
 .node-type-book #content-head .tabs {
   display: block; }
 
+.node-type-book #main-content {
+  margin-top: 40px;
+  background-color: white;
+  padding: 0px 40px 40px 40px;
+  overflow: hidden;
+  margin-left: 0px;
+  margin-bottom: 20px; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
