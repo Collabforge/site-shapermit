@@ -1112,8 +1112,8 @@ input.form-submit.form-btn-success {
   -webkit-border-radius: 4px 4px 0 0;
   -moz-border-radius: 4px 4px 0 0;
   border-radius: 0px;
-  background-color: #333333;
-  color: #eeeeee; }
+  background-color: transparent;
+  color: inherit; }
 
 .node-type-book .nav-tabs > .active > a {
   color: #eeeeee;
@@ -1124,7 +1124,7 @@ input.form-submit.form-btn-success {
 
 .node-type-book ul.nav.nav-tabs a:hover {
   text-decoration: none;
-  background-color: #333333;
+  background-color: transparent;
   padding-top: 15px; }
 
 #block-book-explorer-book-explorer a {
