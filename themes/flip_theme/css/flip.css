@@ -1199,6 +1199,9 @@ input.form-submit.form-btn-danger {
   background-image: none;
   filter: none; }
 
+.node-type-book #cke_1_contents {
+  min-height: 400px; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
