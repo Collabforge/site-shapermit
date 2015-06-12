@@ -1173,16 +1173,8 @@ input.form-submit.form-btn-danger {
   border-radius: 0px;
   border: 0px; }
 
-input.form-submit {
-  color: white;
-  text-shadow: none;
-  background-color: #da4f49;
-  background-image: none;
-  background-repeat: no-repeat;
-  border-color: none;
-  filter: none;
-  border-radius: 0px;
-  border: 0px; }
+#edit-preview-changes {
+  display: none; }
 
 .node-knowledge-object .field-name-body {
   border-bottom: none;
