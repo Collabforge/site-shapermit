@@ -1047,7 +1047,7 @@ input.form-submit.form-btn-success {
 
 .node-type-book #comment-form {
   position: relative;
-  padding: 15px 15px 15px 0px;
+  padding: 15px 0px 15px 0px;
   background-color: transparent;
   margin-left: 0px; }
 
@@ -1090,6 +1090,17 @@ input.form-submit.form-btn-success {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   min-height: 200px; }
+
+.node-type-book .form-item label {
+  font-weight: normal;
+  display: none; }
+
+.node-book .contentarticle {
+  margin-top: 12px; }
+
+.node-type-book #comments {
+  margin-top: 40px;
+  padding-right: 0px; }
 
 .node-knowledge-object .field-name-body {
   border-bottom: none;
