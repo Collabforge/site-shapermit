@@ -1010,7 +1010,7 @@ a.inline-link {
 .node-type-book #main-content {
   margin-top: 40px;
   background-color: white;
-  padding: 0px 50px 20px 30px;
+  padding: 0px 50px 20px 0px;
   overflow: hidden;
   margin-left: 0px;
   margin-bottom: 20px; }
@@ -1096,11 +1096,47 @@ input.form-submit.form-btn-success {
   display: none; }
 
 .node-book .contentarticle {
-  margin-top: 12px !important; }
+  margin-top: 12px !important;
+  border: 0px; }
 
 .node-type-book #comments {
-  margin-top: 40px;
+  margin-top: 70px;
   padding-right: 0px; }
+
+.node-type-book .nav-tabs > li > a {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  line-height: 20px;
+  border: 0px;
+  -webkit-border-radius: 4px 4px 0 0;
+  -moz-border-radius: 4px 4px 0 0;
+  border-radius: 0px;
+  background-color: #333333;
+  color: #eeeeee; }
+
+.node-type-book .nav-tabs > .active > a {
+  color: #eeeeee;
+  background-color: #ee3224;
+  border: 0px;
+  border-bottom-color: transparent;
+  cursor: default; }
+
+.node-type-book .nav > li > a:hover {
+  text-decoration: none;
+  background-color: #333333;
+  padding-top: 15px; }
+
+#block-book-explorer-book-explorer a {
+  color: inherit; }
+
+.book-navigation .page-links a {
+  color: #333333; }
+
+#sidebar-first {
+  background-color: white;
+  outline: 1px solid #eaeaea;
+  float: right;
+  padding-top: 20px; }
 
 .node-knowledge-object .field-name-body {
   border-bottom: none;
