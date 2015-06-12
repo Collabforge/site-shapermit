@@ -1139,6 +1139,9 @@ input.form-submit.form-btn-success {
   float: right;
   padding-top: 20px; }
 
+#block-book-explorer-book-explorer a:hover {
+  color: #333333 !important; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
