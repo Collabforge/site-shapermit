@@ -1142,6 +1142,11 @@ input.form-submit.form-btn-success {
 #block-book-explorer-book-explorer a:hover {
   color: #333333 !important; }
 
+.node-type-book ul.nav.nav-tabs .active a:hover {
+  text-decoration: none;
+  background-color: #ee3224;
+  padding-top: 8px; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
