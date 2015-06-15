@@ -1333,6 +1333,9 @@ a.book-explorer-toggle.book-explorer-expanded {
     padding: 30px 40px 30px 40px;
     max-width: 960px; }
 
+a.book-title {
+  font-size: 18px; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
