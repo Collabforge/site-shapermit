@@ -1313,9 +1313,11 @@ blockquote > p:first-child {
   vertical-align: middle;
   padding-bottom: 0px; }
 
-.book-explorer-toggle a:hover {
-  color: #333333 !important;
-  text-decoration: none; }
+a.book-explorer-toggle.book-explorer-collapsed {
+  text-decoration: none !important; }
+
+a.book-explorer-toggle.book-explorer-expanded {
+  text-decoration: none !important; }
 
 .node-knowledge-object .field-name-body {
   border-bottom: none;
