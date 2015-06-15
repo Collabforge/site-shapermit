@@ -1105,19 +1105,27 @@ li.book_add_child.first a
   font-weight: 400 !important
 
 blockquote
-  background: #f9f9f9
-  border-left: 10px solid #ccc
-  margin: 1.5em 10px
+  background: none
+  border-left: 5px solid #ddd
+  margin: 1.5em 0px
   padding: 0.5em 10px
-  quotes: "\201C""\201D""\2018""\2019"
+  quotes: "\201C" "\201D" "\2018" "\2019"
 
 blockquote:before
-  color: #ccc
+  color: #cccccc
   content: open-quote
-  font-size: 4em
+  font-size: 50px
   line-height: 0.1em
-  margin-right: 0.25em
-  vertical-align: -0.4em
+  margin-right: 5px
+  vertical-align: -0.46em
 
 blockquote p 
   display: inline
+  margin-bottom: 0
+  font-size: inherit
+  font-weight: 400
+
+blockquote > p:first-child
+  padding-left: 0px
+  text-indent: 0px
+  line-height: inherit
