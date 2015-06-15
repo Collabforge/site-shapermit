@@ -1281,6 +1281,21 @@ blockquote > p:first-child {
   text-indent: 0px;
   line-height: inherit; }
 
+.page-node-order .block-book-explorer {
+  display: none; }
+
+#book-helper-admin-edit #edit-save {
+  margin-top: 20px;
+  margin-left: 0px;
+  border-radius: 0px;
+  background-image: none;
+  background-color: #5bb75b;
+  text-shadow: none;
+  color: white;
+  border: none; }
+  #book-helper-admin-edit #edit-save:hover {
+    background-color: #51a351; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
