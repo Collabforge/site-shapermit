@@ -1123,9 +1123,8 @@ input.form-submit.form-btn-success {
   cursor: default; }
 
 .node-type-book ul.nav.nav-tabs a:hover {
-  text-decoration: none;
-  background-color: transparent;
-  padding-top: 15px; }
+  text-decoration: underline;
+  background-color: transparent; }
 
 #block-book-explorer-book-explorer a {
   color: inherit; }
