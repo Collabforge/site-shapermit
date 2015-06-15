@@ -1304,7 +1304,8 @@ blockquote > p:first-child {
   margin-bottom: 0;
   display: flex; }
 .page-node-order td {
-  vertical-align: middle; }
+  vertical-align: middle;
+  padding-bottom: 0px; }
 
 .node-knowledge-object .field-name-body {
   border-bottom: none;
