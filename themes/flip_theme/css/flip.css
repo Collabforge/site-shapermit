@@ -1313,6 +1313,10 @@ blockquote > p:first-child {
   vertical-align: middle;
   padding-bottom: 0px; }
 
+.book-explorer-toggle a:hover {
+  color: #333333 !important;
+  text-decoration: none; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
