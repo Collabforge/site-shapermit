@@ -1296,6 +1296,14 @@ blockquote > p:first-child {
   #book-helper-admin-edit #edit-save:hover {
     background-color: #51a351; }
 
+.page-node-order .checkbox {
+  min-height: 20px;
+  padding-left: 30px; }
+.page-node-order tr.even .form-item {
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
