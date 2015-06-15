@@ -9,7 +9,13 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.4em;
-  letter-spacing: normal; }
+  letter-spacing: normal;
+  background-image: url("/sites/default/themes/flip_theme/img/background-abstract-placeholder.png");
+  /* background-size: 100%; */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: -10px 215px; }
 
 p {
   line-height: 1.4em;
@@ -352,12 +358,6 @@ ul.menu a:hover {
 .site-footer {
   margin-top: 0px;
   margin-bottom: 10px; }
-
-#main {
-  background-image: url("/sites/default/themes/flip_theme/img/background-abstract-placeholder.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: -10px 50px; }
 
 #block-block-15 .row-fluid {
   border-top: 0px;
