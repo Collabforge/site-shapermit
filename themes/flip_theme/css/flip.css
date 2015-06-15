@@ -1236,6 +1236,9 @@ li.book_add_child.first a {
   max-width: 960px;
   margin-top: 10px; }
 
+#sidebar-first .block-book-helper {
+  display: none; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
