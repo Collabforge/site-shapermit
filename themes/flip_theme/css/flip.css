@@ -1101,7 +1101,7 @@ input.form-submit.form-btn-success {
   padding: 10px 30px 0px 0px !important; }
 
 .node-type-book #comments {
-  margin-top: 70px;
+  margin-top: 100px;
   padding-right: 0px; }
 
 .node-type-book .nav-tabs > li > a {
@@ -1238,6 +1238,10 @@ li.book_add_child.first a {
 
 #sidebar-first .block-book-helper {
   display: none; }
+
+.node-type-book .field.field-name-body.field-type-text-with-summary.field-label-hidden {
+  margin-bottom: 0px;
+  padding-bottom: 5px; }
 
 .node-knowledge-object .field-name-body {
   border-bottom: none;
