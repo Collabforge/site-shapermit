@@ -1204,6 +1204,17 @@ input.form-submit.form-btn-danger {
 textarea#edit-comment-body-und-0-value:focus {
   border: 1px solid #aaaaaa; }
 
+.node-type-book .resizable-textarea .grippie {
+  display: none; }
+
+.cke_editable p {
+  padding: 10px; }
+
+.cke_editable {
+  cursor: text;
+  background-color: #eeeeee;
+  background-color: white; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
