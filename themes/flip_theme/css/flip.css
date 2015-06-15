@@ -1341,6 +1341,9 @@ a.book-title {
 .node-type-book li.comment_forbidden.first.last {
   display: none; }
 
+.book-explorer a.active {
+  font-weight: 600; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
