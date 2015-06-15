@@ -1299,7 +1299,7 @@ blockquote > p:first-child {
 .page-node-order .checkbox {
   min-height: 20px;
   padding-left: 30px; }
-.page-node-order tr.even .form-item {
+.page-node-order tr .form-item {
   margin-top: 0;
   margin-bottom: 0;
   display: flex; }
