@@ -1229,6 +1229,12 @@ li.book_add_child.first:before {
 li.book_add_child.first a {
   color: inherit; }
 
+.page-node-add-book #main-content #content {
+  background-color: white;
+  padding: 20px;
+  max-width: 960px;
+  margin-top: 10px; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
