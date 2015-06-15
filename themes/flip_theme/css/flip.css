@@ -1025,9 +1025,8 @@ a.inline-link {
   color: inherit;
   text-decoration: underline; }
 
-.node-type-book ul.links.inline {
-  display: none; }
-
+/*.node-type-book ul.links.inline
+ * display: none */
 input.form-submit.form-btn-success {
   color: white;
   text-shadow: none;
