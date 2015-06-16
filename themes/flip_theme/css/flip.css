@@ -1358,11 +1358,7 @@ h2.title.comment-form {
   margin-bottom: 0px; }
 
 #comments .user-picture img {
-  border-radius: 0px;
-  border: 0px; }
-
-#comments .user-picture {
-  padding: 10px 0px 0px 0px; }
+  border-radius: 0px; }
 
 #comments .submitted {
   padding-right: 20px !important; }
