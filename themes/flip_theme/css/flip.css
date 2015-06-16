@@ -1400,6 +1400,9 @@ h2.title.comment-form {
   border-radius: 0px;
   box-shadow: none; }
 
+.page-comment-reply .comment_bubble a {
+  color: #333333 !important; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
