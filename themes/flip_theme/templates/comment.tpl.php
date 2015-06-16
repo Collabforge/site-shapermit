@@ -74,6 +74,7 @@
 
     <div class="submitted">
       <?php print $permalink; ?>
+        
       <?php print $author; ?>
     </div>
   </div>
