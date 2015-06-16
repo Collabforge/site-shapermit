@@ -1351,6 +1351,9 @@ a.book-title {
   padding-bottom: 40px;
   background: none !important; }
 
+h2.title.comment-form {
+  margin-top: 60px !important; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
