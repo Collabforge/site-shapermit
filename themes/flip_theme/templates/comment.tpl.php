@@ -61,7 +61,7 @@
 ?>
 
 <div class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
-  <div class="span4 first comment_profile">
+  <div class="span3 first comment_profile">
     <?php print $picture ?>
 
     <?php if ($new): ?>
@@ -78,7 +78,7 @@
     </div>
   </div>
 
-  <div class="comment_bubble span8 last">
+  <div class="comment_bubble span9 last">
     <div class="content"<?php print $content_attributes; ?>>
       <?php
         // We hide the comments and links now so that we can render them later.
