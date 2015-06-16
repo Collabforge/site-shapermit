@@ -1013,7 +1013,8 @@ a.inline-link {
   padding: 0px 50px 20px 0px;
   overflow: hidden;
   margin-left: 0px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  min-height: 650px; }
 
 .node-type-book .mc-content.span9 {
   width: 67%;
@@ -1067,7 +1068,8 @@ input.form-submit.form-btn-success {
 .node-type-book .nav-tabs {
   padding-bottom: 5px;
   margin-top: 50px;
-  border: 0px; }
+  border: 0px;
+  margin-bottom: -10px; }
 
 .node-type-book .node-book {
   margin-top: -30px;
@@ -1343,6 +1345,11 @@ a.book-title {
 
 .book-explorer a.active {
   font-weight: 600; }
+
+.ui-login-forms .ui-footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: none !important; }
 
 .node-knowledge-object .field-name-body {
   border-bottom: none;
