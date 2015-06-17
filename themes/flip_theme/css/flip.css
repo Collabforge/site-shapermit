@@ -2172,7 +2172,10 @@ ul.etabs li a.active {
 
   .span4.no-border.text-right {
     text-align: center;
-    margin-top: -15px !important; } }
+    margin-top: -15px !important; }
+
+  #footer .container {
+    width: auto; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
   .front-call {
     height: 300px !important; }
