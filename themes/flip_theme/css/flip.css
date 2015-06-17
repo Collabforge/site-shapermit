@@ -1469,6 +1469,11 @@ a.call-to-action-anchor {
     text-decoration: none;
     background-color: red; }
 
+.centre-image-please {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
