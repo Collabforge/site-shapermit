@@ -1539,6 +1539,33 @@ a.call-to-action-anchor {
 #block-block-49 .table-padding-right {
   padding-right: 60px; }
 
+#block-block-50 .accordion-toggle {
+  cursor: pointer;
+  background: whitesmoke; }
+#block-block-50 .accordion-toggle:hover {
+  background: #dddddd; }
+#block-block-50 .accordion-content {
+  display: none;
+  background: #cccccc;
+  height: 200px;
+  overflow: hidden; }
+#block-block-50 .accordion .row {
+  margin-left: 0px; }
+#block-block-50 .accordion-content.default {
+  display: block; }
+#block-block-50 .accordion-img {
+  width: 220px;
+  padding: 20px;
+  margin-top: -10px; }
+#block-block-50 .icon-circle:before {
+  content: "\f111";
+  font-size: 8px;
+  padding-bottom: 0px;
+  margin-left: 7px; }
+#block-block-50 .accordion-content .span7 {
+  padding-left: 10px;
+  padding-top: 5px; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
