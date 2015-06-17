@@ -1564,7 +1564,8 @@ a.call-to-action-anchor {
   margin-left: 7px; }
 #block-block-50 .accordion-content .span7 {
   padding-left: 10px;
-  padding-top: 5px; }
+  padding-top: 5px;
+  padding-right: 15px; }
 
 .hide-mobile-menu-titles p {
   display: none; }
