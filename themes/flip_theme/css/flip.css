@@ -1503,6 +1503,25 @@ a.call-to-action-anchor {
 #block-block-41 .span3.hover:hover {
   background: #1f1f1f; }
 
+#block-block-44 .img-wrap {
+  padding-bottom: 33px; }
+#block-block-44 .description {
+  position: absolute;
+  bottombottom: 0px;
+  left: 0px;
+  display: none;
+  background-color: black;
+  font-family: "tahoma";
+  font-size: 15px;
+  color: #eeeeee;
+  top: 0; }
+#block-block-44 .description_content {
+  padding: 20px;
+  font-size: 12px;
+  font-weight: 700; }
+#block-block-44 .span6.hover:hover {
+  background: #1f1f1f; }
+
 #block-block-49 table {
   min-width: 100%;
   margin-left: 25px;
