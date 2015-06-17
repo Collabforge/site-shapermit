@@ -9,7 +9,7 @@ function flip_theme_preprocess_page(&$vars) {
   $vars['mobile']['block_profile'] = $menu_profile;
 }
 
-function open_framework_form_alter(&$form, &$form_state, $form_id) {
+function flip_theme_form_alter(&$form, &$form_state, $form_id) {
   if ($form_id == 'search_block_form') {
     $form['search_block_form']['#title_display'] = 'invisible';
     $form['search_block_form']['#attributes']['class'][] = 'input-medium search-query';
