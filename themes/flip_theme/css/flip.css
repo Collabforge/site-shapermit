@@ -1448,6 +1448,27 @@ iframe {
   letter-spacing: 0.5px;
   color: #333333; }
 
+a.call-to-action-anchor {
+  width: 100%;
+  background: #dc291e;
+  border: 0px;
+  font-size: 14px;
+  display: inline-block;
+  padding: 4px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  font-family: "Museo-500";
+  border-radius: 4px; }
+  a.call-to-action-anchor:hover {
+    text-decoration: none;
+    background-color: red; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
