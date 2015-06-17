@@ -1474,6 +1474,32 @@ a.call-to-action-anchor {
   margin-left: auto;
   margin-right: auto; }
 
+#block-block-41 .img-wrap {
+  padding-bottom: 33px; }
+#block-block-41 .wrapper {
+  position: relative;
+  height: 370px !important; }
+#block-block-41 .wrapper p {
+  padding-left: 15px;
+  padding-right: 15px;
+  min-height: 95px; }
+#block-block-41 .description {
+  position: absolute;
+  bottombottom: 0px;
+  left: 0px;
+  display: none;
+  background-color: black;
+  font-family: "tahoma";
+  font-size: 15px;
+  color: white;
+  top: 0; }
+#block-block-41 .description_content {
+  padding: 20px;
+  font-size: 12px;
+  font-weight: 700; }
+#block-block-41 .span3.hover:hover {
+  background: #1f1f1f; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
