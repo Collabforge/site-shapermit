@@ -1500,6 +1500,23 @@ a.call-to-action-anchor {
 #block-block-41 .span3.hover:hover {
   background: #1f1f1f; }
 
+#block-block-49 table {
+  min-width: 100%;
+  margin-left: 25px;
+  margin-bottom: 20px;
+  padding-right: 25px;
+  margin-right: -25px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  color: #333333; }
+#block-block-49 td {
+  border: 0px; }
+#block-block-49 tbody {
+  border-top: 0px; }
+#block-block-49 .table-padding-right {
+  padding-right: 60px; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
