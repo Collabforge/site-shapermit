@@ -103,8 +103,8 @@ jQuery(document).ready(function($) {
 
 
         <div id="logo" class="span6 site-logo visible-desktop hidden-phone">
-            <a href="/"> <img src="/sites/default/themes/flip_theme/img/rmit-logo.png"></a>
-            <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><img class="logo-secondary" src="/sites/default/themes/flip_theme/img/shape-rmit-logo.png"> </a>
+            <a href="/"> <img src="/sites/default/themes/flip_theme/img/rmit-logo.png" alt="RMIT logo"></a>
+            <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><img class="logo-secondary" src="/sites/default/themes/flip_theme/img/shape-rmit-logo.png" alt="Shape RMIT logo"> </a>
 
 
 

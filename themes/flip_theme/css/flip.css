@@ -1435,6 +1435,10 @@ h2.title.comment-form {
 .page-comment-reply .comment_bubble a {
   color: #333333 !important; }
 
+a.generic-anchor:hover {
+  text-decoration: underline;
+  color: inherit; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
