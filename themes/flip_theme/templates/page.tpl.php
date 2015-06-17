@@ -5,7 +5,7 @@
     <ul>
       <li><a href="#content" class="element-invisible element-focusable"><?php print t('Skip to content'); ?></a></li>
       <?php if ($main_menu): ?>
-      <li><a href="#main-menu" class="element-invisible element-focusable"><?php print t('Skip to navigation'); ?></a></li>
+      <li><a href="#skip-to-navigation" class="element-invisible element-focusable"><?php print t('Skip to navigation'); ?></a></li>
       <?php endif; ?>
     </ul>
   </div>
@@ -46,7 +46,7 @@ if ((($user->uid) && ($page['admin_shortcuts'])) || (($user->uid) && ($secondary
 
   <div id="tab-container" class="tab-container">
 
-      <div class="tab_logo tab"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"> &nbsp; </a></div>
+      <div id="skip-to-navigation" class="tab_logo tab"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"> &nbsp; </a></div>
     <ul class="etabs">
       <li class="tab"><a href="#tabs1-menu" class="icon-reorder icon-2x">&nbsp;</a></li>
       <li class="tab"><a href="#tabs1-search" class="icon-search icon-search icon-2x">&nbsp;</a></li>
