@@ -131,10 +131,10 @@ jQuery(document).ready(function($) {
 
 
 
-      <div class="row-fluid" id="header_bottom skip-to-navigation">
+      <div class="row-fluid" id="header_bottom">
 
         <?php if ($page['header_bottom_right']): ?>
-        <div id="header_bottom_right" class="span2 last"><?php print render($page['header_bottom_right']); ?>
+        <div id="header_bottom_right skip-to-navigation" class="span2 last"><?php print render($page['header_bottom_right']); ?>
 
 
 
