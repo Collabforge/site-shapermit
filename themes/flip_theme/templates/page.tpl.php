@@ -46,14 +46,14 @@ if ((($user->uid) && ($page['admin_shortcuts'])) || (($user->uid) && ($secondary
 
   <div id="tab-container" class="hide-mobile-menu-titles tab-container">
 
-      <div id="skip-to-navigation" class="tab_logo tab"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home">Navigation starts here.</a></div>
+      <div class="tab_logo tab"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home">Mobile Navigation starts here.</a></div>
     <ul class="etabs">
       <li class="tab"><a href="#tabs1-menu" class="icon-reorder icon-2x"><p>Mobile Navigation Dropdown Site Navigation</p></a></li>
       <li class="tab"><a href="#tabs1-search" class="icon-search icon-search icon-2x"><p>Mobile Navigation Dropdown Search</p></a></li>
       <li class="tab"><a href="#tabs1-profile" class="icon-user icon-2x"><p>Mobile Navigation Dropdown Profile</p></a></li>
     </ul>
 
-    <div class="ui-tab-content" id="tabs1-menu">
+    <div class="ui-tab-content" id="tabs1-menu">r
       <?php print $mobile['block_menu']; ?>
     </div>
 
@@ -117,7 +117,7 @@ jQuery(document).ready(function($) {
 
         </div>
 
-          <div class="span3" style="float: right;">
+          <div class="span3" style="float: right;" role="search">
 
           <?php if ($page['search_box']): ?>
         <div id="search-box"> <?php print render($page['search_box']); ?>
@@ -131,8 +131,7 @@ jQuery(document).ready(function($) {
 
 
 
-      <div class="row-fluid" id="header_bottom">
-
+      <div class="row-fluid" id="header_bottom skip-to-navigation">
 
         <?php if ($page['header_bottom_right']): ?>
         <div id="header_bottom_right" class="span2 last"><?php print render($page['header_bottom_right']); ?>
@@ -148,7 +147,7 @@ jQuery(document).ready(function($) {
 
 
         <?php if ($page['header_bottom_left']): ?>
-        <div class="span10 nav-span"> <?php print render($page['header_bottom_left']); ?>
+        <div class="span10 nav-span" role="navigation"> <?php print render($page['header_bottom_left']); ?>
         </div>
         <?php endif; ?>
 
