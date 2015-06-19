@@ -1,9 +1,8 @@
-
 <div id="skipnav" class="element-invisible">
   <div class="container">
     <p>Skip to:</p>
     <ul>
-      <li><a href="#main-content" class="element-invisible element-focusable"><?php print t('Skip to content'); ?></a></li>
+      <li><a href="#content" class="element-invisible element-focusable"><?php print t('Skip to content'); ?></a></li>
       <?php if ($main_menu): ?>
       <li><a href="#skip-to-navigation" class="element-invisible element-focusable"><?php print t('Skip to navigation'); ?></a></li>
       <?php endif; ?>
@@ -23,7 +22,6 @@ if ((($user->uid) && ($page['admin_shortcuts'])) || (($user->uid) && ($secondary
   <?php
 }
 */
-
 ?>
 <!-- /#admin-shortcuts -->
 
@@ -46,14 +44,14 @@ if ((($user->uid) && ($page['admin_shortcuts'])) || (($user->uid) && ($secondary
 
   <div id="tab-container" class="hide-mobile-menu-titles tab-container">
 
-      <div class="tab_logo tab"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home">&nbsp;</a></div>
+      <div id="skip-to-navigation" class="tab_logo tab"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home">Skip to Navigation point</a></div>
     <ul class="etabs">
-      <li class="tab"><a href="#tabs1-menu" class="icon-reorder icon-2x">&nbsp;</a></li>
-      <li class="tab"><a href="#tabs1-search" class="icon-search icon-search icon-2x">&nbsp;</a></li>
-      <li class="tab"><a href="#tabs1-profile" class="icon-user icon-2x">&nbsp;</a></li>
+      <li class="tab"><a href="#tabs1-menu" class="icon-reorder icon-2x"><p>Mobile Navigation Dropdown Site Navigation</p></a></li>
+      <li class="tab"><a href="#tabs1-search" class="icon-search icon-search icon-2x"><p>Mobile Navigation Dropdown Search</p></a></li>
+      <li class="tab"><a href="#tabs1-profile" class="icon-user icon-2x"><p>Mobile Navigation Dropdown Profile</p></a></li>
     </ul>
 
-    <div id="skip-to-navigation" class="ui-tab-content" id="tabs1-menu">
+    <div class="ui-tab-content" id="tabs1-menu">
       <?php print $mobile['block_menu']; ?>
     </div>
 
@@ -72,7 +70,6 @@ if ((($user->uid) && ($page['admin_shortcuts'])) || (($user->uid) && ($secondary
 </div>
 
 <script type="text/javascript">
-
 jQuery(document).ready(function($) {
     $('#tab-container').easytabs({
       collapsedByDefault: true
@@ -86,7 +83,6 @@ jQuery(document).ready(function($) {
     $('.ui-mobile-menu .etabs').height('50');
     //alert('salam');
 });
-
 </script>
 
 <!-- new Header Top block -->
@@ -117,7 +113,7 @@ jQuery(document).ready(function($) {
 
         </div>
 
-          <div class="span3" style="float: right;" role="search">
+          <div class="span3" style="float: right;">
 
           <?php if ($page['search_box']): ?>
         <div id="search-box"> <?php print render($page['search_box']); ?>
@@ -133,6 +129,7 @@ jQuery(document).ready(function($) {
 
       <div class="row-fluid" id="header_bottom">
 
+
         <?php if ($page['header_bottom_right']): ?>
         <div id="header_bottom_right" class="span2 last"><?php print render($page['header_bottom_right']); ?>
 
@@ -147,7 +144,7 @@ jQuery(document).ready(function($) {
 
 
         <?php if ($page['header_bottom_left']): ?>
-        <div class="span10 nav-span" role="navigation"> <?php print render($page['header_bottom_left']); ?>
+        <div class="span10 nav-span"> <?php print render($page['header_bottom_left']); ?>
         </div>
         <?php endif; ?>
 
