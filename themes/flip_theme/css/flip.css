@@ -1605,6 +1605,9 @@ iframe {
   height: 350px;
   margin-top: 40px; }
 
+h2#catalysts {
+  padding-left: 30px; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
