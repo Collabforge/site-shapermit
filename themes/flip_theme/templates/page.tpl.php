@@ -3,7 +3,7 @@
   <div class="container">
     <p>Skip to:</p>
     <ul>
-      <li><a href="#main-content" class="element-invisible element-focusable"><?php print t('Skip to content'); ?></a></li>
+      <li><a href="#content-head" class="element-invisible element-focusable"><?php print t('Skip to content'); ?></a></li>
       <?php if ($main_menu): ?>
       <li><a href="#skip-to-navigation" class="element-invisible element-focusable"><?php print t('Skip to navigation'); ?></a></li>
       <?php endif; ?>
