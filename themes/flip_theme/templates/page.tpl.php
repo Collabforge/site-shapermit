@@ -53,7 +53,7 @@ if ((($user->uid) && ($page['admin_shortcuts'])) || (($user->uid) && ($secondary
       <li class="tab"><a href="#tabs1-profile" class="icon-user icon-2x"><p>Mobile Navigation Dropdown Profile</p></a></li>
     </ul>
 
-    <div class="ui-tab-content" id="tabs1-menu">r
+    <div class="ui-tab-content" id="tabs1-menu">
       <?php print $mobile['block_menu']; ?>
     </div>
 
