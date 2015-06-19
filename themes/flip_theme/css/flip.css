@@ -1569,6 +1569,9 @@ a.call-to-action-anchor {
 .hide-mobile-menu-titles p {
   display: none; }
 
+.front .general-responsive-padding h3 {
+  margin-top: 2px; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
