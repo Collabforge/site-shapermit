@@ -50,7 +50,7 @@ if ((($user->uid) && ($page['admin_shortcuts'])) || (($user->uid) && ($secondary
       <li class="tab"><a href="#tabs1-search" class="icon-search icon-search icon-2x"><p>Mobile Navigation Dropdown Search</p></a></li>
       <li class="tab"><a href="#tabs1-profile" class="icon-user icon-2x"><p>Mobile Navigation Dropdown Profile</p></a></li>
     </ul>
-<div id="skip-to-navigation">
+
     <div class="ui-tab-content" id="tabs1-menu">
       <?php print $mobile['block_menu']; ?>
     </div>
@@ -63,7 +63,6 @@ if ((($user->uid) && ($page['admin_shortcuts'])) || (($user->uid) && ($secondary
      <div class="ui-tab-content" id="tabs1-profile">
       <?php echo $mobile['block_profile']; ?>
     </div>
-</div>
 
   </div>
 
@@ -144,8 +143,10 @@ jQuery(document).ready(function($) {
 
 
         <?php if ($page['header_bottom_left']): ?>
+          <div id="skip-to-navigation">
         <div class="span10 nav-span"> <?php print render($page['header_bottom_left']); ?>
         </div>
+          </div>
         <?php endif; ?>
 
 
