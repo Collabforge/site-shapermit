@@ -1581,6 +1581,24 @@ a.call-to-action-anchor {
   font-weight: 300;
   letter-spacing: 0.5px; }
 
+.backstory-loomio h2 {
+  margin-top: 24px;
+  margin-bottom: 12px;
+  font-family: "Museo-500";
+  font-size: 1.2em !important;
+  padding: 0;
+  font-weight: 300;
+  letter-spacing: 0.5px; }
+
+#block-block-50 .padding-normal h2 {
+  margin-top: 24px;
+  margin-bottom: 12px;
+  font-family: "Museo-500";
+  font-size: 1.2em !important;
+  padding: 0;
+  font-weight: 300;
+  letter-spacing: 0.5px; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
