@@ -48,9 +48,9 @@ if ((($user->uid) && ($page['admin_shortcuts'])) || (($user->uid) && ($secondary
 
       <div class="tab_logo tab"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home">Navigation starts here.</a></div>
     <ul class="etabs">
-      <li class="tab"><a href="#tabs1-menu" class="icon-reorder icon-2x"><p>Skip - Mobile Navigation Dropdown Menu</p></a></li>
-      <li class="tab"><a href="#tabs1-search" class="icon-search icon-search icon-2x"><p>Skip - Mobile Navigation Dropdown Search</p></a></li>
-      <li class="tab"><a href="#tabs1-profile" class="icon-user icon-2x"><p>Skip - Mobile Navigation Dropdown Profile</p></a></li>
+      <li class="tab"><a href="#tabs1-menu" class="icon-reorder icon-2x"><p>Ingore - Mobile Navigation Dropdown Menu</p></a></li>
+      <li class="tab"><a href="#tabs1-search" class="icon-search icon-search icon-2x"><p>Ignore - Mobile Navigation Dropdown Search</p></a></li>
+      <li class="tab"><a href="#tabs1-profile" class="icon-user icon-2x"><p>Ignore - Mobile Navigation Dropdown Profile</p></a></li>
     </ul>
 
     <div id="skip-to-navigation" class="ui-tab-content" id="tabs1-menu">
