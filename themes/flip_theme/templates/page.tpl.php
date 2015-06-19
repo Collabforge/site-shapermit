@@ -3,7 +3,7 @@
   <div class="container">
     <p>Skip to:</p>
     <ul>
-      <li><a href="#content-head" class="element-invisible element-focusable"><?php print t('Skip to content'); ?></a></li>
+      <li><a href="/#to-main-content" class="element-invisible element-focusable"><?php print t('Skip to content'); ?></a></li>
       <?php if ($main_menu): ?>
       <li><a href="#skip-to-navigation" class="element-invisible element-focusable"><?php print t('Skip to navigation'); ?></a></li>
       <?php endif; ?>
@@ -191,7 +191,7 @@ jQuery(document).ready(function($) {
     <?php if ($page['main_upper']): ?>
     <div id="main-upper" class="row-fluid main-upper"> <?php print render($page['main_upper']); ?> </div>
     <?php endif; ?>
-    <div id="main-content" class="row main-content">
+    <div id="main-content to-main-content" class="row main-content">
       <?php if ($page['sidebar_first']): ?>
       <div id="sidebar-first" class="sidebar span3 site-sidebar-first">
         <div class="row-fluid"><?php print render($page['sidebar_first']); ?></div>
