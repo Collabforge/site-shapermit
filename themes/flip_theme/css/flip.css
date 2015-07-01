@@ -1880,8 +1880,7 @@ h2#catalysts {
   margin: auto; }
 #block-block-74 .darkpage {
   background: #333333;
-  color: white;
-  padding: 0px 0px 20px 0px; }
+  color: white; }
 #block-block-74 .lightpage {
   padding: 50px 0; }
 #block-block-74 .ui-tabs-nav li {
@@ -1914,9 +1913,11 @@ h2#catalysts {
   margin-top: 20px;
   font-size: 18px; }
 #block-block-74 #Gosling {
-  padding-left: 10px; }
+  padding-left: 10px;
+  padding-bottom: 30px; }
 #block-block-74 #Timberlake {
-  padding-left: 10px; }
+  padding-left: 10px;
+  padding-bottom: 30px; }
 #block-block-74 .ui-widget-content {
   border: 0px;
   background: #222222; }
