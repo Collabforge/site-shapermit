@@ -1659,11 +1659,15 @@ h2#catalysts
       z-index: 1
       > li
         display: inline-block
-        background: #fafafa
-        padding: none
+        background: #111
+        padding: 0px
         position: relative
-        width: 49%
-        margin: 0 0 0 -4px
+        width: 50%
+        margin: 0px
+        border: none
+        border-radius: 0px
+        margin-right: -3px
+        margin-left: -3px
         &:before, &:after
           opacity: 0
           transition: 0.3s ease
@@ -1767,7 +1771,7 @@ h2#catalysts
   .darkpage
     background: #333333
     color: white
-    padding: 10px 0px 20px 0px
+    padding: 0px 0px 20px 0px
   .lightpage
     padding: 50px 0
   .ui-tabs-nav li
@@ -1776,8 +1780,6 @@ h2#catalysts
     height: auto
     white-space: normal
     border: 0px
-  .contents
-    border-top: 1px solid #222
   .dark-wrapper
     max-height: 110px
     overflow: hidden
@@ -1813,6 +1815,17 @@ h2#catalysts
     border: 0px
     background: none
     color: inherit
+  .ui-tabs-nav li a
+    padding: 0px !important
+  .ui-corner-all
+    border-radius: 0px
+  .ui-widget-header
+    border: 0px
+  li.ui-state-default.ui-corner-top.ui-tabs-active.ui-state-active
+    background-color: #222 !important
+  .para.stack:hover
+    border-top: none
+    margin-top: 0px
     
 p.how-many-discussions
   color: #eee
