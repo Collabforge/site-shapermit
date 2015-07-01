@@ -1882,11 +1882,11 @@ h2#catalysts {
 #block-block-74 .ui-tabs-nav li {
   width: 24%;
   margin-bottom: 5px;
-  height: 20px;
-  white-space: normal; }
+  height: auto;
+  white-space: normal;
+  border: 0px; }
 #block-block-74 .contents {
-  border-top: 1px solid #222222;
-  margin-top: 70px; }
+  border-top: 1px solid #222222; }
 #block-block-74 .dark-wrapper {
   max-height: 110px;
   overflow: hidden;
@@ -1914,6 +1914,17 @@ h2#catalysts {
   padding-left: 10px; }
 #block-block-74 #Timberlake {
   padding-left: 10px; }
+#block-block-74 .ui-widget-content {
+  border: 0px;
+  background: none;
+  color: #222222; }
+#block-block-74 .ui-widget-header {
+  border: 0px;
+  background: none;
+  color: inherit; }
+
+p.how-many-discussions {
+  color: #eeeeee; }
 
 @media screen and (min-width: 1000px) {
   .darkpage, .lightpage {
