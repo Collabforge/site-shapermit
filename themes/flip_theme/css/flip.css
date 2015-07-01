@@ -1969,7 +1969,7 @@ p.how-many-discussions {
     padding-left: 0px;
     padding-right: 0px;
     padding-bottom: 50px; } }
-@media (min-width: 737px) {
+@media (min-device-width: 414px) and (max-device-width: 736px) {
   #block-block-74 .sexytabs a h2 {
     font-size: 20px;
     padding-left: 40px;
