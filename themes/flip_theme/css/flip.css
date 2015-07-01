@@ -1780,7 +1780,7 @@ h2#catalysts {
   z-index: 1; }
   #block-block-74 .sexytabs > ul > li {
     display: inline-block;
-    background: #111111;
+    background: #111111 !important;
     padding: 0px;
     position: relative;
     width: 50%;
@@ -1918,8 +1918,7 @@ h2#catalysts {
   padding-left: 10px; }
 #block-block-74 .ui-widget-content {
   border: 0px;
-  background: none;
-  color: #222222; }
+  background: #222222; }
 #block-block-74 .ui-widget-header {
   border: 0px;
   background: none;
