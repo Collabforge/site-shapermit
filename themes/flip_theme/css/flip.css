@@ -1931,6 +1931,18 @@ p.how-many-discussions {
     width: 100%;
     float: left;
     padding: 0; } }
+@media (min-width: 520px) {
+  .desktop-only {
+    display: block !important; }
+
+  .mobile-only {
+    display: none !important; } }
+@media (max-width: 519px) {
+  .mobile-only {
+    display: block !important; }
+
+  .desktop-only {
+    display: none !important; } }
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
