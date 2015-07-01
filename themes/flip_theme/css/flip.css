@@ -1755,6 +1755,9 @@ h2#catalysts {
   margin-bottom: 10px;
   margin-left: 5px; }
 
+.group-title-span {
+  min-height: 50px; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
