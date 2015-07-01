@@ -1963,7 +1963,7 @@ p.how-many-discussions {
   #block-block-69 .front-main-padding {
     padding-left: 0px;
     padding-right: 0px;
-    padding-bottom: 50px; } }
+    padding-bottom: 50px !important; } }
 @media (min-device-width: 415px) and (max-device-width: 768px) {
   #block-block-74 .sexytabs a h2 {
     font-size: 20px;
