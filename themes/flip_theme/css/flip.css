@@ -1970,7 +1970,7 @@ p.how-many-discussions {
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 15px; } }
-.page-user-login {
+.page-user-login .ui-login-forms .container {
   background-color: white;
   padding: 20px 40px 0px 40px;
   margin-top: 50px;
