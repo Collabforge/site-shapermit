@@ -1,0 +1,4 @@
+name = ShapeRMIT Custom forms
+description = provides a custom solution for forms
+core = 7.x
+
