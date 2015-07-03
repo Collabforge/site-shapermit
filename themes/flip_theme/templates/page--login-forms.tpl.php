@@ -9,7 +9,7 @@
               ?>
 
               <h1 class="ui-title">
-                <?php echo $title; ?>
+                Reset password
               </h1>
 
               <?php
