@@ -5,8 +5,9 @@
  *
  * Override the default redirect, /user/UID, to go to the front page instead.
  */
-function shapermit_forms_user_login(&$form_state, $account) {
+function shapermit_forms_user_login(&$edit, $account) {
 //  if ($account->uid != 1) {
-    $form_state['redirect'] = "node/645";
+    $edit['redirect'] = 'node/604';
+
 //  }
 }
