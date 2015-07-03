@@ -7,7 +7,7 @@
  */
 function collabco_forms_user_login(&$form_state, $account) {
 //  if ($account->uid != 1) {
-    $form_state['redirect'] = "new-discussions";
+    $form_state['redirect'] = "node/645";
 //  }
 }
 
