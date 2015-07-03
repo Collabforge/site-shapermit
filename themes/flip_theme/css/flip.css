@@ -1988,6 +1988,9 @@ p.how-many-discussions {
   margin-top: 50px;
   margin-bottom: 50px; }
 
+#block-block-72 {
+  min-height: 472px; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
@@ -2508,6 +2511,9 @@ ul.etabs li a.active {
   .five-years-loomio {
     min-height: 0px !important; }
 
+  #block-block-72 {
+    min-height: 0px !important; }
+
   .backstory-loomio {
     min-height: 0px !important; }
 
@@ -2649,6 +2655,9 @@ ul.etabs li a.active {
     padding-bottom: 5px !important; }
 
   .five-years-loomio {
+    min-height: 0px !important; }
+
+  #block-block-72 {
     min-height: 0px !important; }
 
   .backstory-loomio {
@@ -2834,6 +2843,9 @@ ul.etabs li a.active {
   .five-years-loomio {
     min-height: 0px !important; }
 
+  #block-block-72 {
+    min-height: 0px !important; }
+
   .backstory-loomio {
     min-height: 0px !important; }
 
@@ -2950,6 +2962,9 @@ ul.etabs li a.active {
   .five-years-loomio {
     min-height: 0px !important; }
 
+  #block-block-72 {
+    min-height: 0px !important; }
+
   .backstory-loomio {
     min-height: 0px !important; }
 
@@ -2979,6 +2994,9 @@ ul.etabs li a.active {
     display: none; }
 
   .five-years-loomio {
+    min-height: 0px !important; }
+
+  #block-block-72 {
     min-height: 0px !important; }
 
   .backstory-loomio {
