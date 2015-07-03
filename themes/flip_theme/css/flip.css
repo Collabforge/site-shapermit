@@ -2330,7 +2330,7 @@ ul.quicktabs-tabs li a {
     color: white !important; }
 
 .ui-mobile-menu ul.etabs {
-  background: #dcddd7;
+  background: #333333;
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: -325px -118px; }
@@ -2604,7 +2604,10 @@ ul.etabs li a.active {
     width: auto; }
 
   #block-block-15 .row-fluid {
-    margin-left: 0px; } }
+    margin-left: 0px; }
+
+  .not-front #main-content {
+    margin-top: 0px; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
   .front-call {
     height: 300px !important; }
@@ -2741,7 +2744,10 @@ ul.etabs li a.active {
     width: auto; }
 
   #block-block-15 .row-fluid {
-    margin-left: 0px; } }
+    margin-left: 0px; }
+
+  .not-front #main-content {
+    margin-top: 0px; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
   .container {
     width: 100%; }
@@ -2936,7 +2942,10 @@ ul.etabs li a.active {
     width: auto; }
 
   #block-block-15 .row-fluid {
-    margin-left: 0px; } }
+    margin-left: 0px; }
+
+  .not-front #main-content {
+    margin-top: 0px; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   .container {
     width: 100%; }
