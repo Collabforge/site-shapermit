@@ -2003,6 +2003,11 @@ p.how-many-discussions {
 #block-block-72 {
   min-height: 472px; }
 
+.confirm-parent, .password-parent {
+  clear: left;
+  margin: 0;
+  width: 100%; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
