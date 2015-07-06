@@ -7,7 +7,7 @@
  */
 function shapermit_forms_user_login(&$edit, $account) {
 //  if ($account->uid != 1) {
-    $edit['redirect'] = 'node/604';
+    $edit['redirect'] = 'node/645';
 
 //  }
 }
