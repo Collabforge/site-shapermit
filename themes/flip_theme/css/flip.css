@@ -2642,7 +2642,10 @@ ul.etabs li a.active {
     width: 80%; }
 
   .page-user-edit.ui-login-forms .container {
-    width: 80%; } }
+    width: 80%; }
+
+  .page-user-reset #main .container {
+    width: 78%; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
   .front-call {
     height: 300px !important; }
@@ -2791,7 +2794,10 @@ ul.etabs li a.active {
     width: 80%; }
 
   .page-user-edit.ui-login-forms .container {
-    width: 80%; } }
+    width: 80%; }
+
+  .page-user-reset #main .container {
+    width: 78%; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
   .container {
     width: 100%; }
@@ -2998,7 +3004,10 @@ ul.etabs li a.active {
     width: 80%; }
 
   .page-user-edit.ui-login-forms .container {
-    width: 80%; } }
+    width: 80%; }
+
+  .page-user-reset #main .container {
+    width: 78%; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   .container {
     width: 100%; }
