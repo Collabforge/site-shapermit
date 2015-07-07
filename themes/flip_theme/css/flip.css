@@ -2020,6 +2020,10 @@ p.how-many-discussions {
 #block-block-20 {
   margin-top: -13px !important; }
 
+#block-block-80 .span4 {
+  padding-right: 20px;
+  padding-left: 20px; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
