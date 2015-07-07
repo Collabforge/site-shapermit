@@ -2015,6 +2015,8 @@ p.how-many-discussions {
 #block-block-79 i.icon-download {
   display: inline-block;
   margin-right: 0px; }
+#block-block-79 li {
+  margin-bottom: 10px; }
 
 .node-knowledge-object .field-name-body {
   border-bottom: none;
