@@ -41,6 +41,8 @@ if ((($user->uid) && ($page['admin_shortcuts'])) || (($user->uid) && ($secondary
 <script type='text/javascript' src='/profiles/collabco/themes/collabco_theme/js/jquery.easytabs.min.js'></script>
 <script type='text/javascript' src='/profiles/collabco/themes/collabco_theme/js/jquery.raptorize.1.0.js'></script>
 <script type='text/javascript' src='/profiles/collabco/themes/collabco_theme/js/jquery.easing.1.3.js'></script>
+<script type="application/javascript" src='/sites/default/themes/flip_theme/js/slippry.min.js'></script>
+<link rel="stylesheet" href="sites/default/themes/flip_theme/css/slippry.css" />
 
 <div class="ui-mobile-menu visible-phone hidden-desktop">
 
@@ -104,6 +106,11 @@ $(".sexytabs").tabs({
 });    
     
 });    
+    
+    
+$(document).ready(function(){
+  $('#slippry-demo').slippry()
+});
     
     
 </script>
