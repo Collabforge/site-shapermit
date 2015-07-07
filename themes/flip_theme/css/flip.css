@@ -2018,6 +2018,21 @@ p.how-many-discussions {
 #block-block-79 li {
   margin-bottom: 10px; }
 
+.sy-pager {
+  display: none !important; }
+
+.sy-caption-wrap .sy-caption {
+  left: -90% !important;
+  -moz-border-radius: 0px !important;
+  -webkit-border-radius: 0px !important;
+  border-radius: 0px !important;
+  font-weight: 500 !important;
+  font-size: 22px;
+  letter-spacing: 0.6px;
+  line-height: 25px;
+  width: 250px;
+  text-shadow: 1px 1px 1px black; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
@@ -3261,3 +3276,7 @@ ul.etabs li a.active {
   .span4.no-border.text-right {
     text-align: center;
     margin-top: -15px !important; } }
+@media only screen and (max-device-width: 600px), screen and (max-width: 600px) {
+  .sy-caption-wrap {
+    left: 65% !important;
+    bottom: 2em !important; } }
