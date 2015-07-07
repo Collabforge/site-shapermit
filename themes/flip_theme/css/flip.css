@@ -3324,7 +3324,10 @@ ul.etabs li a.active {
     width: 100% !important; }
 
   #block-block-37 .quote-front {
-    padding-left: 30px; } }
+    padding-left: 30px; }
+
+  #block-block-84 .para {
+    padding-bottom: 50px; } }
 @media only screen and (max-device-width: 600px), screen and (max-width: 600px) {
   .sy-caption-wrap {
     left: 65% !important;
