@@ -3122,7 +3122,10 @@ ul.etabs li a.active {
 
   iframe {
     width: 100% !important;
-    height: 400px !important; } }
+    height: 400px !important; }
+
+  #footer .container {
+    width: 100% !important; } }
 @media (max-width: 979px) {
   .container {
     width: 100%; }
@@ -3306,7 +3309,10 @@ ul.etabs li a.active {
 
   .span4.no-border.text-right {
     text-align: center;
-    margin-top: -15px !important; } }
+    margin-top: -15px !important; }
+
+  #footer .container {
+    width: 100% !important; } }
 @media only screen and (max-device-width: 600px), screen and (max-width: 600px) {
   .sy-caption-wrap {
     left: 65% !important;
