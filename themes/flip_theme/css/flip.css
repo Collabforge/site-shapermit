@@ -323,8 +323,6 @@ ul.menu a:hover {
   background: #f2f2f2;
   margin-top: 15px;
   padding: 0px 0px 0px 40px; }
-  .quote-front img {
-    min-height: 490px; }
   .quote-front .home-offset-height {
     max-height: 530px;
     overflow: hidden; }
@@ -611,33 +609,33 @@ ul.menu a:hover {
     color: white; }
 
 #block-quicktabs-news-events-quicktab {
-  padding: 0px;
-  background: #333333;
-  color: white; }
+  padding: 0px !important;
+  background: #333333 !important;
+  color: white !important; }
   #block-quicktabs-news-events-quicktab ul.quicktabs-tabs {
-    margin-left: 0px; }
+    margin-left: 0px !important; }
   #block-quicktabs-news-events-quicktab ul.quicktabs-tabs li {
-    font-size: 22px;
-    font-family: "Museo-500";
-    display: inline-block;
-    width: 49.75%;
-    background-color: #242424;
-    border: 0px;
-    margin: 0px;
-    padding: 30px 0px 30px 0px;
-    min-width: auto;
-    text-align: center;
-    border-radius: 0px; }
+    font-size: 22px !important;
+    font-family: "Museo-500" !important;
+    display: inline-block !important;
+    width: 49.75% !important;
+    background-color: #242424 !important;
+    border: 0px !important;
+    margin: 0px !important;
+    padding: 30px 0px 30px 0px !important;
+    min-width: auto !important;
+    text-align: center !important;
+    border-radius: 0px !important; }
   #block-quicktabs-news-events-quicktab ul.quicktabs-tabs li.active {
-    background-color: #333333; }
+    background-color: #333333 !important; }
   #block-quicktabs-news-events-quicktab a#quicktabs-tab-news_events_quicktab-1 {
     color: #eeeeee !important; }
   #block-quicktabs-news-events-quicktab a#quicktabs-tab-news_events_quicktab-0 {
     color: #eeeeee !important; }
   #block-quicktabs-news-events-quicktab #quicktabs-tab-news_events_quicktab-1 {
-    padding-bottom: 5px; }
+    padding-bottom: 5px !important; }
   #block-quicktabs-news-events-quicktab #quicktabs-tab-news_events_quicktab-0 {
-    padding-bottom: 5px; }
+    padding-bottom: 5px !important; }
 
 .news-block {
   letter-spacing: 0.5px;
