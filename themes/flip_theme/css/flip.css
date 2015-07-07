@@ -2033,6 +2033,9 @@ p.how-many-discussions {
   width: 250px;
   text-shadow: 1px 1px 1px black; }
 
+#block-block-20 {
+  margin-top: -13px !important; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
