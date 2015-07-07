@@ -2037,10 +2037,6 @@ p.how-many-discussions {
 .quick-margins {
   margin-bottom: -20px; }
 
-.next-5-years {
-  height: 750px;
-  overflow: hidden; }
-
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
@@ -2681,13 +2677,7 @@ ul.etabs li a.active {
     margin-bottom: 0px; }
 
   #block-block-84 .para {
-    padding-bottom: 50px; }
-
-  .next-5-years {
-    height: auto !important;
-    overflow: visible !important; }
-    .next-5-years img {
-      display: none !important; } }
+    padding-bottom: 50px; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
   .front-call {
     height: 300px !important; }
@@ -2851,13 +2841,7 @@ ul.etabs li a.active {
     margin-bottom: 0px; }
 
   #block-block-84 .para {
-    padding-bottom: 50px; }
-
-  .next-5-years {
-    height: auto !important;
-    overflow: visible !important; }
-    .next-5-years img {
-      display: none !important; } }
+    padding-bottom: 50px; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
   .container {
     width: 100%; }
@@ -3079,13 +3063,7 @@ ul.etabs li a.active {
     margin-bottom: 0px; }
 
   #block-block-84 .para {
-    padding-bottom: 50px; }
-
-  .next-5-years {
-    height: auto !important;
-    overflow: visible !important; }
-    .next-5-years img {
-      display: none !important; } }
+    padding-bottom: 50px; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   .container {
     width: 100%; }
