@@ -2038,10 +2038,10 @@ p.how-many-discussions {
   margin-bottom: -20px; }
 
 .password-parent {
-  width: 100%; }
+  width: 100% !important; }
 
 .confirm-parent {
-  width: 100%; }
+  width: 100% !important; }
 
 .node-knowledge-object .field-name-body {
   border-bottom: none;
