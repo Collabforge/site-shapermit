@@ -2700,7 +2700,7 @@ ul.etabs li a.active {
   .front-well-padding {
     padding-left: 0px !important; }
 
-  .logged-in.front #main-content {
+  .logged-in #main-content {
     margin-top: 0px !important; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
   .front-call {
@@ -2879,7 +2879,7 @@ ul.etabs li a.active {
   .front-well-padding {
     padding-left: 0px !important; }
 
-  .logged-in.front #main-content {
+  .logged-in #main-content {
     margin-top: 0px !important; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
   .container {
@@ -3116,7 +3116,7 @@ ul.etabs li a.active {
   .front-well-padding {
     padding-left: 0px !important; }
 
-  .logged-in.front #main-content {
+  .logged-in #main-content {
     margin-top: 0px !important; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   .container {
