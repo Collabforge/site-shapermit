@@ -80,6 +80,18 @@
 if ($('#user-profile-form').length) {
     $('.ui-footer').hide();
 }
+
+
+if ($(".page-user-login").length) {
+$(document).ready(function() {
+            $(".ui-title").show(function () {
+               $(this).html("#shapeRMIT Login");
+            });
+         });
+}
+
+
+
 </script>
 
     </div>
