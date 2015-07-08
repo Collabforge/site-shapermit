@@ -2706,7 +2706,7 @@ ul.etabs li a.active {
     padding-left: 20px !important;
     padding-right: 20px !important; }
     .discuss-warning-alert .dark-anchor {
-      color: red; }
+      color: red !important; }
 
   .front-well-padding {
     padding-left: 0px !important; } }
@@ -2884,7 +2884,7 @@ ul.etabs li a.active {
     padding-left: 20px !important;
     padding-right: 20px !important; }
     .discuss-warning-alert .dark-anchor {
-      color: red; }
+      color: red !important; }
 
   .front-well-padding {
     padding-left: 0px !important; } }
@@ -3120,7 +3120,7 @@ ul.etabs li a.active {
     padding-left: 20px !important;
     padding-right: 20px !important; }
     .discuss-warning-alert .dark-anchor {
-      color: red; }
+      color: red !important; }
 
   .front-well-padding {
     padding-left: 0px !important; } }
