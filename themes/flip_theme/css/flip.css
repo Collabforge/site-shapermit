@@ -2705,6 +2705,8 @@ ul.etabs li a.active {
     color: #333333 !important;
     padding-left: 20px !important;
     padding-right: 20px !important; }
+    .discuss-warning-alert .dark-anchor {
+      color: red; }
 
   .front-well-padding {
     padding-left: 0px !important; } }
@@ -2881,6 +2883,8 @@ ul.etabs li a.active {
     color: #333333 !important;
     padding-left: 20px !important;
     padding-right: 20px !important; }
+    .discuss-warning-alert .dark-anchor {
+      color: red; }
 
   .front-well-padding {
     padding-left: 0px !important; } }
@@ -3115,6 +3119,8 @@ ul.etabs li a.active {
     color: #333333 !important;
     padding-left: 20px !important;
     padding-right: 20px !important; }
+    .discuss-warning-alert .dark-anchor {
+      color: red; }
 
   .front-well-padding {
     padding-left: 0px !important; } }
