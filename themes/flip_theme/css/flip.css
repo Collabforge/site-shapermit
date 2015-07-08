@@ -2049,6 +2049,12 @@ p.how-many-discussions {
 .front-well-padding {
   padding-left: 20px; }
 
+div.form-item div.password-suggestions {
+  padding: 0.2em 0.5em;
+  margin: 0.7em 0;
+  width: 100% !important;
+  border: 1px solid #b4b4b4; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
