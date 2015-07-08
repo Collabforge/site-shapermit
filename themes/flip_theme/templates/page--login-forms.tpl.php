@@ -56,12 +56,16 @@
             ?>
 
     </div>
-
+	<?php
+		if ($form_id != "user_profile_form") {
+			?>
     <div class="ui-footer">
     Got an account? <a href="/user/login">Login Now</a><br>
     Don't have an account? <a href="/user/register">Register Now</a><br>
     Forgot your password? <a href="/user/password">Reset Password</a>
+
              <?php
+         		}
             if (!empty($logo)) {
               ?>
 
