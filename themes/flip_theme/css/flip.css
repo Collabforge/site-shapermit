@@ -2043,6 +2043,9 @@ p.how-many-discussions {
 .confirm-parent {
   width: 100% !important; }
 
+.front-well-padding {
+  padding-left: 20px; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
@@ -2692,7 +2695,10 @@ ul.etabs li a.active {
     background-color: #f1f1f1 !important;
     color: #333333 !important;
     padding-left: 20px !important;
-    padding-right: 20px !important; } }
+    padding-right: 20px !important; }
+
+  .front-well-padding {
+    padding-left: 0px !important; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
   .front-call {
     height: 300px !important; }
@@ -2865,7 +2871,10 @@ ul.etabs li a.active {
     background-color: #f1f1f1 !important;
     color: #333333 !important;
     padding-left: 20px !important;
-    padding-right: 20px !important; } }
+    padding-right: 20px !important; }
+
+  .front-well-padding {
+    padding-left: 0px !important; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
   .container {
     width: 100%; }
@@ -3096,7 +3105,10 @@ ul.etabs li a.active {
     background-color: #f1f1f1 !important;
     color: #333333 !important;
     padding-left: 20px !important;
-    padding-right: 20px !important; } }
+    padding-right: 20px !important; }
+
+  .front-well-padding {
+    padding-left: 0px !important; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   .container {
     width: 100%; }
