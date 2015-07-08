@@ -91,6 +91,14 @@ $(document).ready(function() {
 }
 
 
+if ($(".page-user-edit").length) {
+$(document).ready(function() {
+            $(".ui-title").show(function () {
+               $(this).html("Set your password");
+            });
+         });
+}
+
 
 </script>
 
