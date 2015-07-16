@@ -2059,6 +2059,19 @@ div.form-item div.password-suggestions {
   background: transparent !important;
   padding: 8px 16px; }
 
+.ui-hub-feature-img img {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 0px;
+  -webkit-box-shadow: 0px;
+  -moz-box-shadow: 0px;
+  box-shadow: none; }
+
+@media (min-width: 1200px) {
+  #sidebar-second .span3, #sidebar-second .span9 {
+    float: left;
+    min-height: 1px;
+    margin-left: 0px; } }
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
