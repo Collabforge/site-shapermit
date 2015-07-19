@@ -2100,6 +2100,8 @@ div.form-item div.password-suggestions {
       color: red;
       margin-left: 15px;
       display: inline-block; }
+  .page-node-664 #main .container .node-promoted {
+    display: block !important; }
 
 .node-type-poll #main .container {
   background-color: white;
