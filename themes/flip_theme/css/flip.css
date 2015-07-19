@@ -3239,7 +3239,9 @@ ul.etabs li a.active {
     margin-top: 50px;
     margin-bottom: 50px;
     /* margin-right: -20px; */
-    width: 80%; } }
+    width: 100%; }
+  .page-node-664 #main-content #content {
+    width: 100%; } }
 @media (max-width: 979px) {
   .container {
     width: 100%; }
