@@ -3252,6 +3252,8 @@ ul.etabs li a.active {
     width: 80%; }
   .page-eform-submit-email-capture #main-content #content {
     width: 100%; }
+  .page-eform-submit-email-capture #edit-actions {
+    width: 90%; }
 
   .node-type-poll #main .container {
     background-color: white;
