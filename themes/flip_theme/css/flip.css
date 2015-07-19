@@ -2104,34 +2104,12 @@ div.form-item div.password-suggestions {
   padding: 20px 40px 0px 40px;
   margin-top: 50px;
   margin-bottom: 50px; }
-  .node-type-poll #main .container a {
-    color: inherit;
-    font-weight: 700; }
-    .node-type-poll #main .container a:before {
-      content: "\f054";
-      font-family: fontawesome;
-      margin-right: 5px;
-      font-size: 12px;
-      color: red;
-      margin-left: 15px;
-      display: inline-block; }
 
 .page-eform-submit-email-capture #main .container {
   background-color: white;
   padding: 20px 40px 0px 40px;
   margin-top: 50px;
   margin-bottom: 50px; }
-  .page-eform-submit-email-capture #main .container a {
-    color: inherit;
-    font-weight: 700; }
-    .page-eform-submit-email-capture #main .container a:before {
-      content: "\f054";
-      font-family: fontawesome;
-      margin-right: 5px;
-      font-size: 12px;
-      color: red;
-      margin-left: 15px;
-      display: inline-block; }
 
 .node-knowledge-object .field-name-body {
   border-bottom: none;
