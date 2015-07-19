@@ -2082,6 +2082,12 @@ div.form-item div.password-suggestions {
 .page-dashboard #content-wrapper {
   padding-right: 20px; }
 
+.node-type-basic-page #main .container {
+  background-color: white;
+  padding: 20px 40px 0px 40px;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
