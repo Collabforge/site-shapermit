@@ -2106,8 +2106,15 @@ div.form-item div.password-suggestions {
   margin-bottom: 50px; }
   .node-type-poll #main .container .submitted-content-posted {
     display: none; }
-  .node-type-poll #main .container #edit-vote:hover {
-    background-color: darkgreen; }
+  .node-type-poll #main .container #edit-vote {
+    background: green;
+    border-radius: 0px;
+    text-shadow: none;
+    color: #eeeeee;
+    margin-top: 20px;
+    width: 150px; }
+    .node-type-poll #main .container #edit-vote:hover {
+      background-color: darkgreen; }
   .node-type-poll #main .container input.form-submit.form-btn-success {
     background-color: orangered;
     margin-top: 40px; }
