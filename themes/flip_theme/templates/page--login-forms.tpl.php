@@ -58,7 +58,7 @@
     </div>
 
     <div class="ui-footer">
-    Got an account? <a href="https://discuss.shapermit.com/users/sign_in">Login Now</a><br>
+    Got an account? <a href="https://discuss.shapermit.com/users/sign_in?return_to=https%3A%2F%2Fshapermit.com%2Fdiscuss-and-act">Login Now</a><br>
     Don't have an account? <a href="/user/register">Register Now</a><br>
     Forgot your password? <a href="/user/password">Reset Password</a>
 
