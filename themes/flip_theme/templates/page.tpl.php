@@ -108,10 +108,17 @@ $(".sexytabs").tabs({
 });    
     
     
-$(document).ready(function(){
+$(document).ready(function(){ 
   $('#slippry-demo').slippry()
 });
     
+    
+$(document).ready(function(){
+       if (window.location !="https://shapermit.com/user/logout") {
+       } else {
+           window.location = "http://shapermit.com";
+       }
+    });
     
 </script>
 
