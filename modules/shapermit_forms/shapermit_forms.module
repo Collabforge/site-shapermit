@@ -22,5 +22,5 @@ function shapermit_forms_form_alter(&$form, &$form_state, $form_id) {
 }
 
 function shapermit_forms_profile_form_submit($form, &$form_state) {
-  $form_state['redirect'] = 'node/645';
+  $form_state['redirect'] = 'https://discuss.shapermit.com/users/sign_in';
 }
