@@ -2191,6 +2191,10 @@ div.form-item div.password-suggestions {
     font-size: 20px;
     margin-bottom: 30px;
     border-bottom: 2px dashed #eeeeee; }
+  .page-node-670 #main .container .pre-instructions p:before {
+    content: "\f02d";
+    font-family: fontawesome;
+    margin-right: 5px; }
 
 .node-type-poll #main .container {
   background-color: white;
