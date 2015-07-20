@@ -112,11 +112,6 @@ $(document).ready(function(){
   $('#slippry-demo').slippry()
 });
     
-$(document).ready(function(){
-var url = "https://shapermit.com/user/logout";    
-$(location).attr('href','https://shapermit.com');
-});
-    
     
 </script>
 
