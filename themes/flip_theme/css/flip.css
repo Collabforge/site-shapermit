@@ -3311,7 +3311,8 @@ ul.etabs li a.active {
     /* margin-right: -20px; */
     width: 80%; }
   .page-node-664 #main-content #content {
-    width: 100%; }
+    width: 100%;
+    margin-left: -10px; }
 
   .page-node-670 #main .container {
     background-color: white;
