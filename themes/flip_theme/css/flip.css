@@ -3367,10 +3367,7 @@ ul.etabs li a.active {
     /* margin-right: -20px; */
     width: 80%; }
   .node-type-poll #main-content #content {
-    width: 100%; }
-
-  .ui-mobile-menu ul.etabs {
-    height: 80px !important; } }
+    width: 100%; } }
 @media (max-width: 979px) {
   .container {
     width: 100%; }
