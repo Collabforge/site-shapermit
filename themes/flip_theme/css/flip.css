@@ -2139,9 +2139,9 @@ div.form-item div.password-suggestions {
   .page-node-664 #main .container input[type=radio]:checked + label {
     background-image: none;
     background-color: #d0d0d0; }
-  .page-node-664 #main .container .page-node-664 #main .container input[type=radio]:checked + label:after {
-    content: "\f00c";
-    font-family: fontawesome; }
+    .page-node-664 #main .container input[type=radio]:checked + label:after {
+      content: "\f00c";
+      font-family: fontawesome; }
 
 .page-node-670 #main .container {
   background-color: white;
