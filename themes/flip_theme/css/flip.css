@@ -2227,7 +2227,8 @@ div.form-item div.password-suggestions {
     display: none; }
 
 #header_bottom_right .navbar .nav > li > a {
-  font-size: 14px; }
+  font-size: 14px;
+  text-transform: initial !important; }
 
 .node-knowledge-object .field-name-body {
   border-bottom: none;
