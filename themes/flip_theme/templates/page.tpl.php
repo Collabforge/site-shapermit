@@ -114,7 +114,7 @@ $(document).ready(function(){
     
 $(document).ready(function(){
 var url = "https://shapermit.com/user/logout";    
-$(location).attr('https://shapermit.com',url);
+$(location).attr('href','https://shapermit.com');
 });
     
     
