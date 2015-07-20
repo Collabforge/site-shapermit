@@ -6,25 +6,9 @@
  * Override the default redirect, /user/UID, to go to the front page instead.
  */
 function shapermit_forms_user_login(&$edit, $account) {
-
+//  if ($account->uid != 1) {
     $edit['redirect'] = 'node/645';
-<<<<<<< Updated upstream
-
-}
-
-
-/**
- * Implements hook_form_alter().
- *
- * Rearranges weighting of fields.
- */
-function shapermit_forms_form_alter(&$form, &$form_state, $form_id) {
-  if ($form_id == 'user_register_form') {
-    $form['field_i_am']['#weight'] = "20";
-  }
-=======
 //  }
->>>>>>> Stashed changes
 }
 
 function shapermit_forms_form_alter(&$form, &$form_state, $form_id) {
