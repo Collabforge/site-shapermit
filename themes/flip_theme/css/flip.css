@@ -2103,6 +2103,25 @@ div.form-item div.password-suggestions {
   .page-node-664 #main .container .node-promoted {
     display: block !important; }
 
+.page-node-670 #main .container {
+  background-color: white;
+  padding: 20px 40px 0px 40px;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+  .page-node-670 #main .container a {
+    color: inherit;
+    font-weight: 700; }
+    .page-node-670 #main .container a:before {
+      content: "\f054";
+      font-family: fontawesome;
+      margin-right: 5px;
+      font-size: 12px;
+      color: red;
+      margin-left: 15px;
+      display: inline-block; }
+  .page-node-670 #main .container .node-promoted {
+    display: block !important; }
+
 .node-type-poll #main .container {
   background-color: white;
   padding: 20px 40px 0px 40px;
