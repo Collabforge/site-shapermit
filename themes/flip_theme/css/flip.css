@@ -3619,3 +3619,6 @@ ul.etabs li a.active {
   .sy-caption-wrap {
     left: 65% !important;
     bottom: 2em !important; } }
+@media (max-width: 767px) {
+  .node-type-book #sidebar-first {
+    display: block !important; } }
