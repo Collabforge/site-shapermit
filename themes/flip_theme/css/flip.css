@@ -2103,15 +2103,27 @@ div.form-item div.password-suggestions {
   .page-node-664 #main .container .node-promoted {
     display: block !important; }
   .page-node-664 #main .container #edit-submit--2 {
-    float: none; }
+    float: none;
+    width: 300px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase; }
   .page-node-664 #main .container .field-widget-options-buttons {
     padding: 20px;
-    border-top: 2px dashed #eeeeee; }
+    border-top: 2px dashed #eeeeee;
+    text-align: center; }
   .page-node-664 #main .container .form-item label {
     font-weight: 500;
     font-size: 16px; }
   .page-node-664 #main .container h2 {
-    margin-bottom: 40px; }
+    margin-bottom: 40px;
+    font-weight: 600;
+    text-align: center; }
+  .page-node-664 #main .container #edit-actions--2 {
+    text-align: center; }
+  .page-node-664 #main .container .field.field-name-body.field-type-text-with-summary.field-label-hidden {
+    text-align: center; }
 
 .page-node-670 #main .container {
   background-color: white;
