@@ -2226,6 +2226,9 @@ div.form-item div.password-suggestions {
   .page-eform-submit-email-capture #main .container .submitted-content-posted {
     display: none; }
 
+#header_bottom_right .navbar .nav > li > a {
+  font-size: 14px; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
