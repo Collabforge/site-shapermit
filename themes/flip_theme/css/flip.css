@@ -2121,6 +2121,16 @@ div.form-item div.password-suggestions {
       display: inline-block; }
   .page-node-670 #main .container .node-promoted {
     display: block !important; }
+  .page-node-670 #main .container #edit-submit--2 {
+    float: none; }
+  .page-node-670 #main .container .field-widget-options-buttons {
+    padding: 20px;
+    border-top: 2px dashed #eeeeee; }
+  .page-node-670 #main .container .form-item label {
+    font-weight: 500;
+    font-size: 16px; }
+  .page-node-670 #main .container h2 {
+    margin-bottom: 40px; }
 
 .node-type-poll #main .container {
   background-color: white;
