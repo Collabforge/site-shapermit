@@ -352,9 +352,11 @@ $(document).ready(function(){
 <script>
 
 if(window.innerWidth <= 800 && window.innerHeight <= 600) {
+    if ($(".page-user-edit").length) {
         $(document).ready(function() {
              $("html,body").scrollTop(550);
             });
+    };
 };
     
 </script>
