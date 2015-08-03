@@ -2932,9 +2932,12 @@ ul.etabs li a.active {
   #block-block-87 .para.stack .row {
     background-color: #222222 !important; }
 
-  .nav-tabs > li {
+  .node-type-book .nav-tabs > li {
     border: 0px solid transparent !important;
-    background: gainsboro !important; } }
+    background: gainsboro !important; }
+
+  .node-type-book ul.nav.nav-tabs {
+    margin-top: 30px; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
   .front-call {
     height: 300px !important; }
@@ -3156,7 +3159,14 @@ ul.etabs li a.active {
 
   .nav-tabs > li {
     border: 0px solid transparent !important;
-    background: gainsboro !important; } }
+    background: gainsboro !important; }
+
+  .node-type-book .nav-tabs > li {
+    border: 0px solid transparent !important;
+    background: gainsboro !important; }
+
+  .node-type-book ul.nav.nav-tabs {
+    margin-top: 30px; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
   .container {
     width: 100%; }
@@ -3436,7 +3446,14 @@ ul.etabs li a.active {
 
   .nav-tabs > li {
     border: 0px solid transparent !important;
-    background: gainsboro !important; } }
+    background: gainsboro !important; }
+
+  .node-type-book .nav-tabs > li {
+    border: 0px solid transparent !important;
+    background: gainsboro !important; }
+
+  .node-type-book ul.nav.nav-tabs {
+    margin-top: 30px; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   .container {
     width: 100%; }
