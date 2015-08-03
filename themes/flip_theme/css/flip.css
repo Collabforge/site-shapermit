@@ -2957,7 +2957,10 @@ ul.etabs li a.active {
     text-align: center;
     float: left;
     margin-top: 50px;
-    margin-left: -60px; } }
+    margin-left: -60px; }
+
+  .node-type-book .para h2 {
+    padding-left: 0px; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
   .front-call {
     height: 300px !important; }
@@ -3206,7 +3209,10 @@ ul.etabs li a.active {
     text-align: center;
     float: left;
     margin-top: 50px;
-    margin-left: -60px; } }
+    margin-left: -60px; }
+
+  .node-type-book .para h2 {
+    padding-left: 0px; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
   .container {
     width: 100%; }
@@ -3513,7 +3519,10 @@ ul.etabs li a.active {
     text-align: center;
     float: left;
     margin-top: 50px;
-    margin-left: -60px; } }
+    margin-left: -60px; }
+
+  .node-type-book .para h2 {
+    padding-left: 0px; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   .container {
     width: 100%; }
