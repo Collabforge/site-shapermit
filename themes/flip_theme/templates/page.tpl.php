@@ -351,11 +351,7 @@ $(document).ready(function(){
 </div>
 <script>
 
-if($(window.innerWidth >= 300)) {
-        $(document).ready(function() {
-             $("html,body").scrollTop(550);
-            });
-};
+
     
 </script>
 <!-- /#main, /#main-wrapper -->
