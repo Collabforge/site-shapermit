@@ -2941,8 +2941,9 @@ ul.etabs li a.active {
     margin-top: 30px; }
 
   .comment_bubble.span9 {
-    width: 60%;
-    float: right; }
+    width: 65%;
+    float: right;
+    margin-top: 10px; }
 
   .span3.comment_profile {
     width: 20%;
@@ -3189,8 +3190,9 @@ ul.etabs li a.active {
     margin-top: 30px; }
 
   .comment_bubble.span9 {
-    width: 60%;
-    float: right; }
+    width: 65%;
+    float: right;
+    margin-top: 10px; }
 
   .span3.comment_profile {
     width: 20%;
@@ -3495,8 +3497,9 @@ ul.etabs li a.active {
     margin-top: 30px; }
 
   .comment_bubble.span9 {
-    width: 60%;
-    float: right; }
+    width: 65%;
+    float: right;
+    margin-top: 10px; }
 
   .span3.comment_profile {
     width: 20%;
