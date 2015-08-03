@@ -2950,7 +2950,7 @@ ul.etabs li a.active {
     margin-left: 0px; }
 
   .comment_bubble::after {
-    top: 6px; } }
+    top: 0px; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
   .front-call {
     height: 300px !important; }
@@ -3192,7 +3192,7 @@ ul.etabs li a.active {
     margin-left: 0px; }
 
   .comment_bubble::after {
-    top: 6px; } }
+    top: 0px; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
   .container {
     width: 100%; }
@@ -3492,7 +3492,7 @@ ul.etabs li a.active {
     margin-left: 0px; }
 
   .comment_bubble::after {
-    top: 6px; } }
+    top: 0px; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   .container {
     width: 100%; }
