@@ -352,7 +352,7 @@ $(document).ready(function(){
 <script>
 
 if(window.innerWidth <= 800 && window.innerHeight <= 600) {
-    if ($(".page-user-edit").length) {
+    if ($(".node-type-book").length) {
         $(document).ready(function() {
              $("html,body").scrollTop(550);
             });
