@@ -349,6 +349,15 @@ $(document).ready(function(){
     <?php endif; ?>
   </div>
 </div>
+<script>
+
+if ($(".node-type-book").length) {
+        $(document).ready(function() {
+             $("html,body").scrollTop(550);
+            });
+};
+    
+</script>
 <!-- /#main, /#main-wrapper -->
 <?php if ($page['footer']): ?>
 <div id="footer" class="clearfix site-footer" role="contentinfo">
