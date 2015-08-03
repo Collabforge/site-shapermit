@@ -351,7 +351,7 @@ $(document).ready(function(){
 </div>
 <script>
 
-if ($(".node-type-book").length) {
+if(window.innerWidth <= 300 && window.innerHeight <= 700) {
         $(document).ready(function() {
              $("html,body").scrollTop(550);
             });
