@@ -118,6 +118,14 @@ $(document).ready(function(){
     });
 
 
+            
+if ($(".node-type-book").length) {
+        $(document).ready(function() {
+             $("html,body").scrollTop(550);
+            });
+};
+
+            
 </script>
 
     </div>
