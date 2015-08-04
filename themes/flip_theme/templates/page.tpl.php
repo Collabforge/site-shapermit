@@ -134,10 +134,12 @@ $(document).ready(function(){
   <div id="header"  class="clearfix header visible-desktop hidden-phone" role="banner">
     <div class="container" id="header_container">
 
-
-
-
-
+<script>
+        $(document).ready(function() {
+            $('.tooltip').tooltipster();
+        });
+</script>
+      
       <div class="row-fluid" id="header_top" >
 
 
