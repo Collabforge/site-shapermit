@@ -43,6 +43,9 @@ if ((($user->uid) && ($page['admin_shortcuts'])) || (($user->uid) && ($secondary
 <script type='text/javascript' src='/profiles/collabco/themes/collabco_theme/js/jquery.easing.1.3.js'></script>
 <script type="application/javascript" src='https://shapermit.com/sites/default/themes/flip_theme/js/slippry.min.js'></script>
 <link rel="stylesheet" href="sites/default/themes/flip_theme/css/slippry.css" />
+<script type="application/javascript" src='http://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.2/velocity.js'></script>
+<script type="application/javascript" src='http://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.2/velocity.ui.js'></script>
+
 
 <div class="ui-mobile-menu visible-phone hidden-desktop">
 
