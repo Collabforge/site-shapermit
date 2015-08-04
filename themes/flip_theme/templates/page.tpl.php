@@ -46,6 +46,10 @@ if ((($user->uid) && ($page['admin_shortcuts'])) || (($user->uid) && ($secondary
 <script type="application/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.2/velocity.js'></script>
 <script type="application/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.2/velocity.ui.js'></script>
 
+
+<script rel="stylesheet" src='https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/css/tooltipster.css'></script>
+
+
 <script rel="stylesheet" src='https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/css/themes/tooltipster-light.css'></script>
 
 <script type="application/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/js/jquery.tooltipster.js'></script>
