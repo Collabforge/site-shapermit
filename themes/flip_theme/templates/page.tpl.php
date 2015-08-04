@@ -47,10 +47,10 @@ if ((($user->uid) && ($page['admin_shortcuts'])) || (($user->uid) && ($secondary
 <script type="application/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.2/velocity.ui.js'></script>
 
 
-<script rel="stylesheet" src='https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/css/tooltipster.css'></script>
+<link rel="stylesheet" src='https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/css/tooltipster.css'>
 
 
-<script rel="stylesheet" src='https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/css/themes/tooltipster-light.css'></script>
+<link rel="stylesheet" src='https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/css/themes/tooltipster-light.css'>
 
 <script type="application/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/js/jquery.tooltipster.js'></script>
 
@@ -138,11 +138,6 @@ $(document).ready(function(){
   <div id="header"  class="clearfix header visible-desktop hidden-phone" role="banner">
     <div class="container" id="header_container">
 
-<script>
-        $(document).ready(function() {
-            $('.tooltip').tooltipster();
-        });
-</script>
       
       <div class="row-fluid" id="header_top" >
 
