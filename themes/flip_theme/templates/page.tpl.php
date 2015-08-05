@@ -122,21 +122,6 @@ $(document).ready(function(){
   $('#slippry-demo').slippry()
 });
     
-    
-$(document).ready(function () {
-    // create cookie
-    var visited = $.cookie('visited'); // visited = 0
-    if (visited >= 2) {
-        alert("Your book is overdue."); 
-    } else {
-        visited++; // increase counter of visits
-        // set new cookie value to match visits
-        $.cookie('visited', visited, {
-            expires: 1 // expires after one day
-        });
-        return false;
-    }
-});
 
     
 </script>
