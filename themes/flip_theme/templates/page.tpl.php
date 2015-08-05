@@ -46,7 +46,7 @@ if ((($user->uid) && ($page['admin_shortcuts'])) || (($user->uid) && ($secondary
 <script type="application/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.2/velocity.js'></script>
 <script type="application/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.2/velocity.ui.js'></script>
 <script type="application/javascript" src='https://rawgit.com/leafo/sticky-kit/v1.1.2/jquery.sticky-kit.min.js'></script>
-<script type="application/javascript" src='https://github.com/js-cookie/js-cookie/blob/master/src/js.cookie.js'></script>
+<script type="application/javascript" src='sites/default/themes/flip_theme/js/cookies.js'></script>
 
 
 
