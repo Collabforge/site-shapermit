@@ -1021,7 +1021,8 @@ a.inline-link {
   overflow: hidden;
   margin-left: 0px;
   margin-bottom: 20px;
-  min-height: 650px; }
+  min-height: 650px;
+  border-top: 40px solid #222222; }
 
 .node-type-book .mc-content.span9 {
   width: 67%;
