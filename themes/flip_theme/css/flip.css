@@ -2266,7 +2266,7 @@ div.form-item div.password-suggestions {
   margin-left: -20px !important;
   background-color: white;
   z-index: 99999;
-  padding-bottom: 15px;
+  padding-bottom: 25px;
   transition: 0.3s;
   padding-left: 20px !important; }
 
@@ -3038,7 +3038,7 @@ ul.etabs li a.active {
 
   #sidebar-first.is_stuck {
     transition: 0.3s;
-    box-shadow: 0px 15px 10px white; } }
+    box-shadow: 0px -2px 17px #eeeeee; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
   .front-call {
     height: 300px !important; }
@@ -3308,7 +3308,7 @@ ul.etabs li a.active {
 
   #sidebar-first.is_stuck {
     transition: 0.3s;
-    box-shadow: 0px 15px 10px white; } }
+    box-shadow: 0px -2px 17px #eeeeee; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
   .container {
     width: 100%; }
@@ -3636,7 +3636,7 @@ ul.etabs li a.active {
 
   #sidebar-first.is_stuck {
     transition: 0.3s;
-    box-shadow: 0px 15px 10px white; } }
+    box-shadow: 0px -2px 17px #eeeeee; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   .container {
     width: 100%; }
@@ -3775,7 +3775,7 @@ ul.etabs li a.active {
 
   #sidebar-first.is_stuck {
     transition: 0.3s;
-    box-shadow: 0px 15px 10px white; } }
+    box-shadow: 0px -2px 17px #eeeeee; } }
 @media (max-width: 979px) {
   .container {
     width: 100%; }
