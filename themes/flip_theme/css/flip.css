@@ -3039,7 +3039,11 @@ ul.etabs li a.active {
 
   #sidebar-first.is_stuck {
     transition: 0.3s;
-    box-shadow: 0px -2px 17px #cccccc; } }
+    box-shadow: 0px -2px 17px #cccccc; }
+
+  .node-type-book .contentarticle h2 {
+    border-bottom: 3px solid;
+    padding-bottom: 4px; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
   .front-call {
     height: 300px !important; }
@@ -3309,7 +3313,11 @@ ul.etabs li a.active {
 
   #sidebar-first.is_stuck {
     transition: 0.3s;
-    box-shadow: 0px -2px 17px #cccccc; } }
+    box-shadow: 0px -2px 17px #cccccc; }
+
+  .node-type-book .contentarticle h2 {
+    border-bottom: 3px solid;
+    padding-bottom: 4px; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
   .container {
     width: 100%; }
@@ -3637,7 +3645,11 @@ ul.etabs li a.active {
 
   #sidebar-first.is_stuck {
     transition: 0.3s;
-    box-shadow: 0px -2px 17px #cccccc; } }
+    box-shadow: 0px -2px 17px #cccccc; }
+
+  .node-type-book .contentarticle h2 {
+    border-bottom: 3px solid;
+    padding-bottom: 4px; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   .container {
     width: 100%; }
@@ -3776,7 +3788,11 @@ ul.etabs li a.active {
 
   #sidebar-first.is_stuck {
     transition: 0.3s;
-    box-shadow: 0px -2px 17px #cccccc; } }
+    box-shadow: 0px -2px 17px #cccccc; }
+
+  .node-type-book .contentarticle h2 {
+    border-bottom: 3px solid;
+    padding-bottom: 4px; } }
 @media (max-width: 979px) {
   .container {
     width: 100%; }
