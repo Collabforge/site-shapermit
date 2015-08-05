@@ -2297,6 +2297,12 @@ div.form-item div.password-suggestions {
   margin-bottom: 0px;
   transform: rotate(-90deg); }
 
+.hide--first > *:first-child {
+  display: none; }
+
+.hide--second > *:last-child {
+  display: none; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
