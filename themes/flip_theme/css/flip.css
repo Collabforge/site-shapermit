@@ -3605,7 +3605,8 @@ ul.etabs li a.active {
     min-height: 0px !important; }
 
   .node-type-book #main-content:before {
-    top: 246px !important; } }
+    top: 255px !important;
+    left: 0px !important; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   .container {
     width: 100%; }
