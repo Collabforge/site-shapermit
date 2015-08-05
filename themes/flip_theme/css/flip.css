@@ -2289,9 +2289,18 @@ div.form-item div.password-suggestions {
 .node-type-book .contentarticle h2 {
   margin-bottom: 30px;
   font-size: 24px;
-  border-bottom: 2px solid #555555;
   display: inline-block;
   margin-top: 0px; }
+
+.node-type-book #main-content:before {
+  content: "\f02e";
+  font-family: fontawesome;
+  font-size: 32px;
+  position: relative;
+  left: 7px;
+  top: 65px;
+  margin-bottom: 0px;
+  transform: rotate(-90deg); }
 
 .node-knowledge-object .field-name-body {
   border-bottom: none;
