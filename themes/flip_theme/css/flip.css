@@ -3031,6 +3031,13 @@ ul.etabs li a.active {
     min-height: 0px !important; }
 
   .node-type-book #main-content:before {
+    content: "\f02e";
+    font-family: fontawesome;
+    font-size: 32px;
+    position: relative;
+    left: 7px;
+    margin-bottom: 0px;
+    transform: rotate(-90deg);
     top: 255px !important;
     left: 0px !important; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
@@ -3290,6 +3297,13 @@ ul.etabs li a.active {
     min-height: 0px !important; }
 
   .node-type-book #main-content:before {
+    content: "\f02e";
+    font-family: fontawesome;
+    font-size: 32px;
+    position: relative;
+    left: 7px;
+    margin-bottom: 0px;
+    transform: rotate(-90deg);
     top: 255px !important;
     left: 0px !important; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
@@ -3607,6 +3621,13 @@ ul.etabs li a.active {
     min-height: 0px !important; }
 
   .node-type-book #main-content:before {
+    content: "\f02e";
+    font-family: fontawesome;
+    font-size: 32px;
+    position: relative;
+    left: 7px;
+    margin-bottom: 0px;
+    transform: rotate(-90deg);
     top: 255px !important;
     left: 0px !important; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
@@ -3735,6 +3756,13 @@ ul.etabs li a.active {
     min-height: 0px !important; }
 
   .node-type-book #main-content:before {
+    content: "\f02e";
+    font-family: fontawesome;
+    font-size: 32px;
+    position: relative;
+    left: 7px;
+    margin-bottom: 0px;
+    transform: rotate(-90deg);
     top: 255px !important;
     left: 0px !important; } }
 @media (max-width: 979px) {
