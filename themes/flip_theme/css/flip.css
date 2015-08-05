@@ -2083,7 +2083,9 @@ div.form-item div.password-suggestions {
 #sidebar-first.span3 {
   margin-left: 20px !important;
   margin-right: -20px;
-  background-color: white; }
+  background-color: white;
+  z-index: 99999;
+  padding-bottom: 30px; }
 
 .sidebar-first .span9 {
   margin-left: 0px !important; }
