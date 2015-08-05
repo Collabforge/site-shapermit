@@ -2267,13 +2267,13 @@ div.form-item div.password-suggestions {
   box-shadow: 0px 15px 10px white; }
 
 #sidebar-first.span3 {
-  margin-left: 0px !important;
+  margin-left: -20px !important;
   margin-right: -20px;
   background-color: white;
   z-index: 99999;
   padding-bottom: 15px;
   transition: 0.3s;
-  padding-left: 20px; }
+  padding-left: 20px !important; }
 
 #sidebar-first {
   background-color: white;
