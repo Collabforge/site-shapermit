@@ -33,7 +33,6 @@ if ((($user->uid) && ($page['admin_shortcuts'])) || (($user->uid) && ($secondary
 
 <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js'></script>
-<script type="application/javascript" src='https://shapermit.com/sites/default/themes/flip_theme/js/jquery.cookie.js'></script>
 <script type='text/javascript' src='/profiles/collabco/themes/collabco_theme/js/jquery.scrollTo.js'></script>
 <script type='text/javascript' src='/profiles/collabco/themes/collabco_theme/js/jquery.toc.min.js'></script>
 <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js'></script>
