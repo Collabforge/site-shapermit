@@ -1139,12 +1139,6 @@ input.form-submit.form-btn-success {
 .book-navigation .page-links a {
   color: #333333; }
 
-#sidebar-first {
-  background-color: white;
-  outline: 1px solid #eaeaea;
-  float: right;
-  padding-top: 20px; }
-
 #block-book-explorer-book-explorer a:hover {
   color: #333333 !important; }
 
@@ -2273,12 +2267,18 @@ div.form-item div.password-suggestions {
   box-shadow: 0px 15px 10px white; }
 
 #sidebar-first.span3 {
-  margin-left: 20px !important;
+  margin-left: 0px !important;
   margin-right: -20px;
   background-color: white;
   z-index: 99999;
   padding-bottom: 30px;
-  transition: 0.3s; }
+  transition: 0.3s;
+  padding-left: 20px; }
+
+#sidebar-first {
+  background-color: white;
+  outline: 1px solid #eaeaea;
+  float: right; }
 
 .node-knowledge-object .field-name-body {
   border-bottom: none;
@@ -3004,7 +3004,10 @@ ul.etabs li a.active {
     margin-left: -60px; }
 
   .node-type-book .para h2 {
-    padding-left: 0px; } }
+    padding-left: 0px; }
+
+  #block-block-88 .para.stack {
+    min-height: 0px !important; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
   .front-call {
     height: 300px !important; }
@@ -3256,7 +3259,10 @@ ul.etabs li a.active {
     margin-left: -60px; }
 
   .node-type-book .para h2 {
-    padding-left: 0px; } }
+    padding-left: 0px; }
+
+  #block-block-88 .para.stack {
+    min-height: 0px !important; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
   .container {
     width: 100%; }
@@ -3566,7 +3572,10 @@ ul.etabs li a.active {
     margin-left: -60px; }
 
   .node-type-book .para h2 {
-    padding-left: 0px; } }
+    padding-left: 0px; }
+
+  #block-block-88 .para.stack {
+    min-height: 0px !important; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   .container {
     width: 100%; }
@@ -3687,7 +3696,10 @@ ul.etabs li a.active {
       padding-bottom: 0px !important; }
 
   #block-block-87 .para.stack .row {
-    background-color: #222222 !important; } }
+    background-color: #222222 !important; }
+
+  #block-block-88 .para.stack {
+    min-height: 0px !important; } }
 @media (max-width: 979px) {
   .container {
     width: 100%; }
