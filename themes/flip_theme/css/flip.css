@@ -904,8 +904,8 @@ a.inline-link {
   box-shadow: none; }
 
 .logo-secondary {
-  max-height: 80px !important;
-  margin-top: 10px !important;
+  max-height: 30px !important;
+  margin-top: -20px !important;
   padding-left: 12px !important;
   overflow: visible;
   margin-bottom: -15px; }
@@ -2302,6 +2302,10 @@ div.form-item div.password-suggestions {
 
 .hide--second > *:last-child {
   display: none; }
+
+#main:hover #main-content:before {
+  margin-left: -10px;
+  transition: 0.3s; }
 
 .node-knowledge-object .field-name-body {
   border-bottom: none;
