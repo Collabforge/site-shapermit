@@ -2306,8 +2306,12 @@ div.form-item div.password-suggestions {
 #quicktabs-tabpage-news_events_quicktab-0 .views-row.views-row-2.views-row-even img {
   margin-top: -50px; }
 
-.node-type-irg-discussions li.comment-add.first.last.active {
-  display: none; }
+.page-5-for-5 #main-content {
+  background-color: white;
+  padding: 0px 50px 20px 0px;
+  overflow: hidden;
+  margin-left: 0px;
+  margin-bottom: 20px; }
 
 .node-knowledge-object .field-name-body {
   border-bottom: none;
