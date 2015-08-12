@@ -2366,6 +2366,9 @@ div.form-item div.password-suggestions {
     color: #f1f1f1;
     font-size: 60px;
     margin-top: -10px; }
+.view-5-for-5 .five-for-five-comment-date {
+  font-size: 12px;
+  opacity: 0.6; }
 
 .node-knowledge-object .field-name-body {
   border-bottom: none;
