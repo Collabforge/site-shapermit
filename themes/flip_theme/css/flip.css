@@ -2340,6 +2340,29 @@ div.form-item div.password-suggestions {
   margin: auto;
   padding-bottom: 40px; }
 
+.view-5-for-5 .views-row-odd {
+  background-color: #f9f9f9;
+  padding: 10px; }
+  .view-5-for-5 .views-row-odd:before {
+    content: "\f0d9";
+    font-family: fontawesome;
+    position: absolute;
+    margin-left: -23px;
+    color: #f9f9f9;
+    font-size: 40px;
+    margin-top: -6px; }
+.view-5-for-5 .views-row-even {
+  background-color: #f1f1f1;
+  padding: 10px; }
+  .view-5-for-5 .views-row-even:before {
+    content: "\f0d9";
+    font-family: fontawesome;
+    position: absolute;
+    margin-left: -23px;
+    color: #f1f1f1;
+    font-size: 40px;
+    margin-top: -6px; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
