@@ -2313,6 +2313,10 @@ div.form-item div.password-suggestions {
   margin-bottom: 20px; }
 .page-5-for-5 #content-upper {
   max-width: 900px; }
+.page-5-for-5 .form-item label {
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase; }
 
 #block-entityform-block-5-for-5 h2 {
   display: none; }
