@@ -2303,8 +2303,11 @@ div.form-item div.password-suggestions {
 .hide--second > *:last-child {
   display: none; }
 
-#quicktabs-tabpage-news_events_quicktab-0 .views-row-first img {
+#quicktabs-tabpage-news_events_quicktab-0 .views-row.views-row-2.views-row-even img {
   margin-top: -50px; }
+
+.node-type-irg-discussions li.comment-add.first.last.active {
+  display: none; }
 
 .node-knowledge-object .field-name-body {
   border-bottom: none;
