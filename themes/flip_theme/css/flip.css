@@ -2327,7 +2327,9 @@ div.form-item div.password-suggestions {
   width: 720px;
   margin: auto;
   padding-top: 30px;
-  padding-bottom: 20px; }
+  padding-bottom: 0px;
+  border-bottom: 1px dashed #cccccc;
+  margin-bottom: 50px; }
   #block-entityform-block-5-for-5 h2 {
     display: none; }
 
