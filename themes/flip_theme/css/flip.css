@@ -2325,6 +2325,10 @@ div.form-item div.password-suggestions {
   margin-top: -25px; }
 .page-5-for-5 #block-block-90 {
   margin-top: 20px !important; }
+.page-5-for-5 #block-system-main {
+  width: 720px;
+  margin: auto;
+  padding-bottom: 40px; }
 
 #block-entityform-block-5-for-5 {
   width: 720px;
@@ -2336,10 +2340,6 @@ div.form-item div.password-suggestions {
   #block-entityform-block-5-for-5 h2 {
     display: none; }
 
-.view-5-for-5 #block-system-main {
-  width: 720px;
-  margin: auto;
-  padding-bottom: 40px; }
 .view-5-for-5 p {
   margin-bottom: 10px; }
 .view-5-for-5 .views-row-odd {
