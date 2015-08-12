@@ -3129,7 +3129,10 @@ ul.etabs li a.active {
       content: "\f101";
       font-family: fontawesome;
       margin-right: 5px;
-      margin-left: -20px; } }
+      margin-left: -20px; }
+
+  .news-item {
+    width: auto !important; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
   .front-call {
     height: 300px !important; }
@@ -3416,7 +3419,10 @@ ul.etabs li a.active {
       content: "\f101";
       font-family: fontawesome;
       margin-right: 5px;
-      margin-left: -20px; } }
+      margin-left: -20px; }
+
+  .news-item {
+    width: auto !important; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
   .container {
     width: 100%; }
@@ -3761,7 +3767,10 @@ ul.etabs li a.active {
       content: "\f101";
       font-family: fontawesome;
       margin-right: 5px;
-      margin-left: -20px; } }
+      margin-left: -20px; }
+
+  .news-item {
+    width: auto !important; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   .container {
     width: 100%; }
@@ -3917,7 +3926,10 @@ ul.etabs li a.active {
       content: "\f101";
       font-family: fontawesome;
       margin-right: 5px;
-      margin-left: -20px; } }
+      margin-left: -20px; }
+
+  .news-item {
+    width: auto !important; } }
 @media (max-width: 979px) {
   .container {
     width: 100%; }
