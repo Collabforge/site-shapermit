@@ -2312,6 +2312,8 @@ div.form-item div.password-suggestions {
   margin-left: 0px;
   margin-bottom: 20px;
   margin-top: 20px; }
+.page-5-for-5 #content-upper {
+  max-width: 900px; }
 
 .node-knowledge-object .field-name-body {
   border-bottom: none;
