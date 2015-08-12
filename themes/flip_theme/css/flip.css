@@ -2321,8 +2321,18 @@ div.form-item div.password-suggestions {
   margin-top: -54px;
   margin-bottom: 50px; }
 
-#block-entityform-block-5-for-5 h2 {
-  display: none; }
+#block-entityform-block-5-for-5 {
+  width: 720px;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 20px; }
+  #block-entityform-block-5-for-5 h2 {
+    display: none; }
+
+.view.view-5-for-5.view-id-5_for_5.view-display-id-page.view-dom-id-3bae54ba79edeb5fe0e0423e0af74e8f {
+  width: 720px;
+  margin: auto;
+  padding-bottom: 40px; }
 
 .node-knowledge-object .field-name-body {
   border-bottom: none;
