@@ -719,7 +719,8 @@ li.print_pdf {
 
 .news-item {
   background: #f2f2f2;
-  padding: 30px; }
+  padding: 30px;
+  width: 900px; }
   .news-item .field-type-text-with-summary {
     border-bottom: 0px solid #dddddd;
     margin-bottom: 0px;
