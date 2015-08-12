@@ -2311,7 +2311,8 @@ div.form-item div.password-suggestions {
   padding: 0px 50px 20px 0px;
   overflow: hidden;
   margin-left: 0px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  margin-top: 20px; }
 
 .node-knowledge-object .field-name-body {
   border-bottom: none;
