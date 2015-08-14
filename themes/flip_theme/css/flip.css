@@ -3139,7 +3139,7 @@ ul.etabs li a.active {
   .news-item {
     width: auto !important; }
 
-  .page-5-for-5 .not-front #main-content {
+  .page-5-for-5 #main-content {
     margin-top: 0px; }
   .page-5-for-5 #block-entityform-block-5-for-5 {
     width: auto; }
