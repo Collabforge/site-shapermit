@@ -2345,7 +2345,8 @@ div.form-item div.password-suggestions {
     display: none; }
 
 .view-5-for-5 p {
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  word-break: break-word; }
 .view-5-for-5 .views-row-odd {
   background-color: #f9f9f9;
   padding: 20px;
@@ -3136,7 +3137,16 @@ ul.etabs li a.active {
       margin-left: -20px; }
 
   .news-item {
-    width: auto !important; } }
+    width: auto !important; }
+
+  .not-front #main-content {
+    margin-top: 0px; }
+
+  #block-entityform-block-5-for-5 {
+    width: auto; }
+
+  #block-system-main {
+    width: auto; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
   .front-call {
     height: 300px !important; }
