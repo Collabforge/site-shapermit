@@ -2333,6 +2333,8 @@ div.form-item div.password-suggestions {
   width: 720px;
   margin: auto;
   padding-bottom: 40px; }
+.page-5-for-5 .alert.alert-block.alert-success {
+  width: 840px; }
 
 #block-entityform-block-5-for-5 {
   width: 720px;
@@ -3149,7 +3151,9 @@ ul.etabs li a.active {
     padding-left: 0px;
     padding-top: 40px !important; }
   .page-5-for-5 input#edit-field-ryi-email-und-0-value {
-    width: 50%; } }
+    width: 50%; }
+  .page-5-for-5 .alert.alert-block.alert-success {
+    width: auto; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
   .front-call {
     height: 300px !important; }
@@ -3451,7 +3455,9 @@ ul.etabs li a.active {
     padding-left: 0px;
     padding-top: 40px !important; }
   .page-5-for-5 input#edit-field-ryi-email-und-0-value {
-    width: 50%; } }
+    width: 50%; }
+  .page-5-for-5 .alert.alert-block.alert-success {
+    width: auto; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
   .container {
     width: 100%; }
@@ -3811,7 +3817,9 @@ ul.etabs li a.active {
     padding-left: 0px;
     padding-top: 40px !important; }
   .page-5-for-5 input#edit-field-ryi-email-und-0-value {
-    width: 50%; } }
+    width: 50%; }
+  .page-5-for-5 .alert.alert-block.alert-success {
+    width: auto; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   .container {
     width: 100%; }
@@ -3982,7 +3990,9 @@ ul.etabs li a.active {
     padding-left: 0px;
     padding-top: 40px !important; }
   .page-5-for-5 input#edit-field-ryi-email-und-0-value {
-    width: 50%; } }
+    width: 50%; }
+  .page-5-for-5 .alert.alert-block.alert-success {
+    width: auto; } }
 @media (max-width: 979px) {
   .container {
     width: 100%; }
