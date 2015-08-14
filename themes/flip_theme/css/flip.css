@@ -2335,6 +2335,9 @@ div.form-item div.password-suggestions {
   padding-bottom: 40px; }
 .page-5-for-5 .alert.alert-block.alert-success {
   width: 840px; }
+.page-5-for-5 .pager li > a {
+  border-radius: 0px;
+  color: inherit; }
 
 #block-entityform-block-5-for-5 {
   width: 720px;
