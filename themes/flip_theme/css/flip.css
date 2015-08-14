@@ -3146,7 +3146,8 @@ ul.etabs li a.active {
   .page-5-for-5 #block-system-main {
     width: auto; }
   .page-5-for-5 .span6 h2 {
-    padding-left: 0px; }
+    padding-left: 0px;
+    padding-top: 40px !important; }
   .page-5-for-5 input#edit-field-ryi-email-und-0-value {
     width: 50%; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
@@ -3447,7 +3448,8 @@ ul.etabs li a.active {
   .page-5-for-5 #block-system-main {
     width: auto; }
   .page-5-for-5 .span6 h2 {
-    padding-left: 0px; }
+    padding-left: 0px;
+    padding-top: 40px !important; }
   .page-5-for-5 input#edit-field-ryi-email-und-0-value {
     width: 50%; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
@@ -3806,7 +3808,8 @@ ul.etabs li a.active {
   .page-5-for-5 #block-system-main {
     width: auto; }
   .page-5-for-5 .span6 h2 {
-    padding-left: 0px; }
+    padding-left: 0px;
+    padding-top: 40px !important; }
   .page-5-for-5 input#edit-field-ryi-email-und-0-value {
     width: 50%; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
@@ -3976,7 +3979,8 @@ ul.etabs li a.active {
   .page-5-for-5 #block-system-main {
     width: auto; }
   .page-5-for-5 .span6 h2 {
-    padding-left: 0px; }
+    padding-left: 0px;
+    padding-top: 40px !important; }
   .page-5-for-5 input#edit-field-ryi-email-und-0-value {
     width: 50%; } }
 @media (max-width: 979px) {
