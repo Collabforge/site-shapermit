@@ -3139,13 +3139,11 @@ ul.etabs li a.active {
   .news-item {
     width: auto !important; }
 
-  .not-front #main-content {
+  .page-5-for-5 .not-front #main-content {
     margin-top: 0px; }
-
-  #block-entityform-block-5-for-5 {
+  .page-5-for-5 #block-entityform-block-5-for-5 {
     width: auto; }
-
-  #block-system-main {
+  .page-5-for-5 #block-system-main {
     width: auto; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
   .front-call {
