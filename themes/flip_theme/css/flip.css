@@ -3144,7 +3144,9 @@ ul.etabs li a.active {
   .page-5-for-5 #block-entityform-block-5-for-5 {
     width: auto; }
   .page-5-for-5 #block-system-main {
-    width: auto; } }
+    width: auto; }
+  .page-5-for-5 .span6 h2 {
+    padding-left: 0px; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
   .front-call {
     height: 300px !important; }
@@ -3434,7 +3436,16 @@ ul.etabs li a.active {
       margin-left: -20px; }
 
   .news-item {
-    width: auto !important; } }
+    width: auto !important; }
+
+  .page-5-for-5 #main-content {
+    margin-top: 0px; }
+  .page-5-for-5 #block-entityform-block-5-for-5 {
+    width: auto; }
+  .page-5-for-5 #block-system-main {
+    width: auto; }
+  .page-5-for-5 .span6 h2 {
+    padding-left: 0px; } }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
   .container {
     width: 100%; }
@@ -3782,7 +3793,16 @@ ul.etabs li a.active {
       margin-left: -20px; }
 
   .news-item {
-    width: auto !important; } }
+    width: auto !important; }
+
+  .page-5-for-5 #main-content {
+    margin-top: 0px; }
+  .page-5-for-5 #block-entityform-block-5-for-5 {
+    width: auto; }
+  .page-5-for-5 #block-system-main {
+    width: auto; }
+  .page-5-for-5 .span6 h2 {
+    padding-left: 0px; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   .container {
     width: 100%; }
@@ -3941,7 +3961,16 @@ ul.etabs li a.active {
       margin-left: -20px; }
 
   .news-item {
-    width: auto !important; } }
+    width: auto !important; }
+
+  .page-5-for-5 #main-content {
+    margin-top: 0px; }
+  .page-5-for-5 #block-entityform-block-5-for-5 {
+    width: auto; }
+  .page-5-for-5 #block-system-main {
+    width: auto; }
+  .page-5-for-5 .span6 h2 {
+    padding-left: 0px; } }
 @media (max-width: 979px) {
   .container {
     width: 100%; }
