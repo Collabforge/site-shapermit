@@ -2381,6 +2381,9 @@ div.form-item div.password-suggestions {
   font-size: 12px;
   opacity: 0.6; }
 
+.book-explorer li.expanded ul {
+  font-size: 12px; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
