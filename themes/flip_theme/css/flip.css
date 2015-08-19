@@ -2444,6 +2444,10 @@ div.form-item div.password-suggestions {
 .book-explorer li.expanded ul {
   font-size: 12px; }
 
+form#knowledge-object-node-form {
+  background-color: white;
+  padding: 20px; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
