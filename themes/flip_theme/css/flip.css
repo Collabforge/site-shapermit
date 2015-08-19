@@ -2448,6 +2448,10 @@ form#knowledge-object-node-form {
   background-color: white;
   padding: 20px; }
 
+form#basic-page-node-form {
+  background-color: white;
+  padding: 20px; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
