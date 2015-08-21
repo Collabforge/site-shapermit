@@ -2300,11 +2300,6 @@ div.form-item div.password-suggestions {
   outline: 1px solid #eaeaea;
   float: right; }
 
-.node-type-book .contentarticle p:first-of-type::first-letter {
-  color: inherit;
-  font-size: 25px;
-  font-weight: 700; }
-
 .node-type-book .contentarticle h2 {
   margin-bottom: 30px;
   font-size: 24px;
