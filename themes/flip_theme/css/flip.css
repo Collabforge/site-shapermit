@@ -2492,6 +2492,18 @@ form#basic-page-node-form {
   color: black;
   font-size: 14px;
   line-height: 19px; }
+.node-type-book .field-item.even blockquote {
+  background: none;
+  border-left: 0px;
+  margin: 1.5em 0px;
+  padding: 20px;
+  width: 40%;
+  float: left; }
+  .node-type-book .field-item.even blockquote p {
+    font-style: normal;
+    color: red !important; }
+  .node-type-book .field-item.even blockquote:before {
+    color: red !important; }
 
 .node-knowledge-object .field-name-body {
   border-bottom: none;
