@@ -21,7 +21,6 @@ body {
 p {
   line-height: 1.4em;
   font-size: 14px;
-  letter-spacing: 0.5px;
   font-family: "Work Sans", sans-serif;
   font-weight: 400; }
 
@@ -30,16 +29,14 @@ h1 {
   margin-top: 24px;
   margin-bottom: 12px;
   font-family: "Work Sans", sans-serif;
-  font-weight: 700;
-  letter-spacing: 0.5px; }
+  font-weight: 700; }
 
 h2 {
   font-size: 22px;
   margin-top: 24px;
   margin-bottom: 12px;
   font-family: "Work Sans", sans-serif;
-  font-weight: 700;
-  letter-spacing: 0.5px; }
+  font-weight: 700; }
 
 h3 {
   margin-top: 24px;
@@ -47,8 +44,7 @@ h3 {
   font-family: "Work Sans", sans-serif;
   font-size: 1.2em;
   padding: 0;
-  font-weight: 600;
-  letter-spacing: 0.5px; }
+  font-weight: 600; }
 
 h4 {
   font-size: 12px;
@@ -56,8 +52,7 @@ h4 {
   margin-top: 12px;
   margin-bottom: 12px;
   font-family: "Work Sans", sans-serif;
-  font-weight: 700;
-  letter-spacing: 0.5px; }
+  font-weight: 700; }
 
 h5 {
   font-size: 16px;
@@ -65,14 +60,12 @@ h5 {
   margin-top: 12px;
   margin-bottom: 12px;
   font-family: "Work Sans", sans-serif;
-  font-weight: 700;
-  letter-spacing: 0.5px; }
+  font-weight: 700; }
 
 h6 {
   font-family: "Work Sans", sans-serif;
   font-size: 14px;
-  font-weight: 700;
-  letter-spacing: 0.5px; }
+  font-weight: 700; }
 
 .generic-anchor {
   color: #333333;
