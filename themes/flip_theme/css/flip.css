@@ -2461,6 +2461,30 @@ form#basic-page-node-form {
   background-color: white;
   padding: 20px; }
 
+h1.directions-paper-h1 {
+  font-weight: 900;
+  color: red;
+  font-size: 65px;
+  line-height: 55px; }
+
+h2.directions-paper-h2 {
+  font-weight: 900;
+  color: red;
+  font-size: 18px;
+  line-height: 20px; }
+
+h3.directions-paper-h3 {
+  font-weight: 700;
+  color: black;
+  font-size: 14px;
+  line-height: 19px; }
+
+p.directions-paper-p {
+  font-weight: 400;
+  color: black;
+  font-size: 14px;
+  line-height: 19px; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
