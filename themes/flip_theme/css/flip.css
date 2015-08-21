@@ -627,6 +627,7 @@ ul.menu a:hover {
     font-family: "Work Sans", sans-serif !important;
     display: inline-block !important;
     width: 49.75% !important;
+    font-weight: 700;
     background-color: #242424 !important;
     border: 0px !important;
     margin: 0px !important;
@@ -664,7 +665,8 @@ ul.menu a:hover {
   .news-block .news-title {
     font-family: "Work Sans", sans-serif !important;
     font-size: 16px;
-    margin-bottom: -10px; }
+    margin-bottom: -10px;
+    font-weight: 500; }
     .news-block .news-title a {
       color: #eeeeee !important; }
   .news-block .span12 {
@@ -698,7 +700,8 @@ ul.menu a:hover {
   .events-block .news-title {
     font-family: "Work Sans", sans-serif !important;
     font-size: 16px;
-    margin-bottom: -10px; }
+    margin-bottom: -10px;
+    font-weight: 500; }
     .events-block .news-title a {
       color: #eeeeee !important; }
   .events-block .span12 {
