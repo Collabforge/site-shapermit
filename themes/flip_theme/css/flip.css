@@ -2481,7 +2481,8 @@ form#basic-page-node-form {
   font-size: 18px !important;
   line-height: 20px;
   display: block !important;
-  margin-top: 30px !important; }
+  margin-top: 30px !important;
+  margin-bottom: 10px; }
 .node-type-book .field-item.even h3 {
   font-weight: 700;
   color: black;
