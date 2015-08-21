@@ -235,7 +235,7 @@ hr {
   background-color: #ededed !important;
   color: #666666;
   border-radius: 0px;
-  font-family: "Museo-500";
+  font-family: "Work Sans", sans-serif !important;
   box-shadow: none;
   font-size: 14px; }
 
@@ -607,7 +607,7 @@ ul.menu a:hover {
   background: #dc291e;
   border: 0px;
   font-size: 14px;
-  font-family: "museo-500";
+  font-family: "Work Sans", sans-serif !important;
   color: white;
   text-shadow: none;
   font-weight: 300;
@@ -624,7 +624,7 @@ ul.menu a:hover {
     margin-left: 0px !important; }
   #block-quicktabs-news-events-quicktab ul.quicktabs-tabs li {
     font-size: 22px !important;
-    font-family: "Museo-500" !important;
+    font-family: "Work Sans", sans-serif !important;
     display: inline-block !important;
     width: 49.75% !important;
     background-color: #242424 !important;
@@ -662,7 +662,7 @@ ul.menu a:hover {
   .news-block .body {
     padding-left: 20px; }
   .news-block .news-title {
-    font-family: "Museo-500";
+    font-family: "Work Sans", sans-serif !important;
     font-size: 16px;
     margin-bottom: -10px; }
     .news-block .news-title a {
@@ -696,7 +696,7 @@ ul.menu a:hover {
   .events-block .body {
     padding-left: 20px; }
   .events-block .news-title {
-    font-family: "Museo-500";
+    font-family: "Work Sans", sans-serif !important;
     font-size: 16px;
     margin-bottom: -10px; }
     .events-block .news-title a {
@@ -772,8 +772,8 @@ li.print_pdf {
   line-height: 12px;
   margin-top: 10px;
   margin-bottom: 5px;
-  font-family: "Museo-500";
-  font-weight: 300; }
+  font-family: "Work Sans", sans-serif !important;
+  font-weight: 700; }
 .event-where .row {
   margin-left: 0px; }
 
@@ -782,8 +782,8 @@ li.print_pdf {
   line-height: 12px;
   margin-top: 10px;
   margin-bottom: 5px;
-  font-family: "Museo-500";
-  font-weight: 300; }
+  font-family: "Work Sans", sans-serif !important;
+  font-weight: 700; }
 .event-when .row {
   margin-left: 0px; }
 
@@ -798,8 +798,8 @@ li.print_pdf {
     font-size: 21px;
     margin-top: -10px;
     margin-bottom: -5px;
-    font-family: "Museo-500";
-    font-weight: 300; }
+    font-family: "Work Sans", sans-serif !important;
+    font-weight: 700; }
 
 .rmit-news-content {
   margin-top: 15px; }
@@ -1482,7 +1482,7 @@ a.call-to-action-anchor {
   cursor: pointer;
   text-decoration: none;
   color: white;
-  font-family: "Museo-500";
+  font-family: "Work Sans", sans-serif !important;
   border-radius: 4px; }
   a.call-to-action-anchor:hover {
     text-decoration: none;
@@ -1712,28 +1712,28 @@ a.call-to-action-anchor {
 .five-years-loomio h2 {
   margin-top: 24px;
   margin-bottom: 12px;
-  font-family: "Museo-500";
+  font-family: "Work Sans", sans-serif !important;
   font-size: 1.2em !important;
   padding: 0;
-  font-weight: 300;
+  font-weight: 700;
   letter-spacing: 0.5px; }
 
 .backstory-loomio h2 {
   margin-top: 24px;
   margin-bottom: 12px;
-  font-family: "Museo-500";
+  font-family: "Work Sans", sans-serif !important;
   font-size: 1.2em !important;
   padding: 0;
-  font-weight: 300;
+  font-weight: 700;
   letter-spacing: 0.5px; }
 
 #block-block-50 .padding-normal h2 {
   margin-top: 24px;
   margin-bottom: 12px;
-  font-family: "Museo-500";
+  font-family: "Work Sans", sans-serif !important;
   font-size: 1.2em !important;
   padding: 0;
-  font-weight: 300;
+  font-weight: 700;
   letter-spacing: 0.5px; }
 
 iframe {
@@ -1765,9 +1765,9 @@ h2#catalysts {
   letter-spacing: inherit; }
 
 .accordion-content h4 {
-  font-family: "Museo-500";
+  font-family: "Work Sans", sans-serif !important;
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 700;
   letter-spacing: 0.5px; }
 
 .how-many-discussions {
