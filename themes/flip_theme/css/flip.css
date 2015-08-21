@@ -2501,10 +2501,12 @@ form#basic-page-node-form {
   background: none;
   border-left: 0px;
   margin: 0px;
-  padding: 0px; }
+  padding: 0px;
+  margin-bottom: 10px; }
   .node-type-book .field-item.even blockquote p {
     font-style: normal;
-    color: red !important; }
+    color: red !important;
+    margin-bottom: 10px; }
   .node-type-book .field-item.even blockquote:before {
     color: red !important; }
 .node-type-book .field-item.even blockquote.quote-left {
