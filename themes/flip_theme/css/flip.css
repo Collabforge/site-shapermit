@@ -2492,17 +2492,29 @@ form#basic-page-node-form {
   color: black;
   font-size: 14px;
   line-height: 19px; }
-.node-type-book .field-item.even blockquote {
+.node-type-book .field-item.even blockquote.quote-left {
   background: none;
   border-left: 0px;
   margin: 1.5em 0px;
   padding: 20px;
   width: 38%;
   float: left; }
-  .node-type-book .field-item.even blockquote p {
+  .node-type-book .field-item.even blockquote.quote-left p {
     font-style: normal;
     color: red !important; }
-  .node-type-book .field-item.even blockquote:before {
+  .node-type-book .field-item.even blockquote.quote-left:before {
+    color: red !important; }
+.node-type-book .field-item.even blockquote.quote-right {
+  background: none;
+  border-left: 0px;
+  margin: 1.5em 0px;
+  padding: 20px;
+  width: 38%;
+  float: right; }
+  .node-type-book .field-item.even blockquote.quote-right p {
+    font-style: normal;
+    color: red !important; }
+  .node-type-book .field-item.even blockquote.quote-right:before {
     color: red !important; }
 
 .node-knowledge-object .field-name-body {
