@@ -2549,6 +2549,20 @@ form#basic-page-node-form {
   .node-type-book .field-item.even blockquote.quote-right:before {
     color: red !important; }
 
+a.page-previous {
+  background-color: red;
+  width: 76px !important;
+  padding: 10px;
+  color: white;
+  font-weight: 700; }
+
+a.page-next {
+  background-color: red;
+  width: 47px !important;
+  padding: 10px;
+  color: white;
+  font-weight: 700; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
