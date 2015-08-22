@@ -2470,6 +2470,14 @@ form#basic-page-node-form {
   background-color: white;
   padding: 20px; }
 
+.node-type-book .field-item.even a {
+  color: black;
+  text-decoration: underline; }
+.node-type-book .field-item.even ul li {
+  font-weight: 400;
+  color: black;
+  font-size: 14px;
+  line-height: 19px; }
 .node-type-book .field-item.even h1 {
   font-weight: 900;
   color: red;
