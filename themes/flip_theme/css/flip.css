@@ -2496,7 +2496,8 @@ form#basic-page-node-form {
 .node-type-book .field-item.even .stat-blocks {
   color: red !important;
   font-size: 28px !important;
-  font-weight: 600 !important; }
+  font-weight: 600 !important;
+  line-height: 30px; }
 .node-type-book .field-item.even blockquote {
   background: none;
   border-left: 0px;
