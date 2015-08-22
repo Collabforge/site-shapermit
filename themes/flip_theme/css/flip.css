@@ -2396,6 +2396,69 @@ div.form-item div.password-suggestions {
   font-size: 12px;
   opacity: 0.6; }
 
+.page-node-700 #comments:before {
+  content: "What do you think?";
+  font-weight: 600;
+  display: block;
+  border-top: 0px solid #bbbbbb;
+  padding-top: 30px;
+  background-color: #eeeeee;
+  padding: 20px; }
+
+.page-node-701 #comments:before {
+  content: "What do you think?";
+  font-weight: 600;
+  display: block;
+  border-top: 0px solid #bbbbbb;
+  padding-top: 30px;
+  background-color: #eeeeee;
+  padding: 20px; }
+
+.page-node-702 #comments:before {
+  content: "What do you think?";
+  font-weight: 600;
+  display: block;
+  border-top: 0px solid #bbbbbb;
+  padding-top: 30px;
+  background-color: #eeeeee;
+  padding: 20px; }
+
+.page-node-703 #comments:before {
+  content: "What do you think?";
+  font-weight: 600;
+  display: block;
+  border-top: 0px solid #bbbbbb;
+  padding-top: 30px;
+  background-color: #eeeeee;
+  padding: 20px; }
+
+.page-node-704 #comments:before {
+  content: "What do you think?";
+  font-weight: 600;
+  display: block;
+  border-top: 0px solid #bbbbbb;
+  padding-top: 30px;
+  background-color: #eeeeee;
+  padding: 20px; }
+
+.page-node-705 #comments:before {
+  content: "What do you think?";
+  font-weight: 600;
+  display: block;
+  border-top: 0px solid #bbbbbb;
+  padding-top: 30px;
+  background-color: #eeeeee;
+  padding: 20px; }
+
+.page-node-706 #comments:before {
+  content: "What do you think?";
+  font-weight: 600;
+  display: block;
+  border-top: 0px solid #bbbbbb;
+  padding-top: 30px;
+  background-color: #eeeeee;
+  padding: 20px; }
+
 .book-explorer li.expanded ul {
   font-size: 12px; }
 
