@@ -3324,12 +3324,6 @@ ul.etabs li a.active {
   .node-type-book #main-content:before {
     display: none; }
 
-  .node-type-book .contentarticle h2:before {
-    content: "\f02e";
-    font-family: fontawesome;
-    font-size: 22px;
-    margin-right: 5px; }
-
   li.first.last.leaf {
     background: none; }
     li.first.last.leaf:before {
@@ -3633,12 +3627,6 @@ ul.etabs li a.active {
 
   .node-type-book #main-content:before {
     display: none; }
-
-  .node-type-book .contentarticle h2:before {
-    content: "\f02e";
-    font-family: fontawesome;
-    font-size: 22px;
-    margin-right: 5px; }
 
   li.first.last.leaf {
     background: none; }
@@ -4002,12 +3990,6 @@ ul.etabs li a.active {
   .node-type-book #main-content:before {
     display: none; }
 
-  .node-type-book .contentarticle h2:before {
-    content: "\f02e";
-    font-family: fontawesome;
-    font-size: 22px;
-    margin-right: 5px; }
-
   li.first.last.leaf {
     background: none; }
     li.first.last.leaf:before {
@@ -4180,12 +4162,6 @@ ul.etabs li a.active {
 
   .node-type-book #main-content:before {
     display: none; }
-
-  .node-type-book .contentarticle h2:before {
-    content: "\f02e";
-    font-family: fontawesome;
-    font-size: 22px;
-    margin-right: 5px; }
 
   li.first.last.leaf {
     background: none; }
