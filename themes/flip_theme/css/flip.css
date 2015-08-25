@@ -1034,13 +1034,10 @@ a.inline-link {
   margin-bottom: 20px;
   min-height: 650px; }
 
-.page-entityform #main-content {
+.page-entityform #content {
+  padding: 40px;
   background-color: white;
-  padding: 0px 50px 20px 0px;
-  overflow: hidden;
-  margin-left: 0px;
-  margin-bottom: 20px;
-  min-height: 650px; }
+  margin-top: 30px; }
 
 .node-type-book .mc-content.span9 {
   width: 67%;
