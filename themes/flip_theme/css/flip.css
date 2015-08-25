@@ -2599,6 +2599,10 @@ a.page-next {
   margin-top: -13px;
   border-radius: 10px 0px 0px 0px; }
 
+.node-type-book .comment_bubble.span9.last {
+  width: 67%;
+  float: right; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
