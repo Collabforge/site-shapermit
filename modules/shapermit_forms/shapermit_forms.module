@@ -15,12 +15,5 @@ function shapermit_forms_form_alter(&$form, &$form_state, $form_id) {
   if ($form_id == 'user_register_form') {
     $form['field_i_am']['#weight'] = "20";
   }
-
-  if($form_id == 'user_profile_form') {
-    $form['#submit'][] = 'shapermit_forms_profile_form_submit';
-  }
 }
 
-function shapermit_forms_profile_form_submit($form, &$form_state) {
-  $form_state['redirect'] = 'https://discuss.shapermit.com/users/sign_in';
-}
