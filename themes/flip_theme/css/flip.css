@@ -1034,7 +1034,7 @@ a.inline-link {
   margin-bottom: 20px;
   min-height: 650px; }
 
-.node-type-book .page-entityform {
+.page-entityform #main-content {
   background-color: white;
   padding: 0px 50px 20px 0px;
   overflow: hidden;
