@@ -1034,6 +1034,14 @@ a.inline-link {
   margin-bottom: 20px;
   min-height: 650px; }
 
+.node-type-book .page-entityform {
+  background-color: white;
+  padding: 0px 50px 20px 0px;
+  overflow: hidden;
+  margin-left: 0px;
+  margin-bottom: 20px;
+  min-height: 650px; }
+
 .node-type-book .mc-content.span9 {
   width: 67%;
   float: right;
