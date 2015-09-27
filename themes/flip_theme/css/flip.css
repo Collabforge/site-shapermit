@@ -252,7 +252,8 @@ hr {
 
 #header_bottom_right {
   padding-top: 0px;
-  margin-top: -3px; }
+  margin-left: -2px;
+  float: left; }
   #header_bottom_right .account-menu {
     float: left;
     display: inline-block;
@@ -2617,7 +2618,7 @@ a.page-next {
   padding-bottom: 10px;
   padding-top: 0px; }
 
-.news-updates .views-row.views-row-3.views-row-odd {
+.news-updates .views-row.views-row-4.views-row-odd {
   display: none; }
 
 .node-knowledge-object .field-name-body {
