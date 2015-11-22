@@ -206,9 +206,9 @@ hr {
   float: right; }
 
 .menu_primary ul.menu li a.active {
-  color: #333333;
+  color: white;
   text-decoration: none;
-  background-color: #dcddd7;
+  background-color: #662d91;
   border-bottom: 0px; }
   .menu_primary ul.menu li a.active:hover {
     color: #333333; }
