@@ -361,9 +361,11 @@ ul.menu a:hover {
   margin-top: 0px;
   margin-bottom: 10px; }
 
-#block-block-15 .row-fluid {
-  border-top: 0px;
-  margin-left: 10px; }
+#block-block-15 {
+  color: white; }
+  #block-block-15 .row-fluid {
+    border-top: 0px;
+    margin-left: 10px; }
 
 #search-box {
   padding-top: 15px;
