@@ -2694,10 +2694,20 @@ a.page-next {
 #edit-field-who-is-the-most-affected-b {
   width: 45%;
   float: right; }
+  #edit-field-who-is-the-most-affected-b label {
+    font-size: 13px !important;
+    text-transform: capitalize !important; }
+  #edit-field-who-is-the-most-affected-b select#edit-field-what-is-most-accountable-f-und {
+    width: 100% !important; }
 
 #edit-field-what-is-most-accountable-f {
   width: 45%;
   float: left; }
+  #edit-field-what-is-most-accountable-f label {
+    font-size: 13px !important;
+    text-transform: capitalize !important; }
+  #edit-field-what-is-most-accountable-f select#edit-field-what-is-most-accountable-f-und {
+    width: 100% !important; }
 
 .node-knowledge-object .field-name-body {
   border-bottom: none;
