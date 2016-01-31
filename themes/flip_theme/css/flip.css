@@ -2709,6 +2709,13 @@ a.page-next {
   #edit-field-what-is-most-accountable-f select#edit-field-what-is-most-accountable-f-und {
     width: 100% !important; }
 
+#edit-field-in-which-location-does-thi {
+  display: inline-block;
+  width: 100%; }
+  #edit-field-in-which-location-does-thi .form-item {
+    display: inline-block;
+    width: 24%; }
+
 .node-knowledge-object .field-name-body {
   border-bottom: none;
   margin-top: 10px;
