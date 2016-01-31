@@ -2505,7 +2505,7 @@ form#basic-page-node-form {
 .page-node-767 .form-item label {
   font-size: 14px;
   font-weight: 500;
-  text-transform: uppercase; }
+  text-transform: inital; }
 .page-node-767 #edit-actions--3 {
   margin-top: -54px;
   margin-bottom: 50px; }
@@ -2696,7 +2696,7 @@ a.page-next {
   float: right; }
   #edit-field-who-is-the-most-affected-b label {
     font-size: 13px !important;
-    text-transform: capitalize !important; }
+    text-transform: initial !important; }
   #edit-field-who-is-the-most-affected-b select#edit-field-who-is-the-most-affected-b-und {
     width: 100% !important; }
 
@@ -2705,7 +2705,7 @@ a.page-next {
   float: left; }
   #edit-field-what-is-most-accountable-f label {
     font-size: 13px !important;
-    text-transform: capitalize !important; }
+    text-transform: initial !important; }
   #edit-field-what-is-most-accountable-f select#edit-field-what-is-most-accountable-f-und {
     width: 100% !important; }
 
