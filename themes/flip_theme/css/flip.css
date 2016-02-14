@@ -3044,6 +3044,9 @@ ul.quicktabs-tabs li a {
 #block-quicktabs-news-events-quicktab ul.quicktabs-tabs li {
   width: 100% !important; }
 
+#block-quicktabs-news-events-quicktab ul.quicktabs-tabs li.active {
+  background-color: #222222 !important; }
+
 .node-book .contentarticle {
   margin-top: 10px;
   margin-bottom: 10px;
