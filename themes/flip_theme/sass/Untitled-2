@@ -1,39 +1,12 @@
-<script type="text/javascript">
-$('.michaelisdumb').mouseenter(function () {
-    $('.front-call-bottom').show();
-     $('.front-call').hide();
-}).mouseleave(function () {
-    $('.front-call-bottom').hide();
-    $('.front-call').show();
-});
-</script>
-
-
-
-<div class="big-padding">
-<h2 class="rtecenter">RMIT is inviting everyone to join the conversation on how the<br />
-University can plan for success over the next five years.</h2>
-
-<div class="row">
-<div class="span4">
-<div id="front-cta">
-<div class="front-call"><img class="michaelisdumb" src="sites/default/themes/flip_theme/img/front-call-1.jpg"></div>
-<div class="front-call-bottom">Hi hi hi</div></div>
-<div class="front-call-content"><i class="icon-chevron-right">&nbsp;</i><a href="">SIGN UP</a></div>
-</div>
-
-<div class="span4">
-<div class="front-cta2">
-<div class="front-call"><img src="sites/default/themes/flip_theme/img/front-call-2.jpg"></div>
-<div class="front-call-bottom">Hi hi hi</div></div>
-<div class="front-call-content"><i class="icon-chevron-right">&nbsp;</i><a href="">SIGN UP</a></div>
-</div>
-
-<div class="span4">
-<div class="front-cta3">
-<div class="front-call"><img src="sites/default/themes/flip_theme/img/front-call-3.jpg"></div>
-<div class="front-call-bottom">Hi hi hi</div></div>
-<div class="front-call-content"><i class="icon-chevron-right">&nbsp;</i><a href="">SIGN UP</a></div>
+<div class="row" style="margin-bottom: 20px;">
+<div class="span12" style="color: #eee;">
+<a href="/news-and-events?qt-news_events_quicktab=1#qt-news_events_quicktab" style="color: inherit;">
+<h3><i class="icon-calendar"></i>Events</h3></a>
+There will be a series of opportunities, through launch activities and existing events on the University calendar, to promote RMIT’s strategic goals to 2020 and celebrate the voices that have shaped them. 
+<div class="front-feed" style="display: none;">
+<?php print $newvar['all']['event'][0]; ?><br />
+<?php print $newvar['all']['event'][1]; ?><br />
+<?php print $newvar['all']['event'][2]; ?>
 </div>
 </div>
 </div>

@@ -3038,6 +3038,12 @@ ul.quicktabs-tabs li a {
   margin-top: 10px;
   line-height: 10px; }
 
+#block-quicktabs-news-events-quicktab ul.quicktabs-tabs li.last {
+  display: none !important; }
+
+#block-quicktabs-news-events-quicktab ul.quicktabs-tabs li {
+  width: 100% !important; }
+
 .node-book .contentarticle {
   margin-top: 10px;
   margin-bottom: 10px;
